@@ -81,150 +81,97 @@ NOTE: Use "Windows 10, 11 x64 (system level install)", not the "user level insta
 
 [^1]: Alternatively, you can use Visual Studio Code (VS Code) as your IDE. Overall, we encourage using Positron because of its better context awareness when developing R/Stata and other analysis scripts. If you opt using VS Code, it could be installed form the software center. Please note that some steps below may differ slightly when using VS Code instead of Positron. In addition, VS code doe snot have many built-in features for R language that Positron has out-of-the-box as well as laks key binding relevant to data science tasks.
 
-## Step 4. Install Extensions in Positron
+### Step 4. Install Extensions in Positron
 
 Extensions are add-ons that enhance the functionality of Positron. To install  extensions open the Extensions panel by clicking on the square icon on the left sidebar or pressing `Ctrl+Shift+X`.
 
+There are many extensions available for Positron. Below are the key extensions to install for AI-assisted analysis:
+
+-  `Stata MCP` Extension [external link](https://open-vsx.org/extension/DeepEcon/stata-mcp){target="_blank"} enables Model Communication Protocol (MCP) for Stata, allowing better context awareness for AI agents. It also allows running Stata code directly from Positron. To install it:
+
+   - Search for "Stata MCP" in the Extensions panel.
+
+   - Click "Install" to add the extension to Positron.
+
+   - Now we need to set up the Stata executable path and version.
+
+     1. Go to Settings (File > Preferences > Settings or `Ctrl+,`),
+     2. Search for "Stata Path" (or `stata-vscode.stataPath`),
+     3. Set the path to your Stata executable folder
+        `C:\Program Files\StataNow19\` - for most WB laptops and VDIs.
+     4. Search for "Stata Edition" (or `stata-vscode.stataEdition`) and set it to "mp" for Stata MP version.
+
+   - Now create a new Stata `.do` file and try running a simple command like `sysuse auto` to verify the setup.
+
+   -  Results from Stata should appear in the "Output" panel.
 
 
+### Step 5. Enable GitHub Copilot in Positron Assistant
 
-## Prerequisites
+Thie requires you to have a GitHub account first and then link it to the World Bank organization. See instructions below if you dont have the account yet or did not link it to the WB org.
 
-Before starting, ensure you have:
+To Enable GitHub Copilot in Positron:
 
-- World Bank laptop
-- Administrative rights to install software (or contact IT support)
-- A GitHub account linked to [github.com/worldbank](https://github.com/worldbank){target="_blank"}
+1. Open `Account`.
 
+2. Sign in to your GitHub account that is linked to the World Bank organization.
 
+### Step 6. Start using the Positron Assistant with GitHub Copilot or other LLM providers
 
+1. Open Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
 
+2. Type `Help: Ask Positron Assistant` and hit enter.
 
-
-
-## Step 1: Install Positron or VS Code
-
-### Option A: Positron (Recommended for R and Python Users)
-
-1. Download Positron from [https://github.com/posit-dev/positron/releases](https://github.com/posit-dev/positron/releases){target="_blank"}
-2. Install the application following the standard installation process
-3. Launch Positron
-
-### Option B: Visual Studio Code
-
-1. Download VS Code from [https://code.visualstudio.com/](https://code.visualstudio.com/){target="_blank"}
-2. Install the application
-3. Launch VS Code
-
-## Step 2: Set Up GitHub and GitHub Copilot
-
-### 2.1 Configure GitHub Account
-
-1. Ensure your GitHub account is added to the World Bank organization at [https://github.com/worldbank](https://github.com/worldbank){target="_blank"}
-2. Sign in to GitHub in Positron/VS Code:
-   - Open Command Palette (Ctrl+Shift+P / Cmd+Shift+P)
-   - Type "GitHub: Sign In"
-   - Follow the authentication process
-
-### 2.2 Enable GitHub Copilot
-
-1. Request GitHub Copilot access through your organization administrator
-2. Once approved, install the GitHub Copilot extension:
-   - Open Extensions panel (Ctrl+Shift+X / Cmd+Shift+X)
-   - Search for "GitHub Copilot"
-   - Click "Install"
-3. Sign in to GitHub Copilot when prompted
-
-## Step 3: Configure Claude AI Access
-
-### 3.1 Install Required Extensions
-
-For Positron/VS Code with Claude integration:
-
-1. Install the "Claude Dev" or similar AI assistant extension
-2. Configure API access:
-   - Obtain API key (consult with your team lead or IT)
-   - Open Settings (Ctrl+, / Cmd+,)
-   - Search for Claude/AI settings
-   - Enter your API credentials
-
-### 3.2 Set Up Model Communication Protocol (MCP)
-
-1. Configure MCP settings for context awareness:
-   - Enable workspace indexing
-   - Set up project-specific context files
-   - Configure data access permissions
-
-## Step 4: Install Language-Specific Tools
-
-### For Stata Users
-
-1. Install Stata (if not already installed)
-2. Install Stata extension for VS Code/Positron:
-   - Search for "Stata" in Extensions
-   - Install "Stata Enhanced" or similar
-3. Configure Stata executable path in settings
-
-### For R Users
-
-1. Install R from [https://cran.r-project.org/](https://cran.r-project.org/){target="_blank"}
-2. R support is built into Positron
-3. For VS Code, install R extension:
-   - Search for "R" in Extensions
-   - Install R extension
-
-### For Python Users
-
-1. Install Python from [https://www.python.org/](https://www.python.org/){target="_blank"}
-2. Install Python extension:
-   - Search for "Python" in Extensions
-   - Install official Python extension by Microsoft
-
-## Step 5: Verify Installation
-
-### Test GitHub Copilot
-
-1. Create a new file (e.g., `test.R` or `test.do`)
-2. Start typing a comment describing a function
-3. Copilot should suggest code completions
-
-### Test Claude Integration
-
-1. Open Command Palette
-2. Look for Claude/AI assistant commands
-3. Test with a simple prompt
-
-## Step 6: Configure Your Workspace
-
-### Set Up Project Structure
+3. In the input box that appears, type your question. For example.
 
 ```
-my-project/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── scripts/
-├── output/
-└── README.md
+Write a Stata do file that loads the auto dataset and summarizes the price variable.
+Open it.
+Explain how to run it.
 ```
 
-### Create .gitignore
+## GitHub Setup
 
-Add the following to your `.gitignore`:
+To use GitHub Copilot in Positron, you need to have a GitHub account linked to the World Bank organization and obtain Copilot access.
 
-```
-# Data files
-data/raw/*
-data/processed/*
+### Step 1: Create a GitHub Account
 
-# Output files
-output/*
+If you don't have a GitHub account yet, create one at [https://github.com/signup](https://github.com/signup){target="_blank"}
 
-# Temporary files
-*.tmp
-.Rhistory
-.RData
-```
+Note: use your personal email address, **not the World Bank email**.
+
+### Step 2: Join the World Bank GitHub Organization
+
+1. Submit a "[Join GitHub Organization Account Request](https://worldbankgroup.service-now.com/wbg/en/join-github-organization-account-request?id=wbg_sc_catalog&sys_id=910e1739db1a54903c5960ab13961912&table=sc_cat_item&searchTerm=github){target="_blank"}" on eServices to join [github.com/worldbank](https://github.com/worldbank){target="_blank"}
+
+2. Once your request is approved, you will receive an email invitation to join the World Bank GitHub organization
+
+   - Email will be sent to the email address associated with your GitHub account
+
+3. Accept the invitation by clicking the link in the email
+
+   - You need to confirm your membership in the World Bank organization on GitHub by following steps indicated in the email.
+
+   - If you don't confirm within few days, the invitation will expire, and you will need to request again through eService.
+
+
+### Step 3: Request GitHub Copilot Access
+
+1. After joining the World Bank organization, request GitHub Copilot access through your team lead or organization administrator
+
+2. The request will be reviewed and approved by the GitHub organization administrators
+
+   - Note: Bryan Cahill leads the github.com/worldbank organization and can help with Copilot access requests
+
+3. Once approved, you'll be able to use GitHub Copilot in Positron
+
+### Step 4: Verify GitHub Copilot Access
+
+1. Open Positron and sign in to your GitHub account (see Step 5 above)
+
+2. Check that the GitHub Copilot extension is active in the Extensions panel
+
+3. Try typing a comment in a code file to verify that Copilot suggestions appear
 
 ## Troubleshooting
 
