@@ -1,9 +1,34 @@
-# geoPovLearn
+# GeoPov Learning Hub
 
-This repository hosts learning materials developed and maintained by the GeoPov 
-team. These includes Brow Bag events (BBLs) seminars and courses.
+This repository hosts learning materials developed and maintained by the GeoPov team - a global multi-disciplinary team in the Distributional Impact of Policy under the Prosperity Vice Presidency at the World Bank.
 
+## 🌍 About GeoPov
 
+We are development economists and geospatial enthusiasts working at the intersection of poverty, place, and policy. We believe that where people live matters just as much as how they live — and we're here to make sure that spatial realities are part of the poverty dialogue.
+
+## 📚 What's in This Repository
+
+This repository contains materials from our:
+
+- **Seminar Series**: Technical presentations and workshops on geospatial data and poverty analysis
+- **Training Materials**: Hands-on guides and practical exercise
+- **Resources**: Curated data sources and methodological guidance
+
+## 🌐 Website
+
+Visit our website: **[https://worldbank.github.io/geoPovLearn](https://worldbank.github.io/geoPovLearn)**
+
+## 🎯 Our Three Pillars
+
+1. **Spatial Analysis** - Applying geographic lens to poverty and inequality questions
+2. **Knowledge and Data Center** - Curated repository of geospatial data sources and methods
+3. **Capacity Building** - Training and peer-learning events for microeconomists
+
+## 🤝 Get Involved
+
+- Browse our [seminars](seminars/) for recordings and materials
+- Check out [upcoming events](https://worldbank.github.io/geoPovLearn/seminars/)
+- Reach out to our [team](https://worldbank.github.io/geoPovLearn/team/)
 
 ## License
 
