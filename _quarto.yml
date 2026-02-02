@@ -38,8 +38,15 @@ website:
       - section: "GeoPov BBL Series"
         href: seminars/index.qmd
         contents:
-          - seminars/seminar-2026-02/overview.qmd
-          - seminars/seminar-2025-10/overview.qmd
+          - text: "Spatial Analysis"
+            href: seminars/seminar-2026-02/overview.qmd
+            contents:
+            - text: Slides
+              href: seminars/seminar-2026-02/slides.qmd
+            - text: Setup instructions
+              href: seminars/seminar-2026-02/setup-instructions.qmd
+          - text: Geocoding GMD
+            href: seminars/seminar-2025-10/overview.qmd
       - section: "Projects"
         href: projects/index.qmd
         contents:
