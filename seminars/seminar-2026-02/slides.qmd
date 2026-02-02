@@ -24,8 +24,6 @@ Welcome to the first seminar in our series on AI-assisted analysis.
 
 Speaker: **Eduard Bukin**
 
----
-
 ## Today's Agenda
 
 - Example 1: From a messy code to a reproducible package
@@ -51,8 +49,6 @@ Speaker: **Eduard Bukin**
 - Example 2: Develop analysis with AI assistance
 
 - Q&A and Discussion
-
----
 
 ## Motivation (1)
 
@@ -97,8 +93,6 @@ AI tools that we got used to over past years are impressive!
 ## Example 1: From Messy Code to Reproducible Package {.demo}
 
 **Live demonstration of building a reproducibility package with AI assistance**
-
----
 
 ## Example 1: Summary
 
@@ -158,64 +152,79 @@ AI tools that we got used to over past years are impressive!
   - GitHub Copilot Workspace (web-based)
   - Others: ___________
 
----
+# Key Concepts
 
-# Key Concepts:
+## Overview
 
+::: {.incremental}
 - AI-Chat vs AI-Agent vs Inline Code Completion
 - Context awareness
 - Model Context Protocol (MCP)
 - Integrated Development Environments (IDEs)
 - LLMs for coding: GitHub Copilot, OpenAI GTP, Anthropic Claude, and others
+:::
 
 ---
 
 ## AI-Chat vs AI-Agent vs Inline Code Completion (1)
 
-### AI-Chat: ask mode
+### AI-Chat: Ask Mode
 
+::: {.incremental}
 - Conversational interface
 - General purpose assistance
 - Limited context awareness: knows only what you provide
 - One‑off questions
 - Code snippets
 - Explanations of code/output
+:::
 
-### Usage:
+. . .
 
-> Use Ask mode to think.
-
----
+::: {.callout-tip}
+## Usage
+Use Ask mode to think.
+:::
 
 ## AI-Chat vs AI-Agent vs Inline Code Completion (2)
 
-### AI-Agent
+### AI-Agent: Execute Mode
 
+::: {.incremental}
 - Autonomous task execution
 - Full project context awareness
 - Integrated with development tools
 - Can read/write files, run code, and make changes (after user approval)
 - Multi‑step workflows
 - End‑to‑end tasks (clean → estimate → table → robustness)
+:::
 
-### Usage:
+. . .
 
+::: {.callout-tip}
+## Usage
 Use Agent mode to execute explicit instructions
+:::
 
----
+## AI-Chat vs AI-Agent vs Inline Code Completion (3)
 
 ### Inline Code Completion
 
-- Real-time code suggestions while you type could be context-aware and not
-
----
+::: {.incremental}
+- Real-time code suggestions while you type
+- Can be context-aware or not
+- Speeds up coding by autocompleting:
+  - Function names
+  - Parameters
+  - Common patterns
+:::
 
 ## Context Awareness
 
 **What AI "knows" when helping you code:**
 
 - **Your files**: All code files, documentation, and project structure
-- **Your data structure**: Variable names, data types, and relationships (without sending raw data to cloud)
+- **Your data structure**: Variable names, data types, relationships (without sending raw data to cloud)
 - **Your history**: Recent edits, commands run, and conversations
 - **Your environment**: Installed packages, dependencies, and configurations
 - **Your intent**: Current task based on files you have open and recent actions
@@ -231,45 +240,78 @@ Use Agent mode to execute explicit instructions
 **References:**
 
 - [GitHub Copilot Context](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot#understanding-copilot-context){target="_blank"}
-- [Anthropic's Claud Sonnet](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"}
+- [Anthropic's Claude Sonnet](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"}
 - [Positron Documentation on AI Context](https://positron.posit.co/assistant-chat-context.html){target="_blank"}
-
----
 
 ## Model Context Protocol (MCP)
 
-> "... is a standardized, open framework for AI models (LLMs) to securely and efficiently connect with external applications, data sources, tools, and each-other acting like a universal adapter (e.g., USB-C for AI)" [Google search AI](https://www.google.com/search?q=model+communication+protocol) + [Wikipedia](https://en.wikipedia.org/wiki/Model_Context_Protocol)
+::: {.callout-note appearance="simple"}
+*"...a standardized, open framework for AI models (LLMs) to securely and efficiently connect with external applications, data sources, tools, and each-other — acting like a universal adapter (e.g., USB-C for AI)"*
 
-![](images/mcp-diagram.png)
+— [Google AI Search](https://www.google.com/search?q=model+communication+protocol){target="_blank"} + [Wikipedia](https://en.wikipedia.org/wiki/Model_Context_Protocol){target="_blank"}
+:::
 
-It is essential to connect AI to your software, e.g.:
+![](images/mcp-diagram.png){fig-align="center"}
 
-- Execution environment: **Stata**, R, Python
+::: {.fragment}
+**Essential connections:**
+
+- Execution environments: **Stata**, R, Python
 - Editors: Positron, VS Code, RStudio, JupyterLab
-
----
+:::
 
 ## Integrated Development Environments (IDEs)
 
----
+**Your coding workspace:**
 
-## LLMs for Coding and beyond
+::: {.columns}
+::: {.column width="50%"}
+**For Data Science:**
 
-Software development vs Data Analysis!
+- **Positron** (Posit)
+- RStudio
+- JupyterLab
+- VS Code
+:::
 
----
+::: {.column width="50%"}
+**Key Features:**
 
-# How to start using AI in coding and data analysis?
+- Code editor
+- Console/terminal
+- File browser
+- Variable viewer
+- Plot viewer
+:::
+:::
 
-- Master new software: Positron + GitHub Copilot (Anthropic Claude)
+## LLMs for Coding
 
-
+**Large Language Models powering AI assistants:**
 
 ::: {.incremental}
-1. Set up your environment [→ Instructions](setup-instructions.qmd#setup)
-2. Start with small experiments
-3. Join our Community of Practice
-4. Share your experiences
+- **GitHub Copilot**: Uses OpenAI models (GPT-4) and Anthropic Claude
+- **OpenAI GPT**: GPT-4, GPT-4 Turbo
+- **Anthropic Claude**: Opus, Sonnet, Haiku
+- **Others**: Google Gemini, Meta Llama, Mistral
+:::
+
+. . .
+
+::: {.callout-note}
+## Software Development vs Data Analysis
+While these tools were built for software development, they excel at data analysis tasks: data cleaning, statistical modeling, visualization, and report generation.
+:::
+
+# Getting Started
+
+## How to Start?
+
+::: {.incremental}
+1. **Set up your environment** → [Full Instructions](setup-instructions.qmd#setup)
+2. **Start with small experiments**
+3. **Join our Community of Practice**
+4. **Share your experiences**
 :::
 
 ---
