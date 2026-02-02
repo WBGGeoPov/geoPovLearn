@@ -1,102 +1,134 @@
 ---
-title: "Revolutionize Your Analysis in Stata and R"
+title: Revolutionize Your Analysis in Stata and R
 subtitle: "AI Agent-Assisted Workflow with GitHub Copilot and Claude"
-author: "Eduard Bukin"
+author: |
+  **Eduard Bukin**
+  [ebukin@worldbank.org](mailto:ebukin@worldbank.org)
 date: "February 5, 2026"
 format:
   revealjs:
-    theme: simple
-    smaller: true
+    width: 1600
+    height: 1200
+    preload-iframes: true
+
+    theme: white
+    smaller: false
+    scrollable: true
     transition: fade
     slide-number: true
     preview-links: auto
     logo: images/geopov-logo.png
     footer: "GeoPov BBL Series | Eduard Bukin | February 2026"
+    css: custom.css
+    resources:
+      - grid-worms/**
+      - boids/**
 ---
 
-## Welcome {.title}
+## {background-iframe="grid-worms/index.html" .center}
+
+:::::: {.semi-transparent-bg}
+
+::::: {.columns .v-center-container}
+
+::: {.column width="25%"}
+
+![](images/prosp-logo.webp){width="100%"}
+![](images/geopov-logo.png){width="100%"}
+![](images/mml-logo.png){width="100%"}
+
+:::
+
+::: {.column width="75%"}
 
 ### Revolutionize Your Analysis in Stata and R
 
 **AI Agent-Assisted Workflow with GitHub Copilot and Claude**
 
-::: notes
-Welcome to the first seminar in our series on AI-assisted analysis.
+Speaker:
+
+- **Eduard Bukin** [ebukin\@worldbank.org](mailto:ebukin@worldbank.org)
+- Distributional Impact of Policies,
+- Fiscal Policy and Growth Department
+
 :::
 
-Speaker: **Eduard Bukin** [ebukin\@worldbank.org](mailto:ebukin@worldbank.org)
+:::::
 
-## Today's Agenda
+::::::
 
--   Example 1: From a messy code to a reproducible package
+# Inroduction {.smaller background-iframe="boids/index.html"}
 
--   Key Concepts:
+:::::: {.semi-transparent-bg}
 
-    -   AI-Chat vs AI-Agent vs Inline Code Completion
+::: {.callout-note icon=false}
+### Key AI-Concepts relevant to data analysis:
 
-    -   Context awareness
+-   AI: Chat vs Agent vs Inline Code
+-   Context awareness
+-   MCP: Model communication protocol
+-   IDE: Integrated Development Environment
+-   Universe of LLMs: GitHub Copilot, Anthropic Claude, OpenAI GTP, and others
+:::
 
-    -   MCP: Model communication protocol
+::: {.callout-tip icon=false}
+### How to start using AI in coding?
 
-    -   IDE: Integrated Development Environment
+-   Software Setup: Positron, R, Python, Stata MCP, GitHub Copilot/Claude
+-   Tips and Best Practices
+:::
 
-    -   LLMs for coding: GitHub Copilot, Anthropic Claude, OpenAI GTP, and others
+::: {.callout-important icon=false}
+### Live Example:
 
--   How to start using AI in coding?
+-   From an old code to a reproduciblity package with AI assistance
 
-    -   Software Setup Overview
+:::
 
-    -   Tips and Best Practices
+::::::
 
--   Example 2: Develop analysis with AI assistance
+---
 
--   Q&A and Discussion
-
-## Motivation (1)
+## Motivation: "old worklfow"  {background-iframe="boids/index.html"}
 
 AI tools that we got used to over past years are impressive!
 
 :::::: columns
-::: {.column width="65%"}
-**Traditional Chat-Based Tools:**
 
--   Web-based [Open AI ChatGPT](https://chatgpt.com/)
+::: {.column width="60%"}
 
+::: fragment
+**Traditional Chat-Based Web-Tools:**
+
+-   [Open AI ChatGPT](https://chatgpt.com/)
 -   [Microsoft Copilot](https://copilot.microsoft.com/)
-
--   Isolated AI models, [Google AI in search](https://search.google/ai-in-search/)
-
+-   [Google AI in search](https://search.google/ai-in-search/)
 -   [WB MAI](https://ai.worldbank.org/chat/mai)
 
--   **Pros:**
+**Pros:** Use familiar technologies: Web-Browser, Chat, Stata editor, **copy-paste** ...
 
-    -   Uses familiar technologies: Browser, Chat, Stata editor, copy-paste...
 :::
 
-:::: {.column width="35%"}
+::: fragment
+
 **Cons:**
 
-::: incremental
--   Not integrated with our analysis
-
-    -   Exception: Co-pilot in MS Office
-
--   Not aware of the analysis context
-
--   Provides generic answer, not project-specific
+-   Not integrated with analysis
+-   Not aware of the context
+-   Generic, not project-specific
 :::
-::::
+
+:::
+
+::: {.column width="40%"}
+
+TODO: gif showing ChatGPT in browser vs Positron with Agent
+
+:::
+
 ::::::
 
-## Example 1: From a Monstrosity to a Reproducible Package {.demo}
-
-**Live demonstration of building a reproducibility package with AI assistance**
-
-## Example 1: Summary
-
-To do all this, we used:
-
-::: incremental
+::: notes
 -   Integrated Development Environment (IDE) - [Positron](https://positron.posit.co/){target="_blank"}
 
 -   [GitHub Copilot](https://github.com/features/copilot){target="_blank"} that used Anthropic [Claude Sonnet 4.5 LLM](https://claude.com/) to provide:
@@ -106,53 +138,37 @@ To do all this, we used:
     -   [Agent: active changes to my code and code execution](https://positron.posit.co/assistant-chat-agents.html){target="_blank"}
 :::
 
-## How does this different from a familiar AI-chat?
-
--   **AI-Agent**: AI acted autonomously, execute code, changed files, etc.
-
--   **Context aware**: AI understood files, data, and code structures.
-
--   **IDE**: AI was **integrated** into our **development environment**, worked **alongside us**.
-
--   **Privacy**: AI **did NOT have access to our data**.
-
-    -   All code was executed locally, AI has only seen the output structure.
-
-## Quick question
-
-### What AI tools and software do you use in your daily work?
+## Motivation: "Modern worklfow"
 
 ::::: columns
-::: {.column width="50%"}
-**Chat-based (in browser or an app):**
 
--   OpenAI GPT
--   Microsoft Copilot (Windows or Office/Word/Excel)
--   WB MAI (Web-based tools)
--   GitHub Copilot
--   Anthropic Claude
--   Google Gemini
--   Grok
--   Others: \_\_\_\_\_\_\_\_\_\_\_
+::: {.column width="60%"}
+
+{{< video https://positron.posit.co/videos/positron-assistant-copytoeditor.mp4 width="100%" >}}
+
 :::
 
-::: {.column width="50%"}
-**Agent-integrated software:**
+::: {.column width="40%"}
 
--   Positron + GH Copilot / Other LLMs
--   VS Code + GH Copilot / Other LLMs
--   RStudio + GH Copilot / Other LLMs
--   JupyterLab + GH Copilot / Other LLMs
--   Claude Code + Anthropic LLMs
--   Cursor + LLMs
--   GitHub Copilot Workspace (web-based)
--   Others: \_\_\_\_\_\_\_\_\_\_\_
+- **AI-Agent**: AI acts autonomously
+- **Context aware**: AI understands files, data, and code
+- **IDE**: AI is **integrated** into the **development environment**
+- **Privacy**: AI **does NOT have access to data**: all code is ran locally
+
 :::
+
 :::::
+
+::: fragment
+### How does this different from a familiar AI-chat?
+
+- Efficeint and intuitive workflow
+:::
+
 
 # Key Concepts
 
-What do we need to know about modern analysis with AI?
+**What do we need to know about modern analysis with AI?**
 
 1.  AI: Chat \| Agent \| Inline Completion
 2.  Context awareness

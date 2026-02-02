@@ -1,0 +1,18 @@
+/* Reusable semi-transparent background class */
+.reveal .semi-transparent-bg {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  padding: 30px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Vertical centering for slides */
+.reveal .center {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.reveal .v-center-container {
+  align-items: center !important;
+}
