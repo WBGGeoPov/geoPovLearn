@@ -88,7 +88,7 @@ AI tools that we got used to over past years are impressive!
 ::::
 ::::::
 
-## Example 1: From an Monstrocity to a Reproducible Package {.demo}
+## Example 1: From a Monstrosity to a Reproducible Package {.demo}
 
 **Live demonstration of building a reproducibility package with AI assistance**
 
@@ -320,7 +320,7 @@ List top 3 use cases for the AI tools you use.
 
 -   Read and summarise text and documents
 
--   Undersand code and text
+-   Understand code and text
 
 -   Dumping data into LLM and asking for insights
 
@@ -469,7 +469,7 @@ graph LR
 
 -  Setup the software
 
--  Challange your usual workflow
+-  Challenge your usual workflow
 
 -  Experiment with AI assistance
 
@@ -513,7 +513,7 @@ Source: [positron.posit.co/features](https://positron.posit.co/features.html)
 ## Starting a project in Positron
 
 
-## Creaing a '.do' file and writing code with AI assistance
+## Creating a '.do' file and writing code with AI assistance
 
 
 ## Running Stata in Positron
