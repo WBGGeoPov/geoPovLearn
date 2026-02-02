@@ -102,9 +102,9 @@ To do all this, we used:
 
 -   [GitHub Copilot](https://github.com/features/copilot){target="_blank"} that used Anthropic [Claude Sonnet 4.5 LLM](https://claude.com/) to provide:
 
-    -   Inline code completions
-    -   Chat: help and assistance
-    -   Agent: active changes to my code and code execution
+    -   [Inline code completions](https://positron.posit.co/assistant-completions.html){target="_blank"}
+    -   [Chat: help and assistance](https://positron.posit.co/assistant-chat.html){target="_blank"}
+    -   [Agent: active changes to my code and code execution](https://positron.posit.co/assistant-chat-agents.html){target="_blank"}
 
 :::
 
@@ -157,12 +157,12 @@ To do all this, we used:
 
 What do we need to know about modern analysis with AI?
 
--   AI: Chat | Agent | Inline Completion
--   Context awareness
--   Model Context Protocol (MCP)
--   Integrated Development Environments (IDEs)
--   LLMs for coding: GitHub Copilot, OpenAI GTP, Anthropic Claude, and others
--   Efficient prompting
+1.  AI: Chat | Agent | Inline Completion
+2.  Context awareness
+3.  Model Context Protocol (MCP)
+4.  Integrated Development Environments (IDEs)
+5.  LLMs for coding: GitHub Copilot, OpenAI GTP, Anthropic Claude, and others
+6.  Efficient prompting
 
 ---
 
@@ -170,122 +170,151 @@ What do we need to know about modern analysis with AI?
 
 
 :::::: columns
-:::: {.column width="30%"}
+:::: {.column width="30%" .fragment}
 
 **AI-Chat**
 
-::: incremental
 -   General assistance
 -   Limited context: only what you tell it
 -   Code snippets
 -   Explanations of code/output
-:::
 
-::: {.callout-tip .fragment}
+::: callout-tip
 Use to **Ask** the model to think and reason.
 :::
 
 ::::
 
-:::: {.column width="40%"}
+:::: {.column width="40%" .fragment}
 
 
 **AI-Agent**
 
-::: incremental
 -   Execute Mode
 -   Context awareness
 -   Integrated with development
 -   Writes and runs after user's approval
 -   End‑to‑end tasks (clean → estimate → table → robustness)
-:::
 
-::: {.callout-tip .fragment}
+::: callout-tip
 Use **Agent** mode to execute explicit instructions.
 :::
 ::::
 
-:::: {.column width="30%"}
+:::: {.column width="30%" .fragment}
 
 **Inline Code Completion**
 
-::: incremental
 -   Real-time code suggestions while you type
-:::
 
-::: {.callout-tip .fragment}
+::: callout-tip
 Use for quick code snippets.
 :::
 
 ::::
+::::::
 
 ---
 
 ## Context Awareness
 
-**What AI "knows" when helping you code:**
+::::: columns
+::: {.column width="60%"}
+**What AI "knows":**
 
--   **Your files**: All code files, documentation, and project structure
--   **Your data structure**: Variable names, data types, relationships (without sending raw data to cloud)
--   **Your history**: Recent edits, commands run, and conversations
--   **Your environment**: Installed packages, dependencies, and configurations
--   **Your intent**: Current task based on files you have open and recent actions
--   **Results of code execution**: Output, errors, and logs from running code
+-   **Files**: Code, docs, structure
+-   **Data structure**: Variable names, types
+-   **History**: Edits, commands
+-   **Environment**: Packages, dependencies
+-   **Intent**: Current task
+-   **Execution results**: Output, errors
+:::
 
+::: {.column width="40%"}
 **Why it matters:**
 
--   AI gives relevant suggestions specific to *your* project
--   No need to copy-paste code context manually
--   AI understands dependencies between files
--   Reduces hallucinations by grounding responses in your actual codebase
+-   Project-specific suggestions
+-   Understands dependencies
+-   Reduces hallucinations
 
-**References:**
+:::
+:::::
 
--   [GitHub Copilot Context](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot#understanding-copilot-context){target="_blank"}
--   [Anthropic's Claude Sonnet](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"}
--   [Positron Documentation on AI Context](https://positron.posit.co/assistant-chat-context.html){target="_blank"}
+::: footer
+**See:** [Positron: AI Context](https://positron.posit.co/assistant-chat-context.html){target="_blank"}, or [GHCopilot](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot#understanding-copilot-context){target="_blank"}, and [Claude](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"}
+:::
 
 ## Model Context Protocol (MCP)
 
-::: {.callout-note appearance="simple"}
-*"...a standardized, open framework for AI models (LLMs) to securely and efficiently connect with external applications, data sources, tools, and each-other — acting like a universal adapter (e.g., USB-C for AI)"*
-
-— [Google AI Search](https://www.google.com/search?q=model+communication+protocol){target="_blank"} + [Wikipedia](https://en.wikipedia.org/wiki/Model_Context_Protocol){target="_blank"}
+::::: columns
+::: {.column width="15%"}
+![](images/mcp-logo.png){width="100"}
 :::
 
-![](images/mcp-diagram.png){fig-align="center"}
+::: {.column width="85%"}
+::: {.callout-note appearance="simple"}
+"A universal adapter for AI: one standard protocol replacing fragmented data integrations, connecting assistants to any system where information lives."— [Anthropic's invention](https://www.anthropic.com/news/model-context-protocol){target="_blank"}
+:::
+:::
 
+
+:::::
 ::: fragment
-**Essential connections:**
+
+There is a [growing ecosystem of MCPs](https://github.com/modelcontextprotocol/servers){target="_blank"} .
+
+:::
+
+::::: columns
+::: {.column width="75%" .fragment}
+**MCP are essential to connect LLMs with:**
 
 -   Execution environments: **Stata**, R, Python
 -   Editors: Positron, VS Code, RStudio, JupyterLab
+-   Data sources: databases, APIs, files
+-   Tools: version control (GitHub), visualization, reporting
 :::
+
+::: {.column width="25%" .fragment}
+Relevant are:
+
+- [Stata-MCP extension](https://github.com/sepinetam/stata-mcp){target="_blank"}
+- [R MCP Tools](https://tidyverse.org/blog/2025/07/mcptools-0-1-0/){target="_blank"}
+
+:::
+:::::
 
 ## Integrated Development Environments (IDEs)
 
-**Your coding workspace:**
+**Your all-in-one workspace for data analysis:**
 
 ::::: columns
 ::: {.column width="50%"}
-**For Data Science:**
+**Popular IDEs:**
 
--   **Positron** (Posit)
--   RStudio
--   JupyterLab
--   VS Code
+-   **Positron** (Posit) - Modern AI-native IDE
+-   **RStudio** - R-focused environment
+-   **JupyterLab** - Notebook-based interface
+-   **VS Code** - General-purpose with extensions
+-   **Claude Code** - Anthropic's AI coding IDE
 :::
 
 ::: {.column width="50%"}
-**Key Features:**
+**What IDEs provide:**
 
--   Code editor
--   Console/terminal
--   File browser
--   Variable viewer
--   Plot viewer
+-   **Code editor** with syntax highlighting
+-   **Console/terminal** for interactive execution
+-   **File browser** and project management
+-   **Variable/data viewer** to inspect objects
+-   **Plot viewer** for visualizations
+-   **Integrated AI assistants** (Chat, Agent, Completions)
 :::
 :::::
+
+::: fragment
+**Why use an IDE?** Everything in one place: write code, run analysis, view results, get AI help—no context switching between applications.
+:::
+
 
 ## LLMs for Coding
 
@@ -305,6 +334,97 @@ Use for quick code snippets.
 
 While these tools were built for software development, they excel at data analysis tasks: data cleaning, statistical modeling, visualization, and report generation.
 :::
+
+## Workflow Integration {.diagram}
+
+**Your all-in-one workspace for data analysis:**
+
+```{mermaid}
+%%| fig-width: 10
+%%| fig-cap: "IDE Integration with AI Assistants"
+graph LR
+    subgraph IDE["Local setup: Integrated Development Environment (IDE)"]
+        direction LR
+        subgraph Editors[" "]
+            direction LR
+            P["Positron</br>(Posit)"]
+            R["RStudio</br>(Posit)"]
+            V["VS Code</br>(Microsoft)"]
+            C["Claude Code</br>(Anthropic)"]
+            J["JupyterLab<br/>(Project Jupyter)"]
+            CS["Cursor<br/>(Anysphere)"]
+        end
+
+        subgraph Tools[" "]
+            direction LR
+
+            AI["AI Integration:<br/>• Chat<br/>• Agent<br/>• Inline Code"]
+
+        subgraph MCP["MCP"]
+            direction LR
+            ST["Stata MCP"]
+            RP["R MCP"]
+            PY["Python MCP"]
+        end
+
+            Exec["Execution Environment:<br/>• Stata<br/>• R<br/>• Python"]
+        end
+
+
+        Editors <--> AI
+
+        AI <-->  MCP
+        Exec <-->  MCP
+
+        Editors <-->  Exec
+
+
+    end
+
+
+    subgraph AIproviders["Web-assistants"]
+        direction LR
+
+        GHC["GitHub Copilot"]
+        ANT["Anthropic Claude"]
+        OTH["Other"]
+
+    end
+
+    subgraph LLM["Large Language Models"]
+        direction LR
+        GPT["OpenAI GPT"]
+        Claude["Anthropic Claude"]
+        Google["Google Gemini"]
+        Meta["Meta Llama"]
+        OtherLLM["Other"]
+    end
+
+    MCP <==> AIproviders
+    GHC <--> GPT
+    GHC <--> Claude
+    GHC <--> Google
+    GHC <--> Meta
+    GHC <--> OtherLLM
+    ANT <--> Claude
+    OTH <--> OtherLLM
+
+    style IDE fill:#e1f5ff
+    style Editors fill:#b3e0ff
+    style P fill:#d9f0ff
+    style V fill:#d9f0ff
+    style R fill:#d9f0ff
+    style C fill:#d9f0ff
+    style J fill:#d9f0ff
+    style AI fill:#cceeff
+    style Exec fill:#cceeff
+    style GHC fill:#fff4e1
+    style LLM fill:#f0e1ff
+```
+
+**Why use an IDE?** Everything in one place: write code, run analysis, view results, get AI help—no context switching between applications.
+
+
 
 # Getting Started
 
