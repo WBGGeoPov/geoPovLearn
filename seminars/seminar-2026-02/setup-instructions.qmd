@@ -96,12 +96,12 @@ Below are the key extensions to install for AI-assisted analysis:
 
 To install it:
 
-| Step |   | Description |
-|---------------|-------------------------------|--------------------------|
-| 1 | ![](images/extensions.png){width="45"} | Open the Extensions panel in Positron |
-| 2 | ![](images/stata-mcp.png){width="315"} | Search for "Stata MCP" in the Extensions panel |
-| 3 | ![](images/stata-mcp-install.png){width="675"} | Click "Install" to add the extension to Positron |
-| 4 | ![](images/positron-reload.png){width="400" height="43"} | After installation, restart Positron or reload the window (`Ctrl+Shift+P` \> `Developer: Reload Window` \> `Enter`) |
+|   | Description |
+|-------------------------------|--------------------------|
+| ![](images/extensions.png){width="45"} | Open the Extensions panel in Positron |
+| ![](images/stata-mcp.png){width="315"} | Search for "Stata MCP" in the Extensions panel |
+| ![](images/stata-mcp-install.png){width="675"} | Click "Install" to add the extension to Positron |
+| ![](images/positron-reload.png){width="400" height="43"} | After installation, restart Positron or reload the window (`Ctrl+Shift+P` \> `Developer: Reload Window` \> `Enter`) |
 
 Once installed, configure the Stata MCP extension by setting up the path to the Stata executable and Stata edition.
 
@@ -118,13 +118,16 @@ Once installed, configure the Stata MCP extension by setting up the path to the 
 Verify Stata MCP is working:
 
 1.  Create and save a new Stata `.do` file
+
 2.  Type a simple command like:
     ``` stata
     sysuse auto
     summarize price
     display "Stata is working!"
     ```
+
 3.  Press `Ctrl+Shift+D` in the `.do` file or `Ctrl+Shift+P` \> type `Stata: Run Current File` \> `Enter` to run the do file or click on the button ![](images/stata-run.png){width="40"}
+
 4.  Results from Stata should appear in the `Output` panel: Press `Ctrl+Shift+P` \> `Output: Show Output Channels...` \> `Enter` \> `Stata`.
     ![](images/stata-output.png){width="600"}
 
@@ -144,15 +147,15 @@ This requires a GitHub account linked to the World Bank organization.
 See GitHub Setup [@github-setup] instructions below if you don't have an account or haven't linked it to the WB organization.
 To connect GitHub to Positron:
 
-| Step |   | Note |
-|---------------|--------------------------------------|-------------------|
-| 1 | ![](images/account.png){width="32"} | Open `Account` menu |
-| 2 | ![](images/sign-in.png){width="350"} | Click `Sign in to your GitHub account` |
-| 3 | ![](images/paste-1.png){width="450"} | Authorize GitHub in your browser |
-| 4 | ![](images/gh-auth-2.png){width="450"} | Confirm the authorization request |
-| 5 | ![](images/gh-auth-3.png){width="450"} | Complete the authentication process |
-| 6 | ![](images/gh-auth-4.png){width="300"} | Grant necessary permissions |
-|  | ![](images/gh-auth-5.png){width="300"} |  |
+|   | Note |
+|--------------------------------------|-------------------|
+| ![](images/account.png){width="32"} | Open `Account` menu |
+| ![](images/sign-in.png){width="350"} | Click `Sign in to your GitHub account` |
+| ![](images/paste-1.png){width="450"} | Authorize GitHub in your browser |
+| ![](images/gh-auth-2.png){width="450"} | Confirm the authorization request |
+| ![](images/gh-auth-3.png){width="450"} | Complete the authentication process |
+| ![](images/gh-auth-4.png){width="300"} | Grant necessary permissions |
+| ![](images/gh-auth-5.png){width="300"} |  |
 
 ### Step 2. Enabling Positron Assistant in Positron Settings
 
@@ -184,6 +187,7 @@ If you want to use Anthropic Claude or other LLMs as the provider, follow instru
 ### Step 4. Using Positron Assistant
 
 1.  `Ctrl+Shift+P` \> `Help: Ask Positron Assistant` \> `Enter` to open it.
+
 2.  In the input box that appears, type your question. For example: `Write a Stata do file that loads the auto dataset and summarizes the price variable.     Open it.     Explain how to run it.`
 
 To learn more about using Positron Assistant, see [Use Positron Assistant](https://positron.posit.co/assistant-getting-started.html#step-3-use-positron-assistant){target="_blank"}
@@ -203,8 +207,10 @@ If you don't have a GitHub account yet, create one at [https://github.com/signup
 ### Step 2: Join the World Bank GitHub Organization
 
 1.  Submit a "[Join GitHub Organization Account Request](https://worldbankgroup.service-now.com/wbg/en/join-github-organization-account-request?id=wbg_sc_catalog&sys_id=910e1739db1a54903c5960ab13961912&table=sc_cat_item&searchTerm=github){target="_blank"}" on eServices to join [github.com/worldbank](https://github.com/worldbank){target="_blank"}
+
 2.  Once your request is approved, you will receive an email invitation to join the World Bank GitHub organization
     -   Email will be sent to the email address associated with your GitHub account
+
 3.  Accept the invitation by clicking the link in the email
     -   You need to confirm your membership in the World Bank organization on GitHub by following steps indicated in the email.
 
@@ -213,14 +219,18 @@ If you don't have a GitHub account yet, create one at [https://github.com/signup
 ### Step 3: Request GitHub Copilot Access
 
 1.  After joining the World Bank organization, request GitHub Copilot access through your team lead or organization administrator
+
 2.  Your request will be reviewed and approved by the GitHub organization administrators
     -   Note: Bryan Cahill leads the github.com/worldbank organization and can help with Copilot access requests
+
 3.  Once approved, you'll be able to use GitHub Copilot in Positron
 
 ### Step 4: Verify GitHub Copilot Access
 
 1.  Open Positron and sign in to your GitHub account (see "Connecting GitHub Copilot to Positron" section above)
+
 2.  Check that the GitHub Copilot extension is active in the Extensions panel
+
 3.  Try typing a comment in a code file to verify that Copilot suggestions appear
 
 ## Additional Resources
@@ -229,9 +239,17 @@ If you don't have a GitHub account yet, create one at [https://github.com/signup
 -   [GitHub Copilot Documentation](https://docs.github.com/en/copilot){target="_blank"}
 -   World Bank GitHub: [https://github.com/worldbank](https://github.com/worldbank){target="_blank"}
 
-## Support
+## Support {#support}
 
-For technical support, contact:
+For help with setting up or troubleshooting the software, contact:
 
--   **Eduard Bukin**: [ebukin\@worldbank.org](mailto:ebukin@worldbank.org)
--   **Henry Stemmler**: [hstemmler\@worldbank.org](mailto:hstemmler@worldbank.org)
+-   IT Help: [ITHelp\@worldbankgroup.org](mailto:ITHelp@worldbankgroup.org)
+
+-   HQ [Walk-in center](https://worldbankgroup.sharepoint.com/sites/itsupport/SitePages/PublishingPages/Walk-in-Centers-in-Washington-DC--05042021-1608401_new.aspx)
+
+Remember to provide assiting person with these setup instructions.
+
+For help with accessing GitHub.com/Worldbank or Github Copilot from the worldbank:
+
+-   Check: [GitHub Setup](#github-setup) instructions above
+-   Reach out to: [github\@worldbank.org](mailto:github@worldbank.org)

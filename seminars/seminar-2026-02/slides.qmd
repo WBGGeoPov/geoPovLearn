@@ -1,6 +1,6 @@
 ---
-title: "AI Agent-Assisted Workflow"
-subtitle: "Revolutionizing Analysis in Stata and R"
+title: "Revolutionize Your Analysis in Stata and R"
+subtitle: "AI Agent-Assisted Workflow with GitHub Copilot and Claude"
 author: "Eduard Bukin"
 date: "February 5, 2026"
 format:
@@ -8,8 +8,8 @@ format:
     theme: simple
     slide-number: true
     preview-links: auto
-    logo: images/wb-logo.png
-    footer: "GeoPov BBL Series | February 2026"
+    logo: images/geopov-logo.png
+    footer: "GeoPov BBL Series | Eduard Bukin | February 2026"
 ---
 
 ## Welcome {.title}
@@ -22,235 +22,248 @@ format:
 Welcome to the first seminar in our series on AI-assisted analysis.
 :::
 
+Speaker: **Eduard Bukin**
+
 ---
 
 ## Today's Agenda
 
-- Introduction to AI in Daily Analytical Work
-- Key Concepts: AI-Chat vs AI-Agent
-- Software Setup Overview
-- Live Demonstration: Reproducibility Package
+- Example 1: From a messy code to a reproducible package
+
+- Key Concepts:
+
+  - AI-Chat vs AI-Agent vs Inline Code Completion
+
+  - Context awareness
+
+  - Model communication protocol (MCP)
+
+  - Integrated Development Environments (IDEs)
+
+  - LLMs for coding: GitHub Copilot, OpenAI GTP, Anthropic Claude, and others
+
+- How to start using AI in coding?
+
+  - Software Setup Overview
+
+  - Tips and Best Practices
+
+- Example 2: Develop analysis with AI assistance
+
 - Q&A and Discussion
 
 ---
 
-## The Challenge
+## Motivation (1)
 
-::: {.incremental}
-- Analysis workflows are becoming more complex
-- Code quality and reproducibility are critical
-- Time constraints limit thorough documentation
-- Knowledge sharing across teams is difficult
-:::
-
----
-
-## The AI Revolution
-
-Traditional tools capture only a **fraction** of AI potential:
+AI tools that we got used to over past years are impressive!
 
 ::: {.columns}
 ::: {.column width="50%"}
-**Limited Approach**
 
-- Web browser ChatGPT
-- Windows Copilot
-- Isolated AI interactions
+::: {.incremental}
+
+**Traditional Chat-Based Tools:**
+
+- Web-based [Open AI ChatGPT](https://chatgpt.com/)
+
+- [Microsoft Copilot](https://copilot.microsoft.com/)
+
+- Isolated AI models, [Google AI in search](https://search.google/ai-in-search/)
+
+- [WB MAI](https://ai.worldbank.org/chat/mai)
+
+- are extremely useful and complement eachother.
+
+- Rely on conversational interface and manual copy-paste of code snippets.
+
+:::
 :::
 
 ::: {.column width="50%"}
 **Integrated Approach**
 
-- Context-aware AI agents
-- Integrated development environment
+- Context-aware AI Agents
+
+- Integrated development environment (IDE)
+
 - Project-specific assistance
+
 :::
 :::
 
 ---
 
-## Key Concepts: AI-Chat vs AI-Agent
+## Example 1: From Messy Code to Reproducible Package {.demo}
 
-### AI-Chat
+**Live demonstration of building a reproducibility package with AI assistance**
+
+---
+
+## Example 1: Summary
+
+::: {.incremental}
+
+- Integrated Development Environment (IDE) - Positron
+
+- GitHub Copilot that uses Anthropic [Claude Sonnet 4.5 LLM](https://claude.com/) to provide
+
+  - Inline code completions
+  - Chat: help and assistance
+  - Agent: active changes to my code and code execution
+
+-  Under 5 mins we've created a well-structured reproducibility package from messy code running both: Stata and R and creating fully customized graphics and reports.
+
+:::
+
+---
+
+## How does this different from traditional AI chat?
+
+- We did not copy-paste anything from chat windows to our code.
+
+- The AI agent was fully **aware of** our project **context**, files, data, and code.
+
+- The AI agent was able to **autonomously execute** code, make changes to files, and create new files.
+
+- The AI agent was **integrated** into our development environment (IDE) and worked **alongside us**.
+
+- The AI agent **did not have access to our data** outside of our local machine and IDE.
+
+  - All code was executed locally on our machine.
+
+## Quick question:
+
+### What AI tools and software do you use in your daily work so far?
+
+- Chat-based (in browser or an app):
+
+  - OpenAI GPT
+  - Microsoft Copilot (Windows or Office/Word/Excel)
+  - WB MAI (Web-based tools)
+  - GitHub Copilot
+  - Anthropic Claude
+  - Google Gemini
+  - Grok
+  - Others: ___________
+
+- Agent-integrated software:
+
+  - Positron + GH Copilot / Other LLMs
+  - VS Code + GH Copilot / Other LLMs
+  - RStudio + GH Copilot / Other LLMs
+  - JupyterLab + GH Copilot / Other LLMs
+  - Claude Code + Anthropic LLMs
+  - Cursor + LLMs
+  - GitHub Copilot Workspace (web-based)
+  - Others: ___________
+
+---
+
+# Key Concepts:
+
+- AI-Chat vs AI-Agent vs Inline Code Completion
+- Context awareness
+- Model Context Protocol (MCP)
+- Integrated Development Environments (IDEs)
+- LLMs for coding: GitHub Copilot, OpenAI GTP, Anthropic Claude, and others
+
+---
+
+## AI-Chat vs AI-Agent vs Inline Code Completion (1)
+
+### AI-Chat: ask mode
+
 - Conversational interface
 - General purpose assistance
-- Limited context awareness
+- Limited context awareness: knows only what you provide
+- One‑off questions
+- Code snippets
+- Explanations of code/output
 
-### AI-Agent
-- Autonomous task execution
-- Full project context
-- Integrated with development tools
+### Usage:
+
+> Use Ask mode to think.
 
 ---
 
-## Context Awareness & MCP
+## AI-Chat vs AI-Agent vs Inline Code Completion (2)
 
-**Model Communication Protocol (MCP)**
+### AI-Agent
 
-- Enables AI to understand your project structure
-- Accesses your data and code context
-- Provides targeted, relevant assistance
+- Autonomous task execution
+- Full project context awareness
+- Integrated with development tools
+- Can read/write files, run code, and make changes (after user approval)
+- Multi‑step workflows
+- End‑to‑end tasks (clean → estimate → table → robustness)
+
+### Usage:
+
+Use Agent mode to execute explicit instructions
+
+---
+
+### Inline Code Completion
+
+- Real-time code suggestions while you type could be context-aware and not
+
+---
+
+## Context Awareness
+
+**What AI "knows" when helping you code:**
+
+- **Your files**: All code files, documentation, and project structure
+- **Your data structure**: Variable names, data types, and relationships (without sending raw data to cloud)
+- **Your history**: Recent edits, commands run, and conversations
+- **Your environment**: Installed packages, dependencies, and configurations
+- **Your intent**: Current task based on files you have open and recent actions
+- **Results of code execution**: Output, errors, and logs from running code
+
+**Why it matters:**
+
+- AI gives relevant suggestions specific to *your* project
+- No need to copy-paste code context manually
+- AI understands dependencies between files
+- Reduces hallucinations by grounding responses in your actual codebase
+
+**References:**
+
+- [GitHub Copilot Context](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot#understanding-copilot-context){target="_blank"}
+- [Anthropic's Claud Sonnet](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"}
+- [Positron Documentation on AI Context](https://positron.posit.co/assistant-chat-context.html){target="_blank"}
+
+---
+
+## Model Context Protocol (MCP)
+
+> "... is a standardized, open framework for AI models (LLMs) to securely and efficiently connect with external applications, data sources, tools, and each-other acting like a universal adapter (e.g., USB-C for AI)" [Google search AI](https://www.google.com/search?q=model+communication+protocol) + [Wikipedia](https://en.wikipedia.org/wiki/Model_Context_Protocol)
 
 ![](images/mcp-diagram.png)
 
----
+It is essential to connect AI to your software, e.g.:
 
-## The AI-Assisted Toolkit
-
-::: {.incremental}
-1. **Positron/VS Code** - Your development environment
-2. **GitHub & GitHub Copilot** - Code suggestions and completions
-3. **Claude LLM** - Advanced reasoning and analysis
-4. **Stata/R Integration** - Direct language support
-:::
+- Execution environment: **Stata**, R, Python
+- Editors: Positron, VS Code, RStudio, JupyterLab
 
 ---
 
-## Software Setup {#setup}
-
-### Core Components
-
-- **IDE**: Positron or VS Code
-- **Version Control**: GitHub account (@worldbank)
-- **AI Tools**: GitHub Copilot + Claude access
-- **Languages**: Stata, R, or Python
-
-[→ Detailed setup instructions](setup-instructions.qmd)
+## Integrated Development Environments (IDEs)
 
 ---
 
-## Use Case: Reproducibility Package
+## LLMs for Coding and beyond
 
-### The Task
-
-Create a complete, documented analysis package:
-
-- Clean, well-structured code
-- Comprehensive documentation
-- Quality checks and validation
-- Ready for publication
+Software development vs Data Analysis!
 
 ---
 
-## Step 1: Project Initialization
+# How to start using AI in coding and data analysis?
 
-### AI-Assisted Setup
+- Master new software: Positron + GitHub Copilot (Anthropic Claude)
 
-```r
-# AI helps you structure the project
-project/
-├── data/
-├── scripts/
-├── output/
-└── README.md
-```
 
-::: {.notes}
-Demonstrate how AI suggests optimal project structure
-:::
-
----
-
-## Step 2: Effective Prompting
-
-### Bad Prompt ❌
-> "Write code to analyze data"
-
-### Good Prompt ✅
-> "Create an R script that loads household survey data from
-> 'data/survey.csv', calculates poverty rates by region,
-> and produces a summary table with confidence intervals"
-
----
-
-## Step 3: Code Generation
-
-### With AI Assistance
-
-- **Autocomplete**: Real-time code suggestions
-- **Documentation**: Automatic comment generation
-- **Best Practices**: Style and structure recommendations
-
----
-
-## Step 4: Quality Control
-
-### Preventing Hallucinations
-
-::: {.incremental}
-- Always review AI-generated code
-- Test with your actual data
-- Verify statistical methods
-- Cross-check results
-- Use version control
-:::
-
----
-
-## Live Demonstration {.demo}
-
-### Building a Reproducibility Package
-
-*[Live coding demonstration]*
-
----
-
-## Real-World Benefits
-
-::: {.columns}
-::: {.column width="50%"}
-**Time Savings**
-
-- 30-50% faster coding
-- Automated documentation
-- Quick debugging
-:::
-
-::: {.column width="50%"}
-**Quality Improvements**
-
-- Consistent coding style
-- Comprehensive error handling
-- Better documentation
-:::
-:::
-
----
-
-## Limitations & Considerations
-
-::: {.incremental}
-- AI can make mistakes (hallucinations)
-- Requires domain knowledge to verify
-- Data privacy considerations
-- Not a replacement for expertise
-:::
-
----
-
-## Best Practices
-
-1. **Start Small** - Begin with simple tasks
-2. **Iterate** - Refine prompts and outputs
-3. **Validate** - Always check results
-4. **Learn** - Understand the code generated
-5. **Share** - Contribute to team knowledge
-
----
-
-## Beyond Reproducibility Packages
-
-### Other Applications
-
-- Data cleaning pipelines
-- Statistical analysis workflows
-- Visualization generation
-- Report automation
-- Code refactoring and optimization
-
----
-
-## Getting Started
 
 ::: {.incremental}
 1. Set up your environment [→ Instructions](setup-instructions.qmd#setup)

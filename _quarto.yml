@@ -38,7 +38,7 @@ website:
       - section: "GeoPov BBL Series"
         href: seminars/index.qmd
         contents:
-          - text: "Spatial Analysis"
+          - text: Revolutionizing Coding in Stata/R
             href: seminars/seminar-2026-02/overview.qmd
             contents:
             - text: Slides
