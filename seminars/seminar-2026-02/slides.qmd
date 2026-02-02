@@ -6,6 +6,8 @@ date: "February 5, 2026"
 format:
   revealjs:
     theme: simple
+    smaller: true
+    transition: fade
     slide-number: true
     preview-links: auto
     logo: images/geopov-logo.png
@@ -18,230 +20,230 @@ format:
 
 **AI Agent-Assisted Workflow with GitHub Copilot and Claude**
 
-::: {.notes}
+::: notes
 Welcome to the first seminar in our series on AI-assisted analysis.
 :::
 
-Speaker: **Eduard Bukin**
+Speaker: **Eduard Bukin** [ebukin\@worldbank.org](mailto:ebukin@worldbank.org)
 
 ## Today's Agenda
 
-- Example 1: From a messy code to a reproducible package
+-   Example 1: From a messy code to a reproducible package
 
-- Key Concepts:
+-   Key Concepts:
 
-  - AI-Chat vs AI-Agent vs Inline Code Completion
+    -   AI-Chat vs AI-Agent vs Inline Code Completion
 
-  - Context awareness
+    -   Context awareness
 
-  - Model communication protocol (MCP)
+    -   MCP: Model communication protocol
 
-  - Integrated Development Environments (IDEs)
+    -   IDE: Integrated Development Environment
 
-  - LLMs for coding: GitHub Copilot, OpenAI GTP, Anthropic Claude, and others
+    -   LLMs for coding: GitHub Copilot, Anthropic Claude, OpenAI GTP, and others
 
-- How to start using AI in coding?
+-   How to start using AI in coding?
 
-  - Software Setup Overview
+    -   Software Setup Overview
 
-  - Tips and Best Practices
+    -   Tips and Best Practices
 
-- Example 2: Develop analysis with AI assistance
+-   Example 2: Develop analysis with AI assistance
 
-- Q&A and Discussion
+-   Q&A and Discussion
 
 ## Motivation (1)
 
 AI tools that we got used to over past years are impressive!
 
-::: {.columns}
-::: {.column width="50%"}
-
-::: {.incremental}
-
+:::::: columns
+:::: {.column width="65%"}
 **Traditional Chat-Based Tools:**
 
-- Web-based [Open AI ChatGPT](https://chatgpt.com/)
+-   Web-based [Open AI ChatGPT](https://chatgpt.com/)
 
-- [Microsoft Copilot](https://copilot.microsoft.com/)
+-   [Microsoft Copilot](https://copilot.microsoft.com/)
 
-- Isolated AI models, [Google AI in search](https://search.google/ai-in-search/)
+-   Isolated AI models, [Google AI in search](https://search.google/ai-in-search/)
 
-- [WB MAI](https://ai.worldbank.org/chat/mai)
+-   [WB MAI](https://ai.worldbank.org/chat/mai)
 
-- are extremely useful and complement eachother.
+-   **Pros:**
 
-- Rely on conversational interface and manual copy-paste of code snippets.
+    -   Uses familiar technologies: Browser, Chat, Stata editor, copy-paste...
+::::
 
+:::: {.column width="35%"}
+**Cons:**
+
+::: incremental
+-   Not integrated with our analysis
+
+    -   Exception: Co-pilot in MS Office
+
+-   Not aware of the analysis context
+
+-   Provides generic answer, not project-specific
 :::
-:::
+::::
+::::::
 
-::: {.column width="50%"}
-**Integrated Approach**
 
-- Context-aware AI Agents
-
-- Integrated development environment (IDE)
-
-- Project-specific assistance
-
-:::
-:::
-
----
-
-## Example 1: From Messy Code to Reproducible Package {.demo}
+## Example 1: From an Monstrocity to a Reproducible Package {.demo}
 
 **Live demonstration of building a reproducibility package with AI assistance**
 
 ## Example 1: Summary
 
-::: {.incremental}
+To do all this, we used:
 
-- Integrated Development Environment (IDE) - Positron
+::: incremental
+-   Integrated Development Environment (IDE) - [Positron](https://positron.posit.co/){target="_blank"}
 
-- GitHub Copilot that uses Anthropic [Claude Sonnet 4.5 LLM](https://claude.com/) to provide
+-   [GitHub Copilot](https://github.com/features/copilot){target="_blank"} that used Anthropic [Claude Sonnet 4.5 LLM](https://claude.com/) to provide:
 
-  - Inline code completions
-  - Chat: help and assistance
-  - Agent: active changes to my code and code execution
-
--  Under 5 mins we've created a well-structured reproducibility package from messy code running both: Stata and R and creating fully customized graphics and reports.
+    -   Inline code completions
+    -   Chat: help and assistance
+    -   Agent: active changes to my code and code execution
 
 :::
 
----
+## How does this different from a familiar AI-chat?
 
-## How does this different from traditional AI chat?
+-   **AI-Agent**: AI acted autonomously, execute code, changed files, etc.
 
-- We did not copy-paste anything from chat windows to our code.
+-   **Context aware**: AI understood files, data, and code structures.
 
-- The AI agent was fully **aware of** our project **context**, files, data, and code.
+-   **IDE**: AI was **integrated** into our **development environment**, worked **alongside us**.
 
-- The AI agent was able to **autonomously execute** code, make changes to files, and create new files.
+-   **Privacy**: AI **did NOT have access to our data**.
 
-- The AI agent was **integrated** into our development environment (IDE) and worked **alongside us**.
+    -   All code was executed locally, AI has only seen the output structure.
 
-- The AI agent **did not have access to our data** outside of our local machine and IDE.
+## Quick question
 
-  - All code was executed locally on our machine.
+### What AI tools and software do you use in your daily work?
 
-## Quick question:
 
-### What AI tools and software do you use in your daily work so far?
+:::::: columns
+:::: {.column width="50%"}
+**Chat-based (in browser or an app):**
 
-- Chat-based (in browser or an app):
+-   OpenAI GPT
+-   Microsoft Copilot (Windows or Office/Word/Excel)
+-   WB MAI (Web-based tools)
+-   GitHub Copilot
+-   Anthropic Claude
+-   Google Gemini
+-   Grok
+-   Others: \_\_\_\_\_\_\_\_\_\_\_
+::::
 
-  - OpenAI GPT
-  - Microsoft Copilot (Windows or Office/Word/Excel)
-  - WB MAI (Web-based tools)
-  - GitHub Copilot
-  - Anthropic Claude
-  - Google Gemini
-  - Grok
-  - Others: ___________
+:::: {.column width="50%"}
+**Agent-integrated software:**
 
-- Agent-integrated software:
-
-  - Positron + GH Copilot / Other LLMs
-  - VS Code + GH Copilot / Other LLMs
-  - RStudio + GH Copilot / Other LLMs
-  - JupyterLab + GH Copilot / Other LLMs
-  - Claude Code + Anthropic LLMs
-  - Cursor + LLMs
-  - GitHub Copilot Workspace (web-based)
-  - Others: ___________
+-   Positron + GH Copilot / Other LLMs
+-   VS Code + GH Copilot / Other LLMs
+-   RStudio + GH Copilot / Other LLMs
+-   JupyterLab + GH Copilot / Other LLMs
+-   Claude Code + Anthropic LLMs
+-   Cursor + LLMs
+-   GitHub Copilot Workspace (web-based)
+-   Others: \_\_\_\_\_\_\_\_\_\_\_
+::::
+::::::
 
 # Key Concepts
 
-## Overview
+What do we need to know about modern analysis with AI?
 
-::: {.incremental}
-- AI-Chat vs AI-Agent vs Inline Code Completion
-- Context awareness
-- Model Context Protocol (MCP)
-- Integrated Development Environments (IDEs)
-- LLMs for coding: GitHub Copilot, OpenAI GTP, Anthropic Claude, and others
-:::
+-   AI: Chat | Agent | Inline Completion
+-   Context awareness
+-   Model Context Protocol (MCP)
+-   Integrated Development Environments (IDEs)
+-   LLMs for coding: GitHub Copilot, OpenAI GTP, Anthropic Claude, and others
+-   Efficient prompting
 
 ---
 
-## AI-Chat vs AI-Agent vs Inline Code Completion (1)
+## AI: Chat | Agent | Inline Code
 
-### AI-Chat: Ask Mode
 
-::: {.incremental}
-- Conversational interface
-- General purpose assistance
-- Limited context awareness: knows only what you provide
-- One‑off questions
-- Code snippets
-- Explanations of code/output
+:::::: columns
+:::: {.column width="30%"}
+
+**AI-Chat**
+
+::: incremental
+-   General assistance
+-   Limited context: only what you tell it
+-   Code snippets
+-   Explanations of code/output
 :::
 
-. . .
-
-::: {.callout-tip}
-## Usage
-Use Ask mode to think.
+::: {.callout-tip .fragment}
+Use to **Ask** the model to think and reason.
 :::
 
-## AI-Chat vs AI-Agent vs Inline Code Completion (2)
+::::
 
-### AI-Agent: Execute Mode
+:::: {.column width="40%"}
 
-::: {.incremental}
-- Autonomous task execution
-- Full project context awareness
-- Integrated with development tools
-- Can read/write files, run code, and make changes (after user approval)
-- Multi‑step workflows
-- End‑to‑end tasks (clean → estimate → table → robustness)
+
+**AI-Agent**
+
+::: incremental
+-   Execute Mode
+-   Context awareness
+-   Integrated with development
+-   Writes and runs after user's approval
+-   End‑to‑end tasks (clean → estimate → table → robustness)
 :::
 
-. . .
+::: {.callout-tip .fragment}
+Use **Agent** mode to execute explicit instructions.
+:::
+::::
 
-::: {.callout-tip}
-## Usage
-Use Agent mode to execute explicit instructions
+:::: {.column width="30%"}
+
+**Inline Code Completion**
+
+::: incremental
+-   Real-time code suggestions while you type
 :::
 
-## AI-Chat vs AI-Agent vs Inline Code Completion (3)
-
-### Inline Code Completion
-
-::: {.incremental}
-- Real-time code suggestions while you type
-- Can be context-aware or not
-- Speeds up coding by autocompleting:
-  - Function names
-  - Parameters
-  - Common patterns
+::: {.callout-tip .fragment}
+Use for quick code snippets.
 :::
+
+::::
+
+---
 
 ## Context Awareness
 
 **What AI "knows" when helping you code:**
 
-- **Your files**: All code files, documentation, and project structure
-- **Your data structure**: Variable names, data types, relationships (without sending raw data to cloud)
-- **Your history**: Recent edits, commands run, and conversations
-- **Your environment**: Installed packages, dependencies, and configurations
-- **Your intent**: Current task based on files you have open and recent actions
-- **Results of code execution**: Output, errors, and logs from running code
+-   **Your files**: All code files, documentation, and project structure
+-   **Your data structure**: Variable names, data types, relationships (without sending raw data to cloud)
+-   **Your history**: Recent edits, commands run, and conversations
+-   **Your environment**: Installed packages, dependencies, and configurations
+-   **Your intent**: Current task based on files you have open and recent actions
+-   **Results of code execution**: Output, errors, and logs from running code
 
 **Why it matters:**
 
-- AI gives relevant suggestions specific to *your* project
-- No need to copy-paste code context manually
-- AI understands dependencies between files
-- Reduces hallucinations by grounding responses in your actual codebase
+-   AI gives relevant suggestions specific to *your* project
+-   No need to copy-paste code context manually
+-   AI understands dependencies between files
+-   Reduces hallucinations by grounding responses in your actual codebase
 
 **References:**
 
-- [GitHub Copilot Context](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot#understanding-copilot-context){target="_blank"}
-- [Anthropic's Claude Sonnet](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"}
-- [Positron Documentation on AI Context](https://positron.posit.co/assistant-chat-context.html){target="_blank"}
+-   [GitHub Copilot Context](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot#understanding-copilot-context){target="_blank"}
+-   [Anthropic's Claude Sonnet](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"}
+-   [Positron Documentation on AI Context](https://positron.posit.co/assistant-chat-context.html){target="_blank"}
 
 ## Model Context Protocol (MCP)
 
@@ -253,53 +255,54 @@ Use Agent mode to execute explicit instructions
 
 ![](images/mcp-diagram.png){fig-align="center"}
 
-::: {.fragment}
+::: fragment
 **Essential connections:**
 
-- Execution environments: **Stata**, R, Python
-- Editors: Positron, VS Code, RStudio, JupyterLab
+-   Execution environments: **Stata**, R, Python
+-   Editors: Positron, VS Code, RStudio, JupyterLab
 :::
 
 ## Integrated Development Environments (IDEs)
 
 **Your coding workspace:**
 
-::: {.columns}
+::::: columns
 ::: {.column width="50%"}
 **For Data Science:**
 
-- **Positron** (Posit)
-- RStudio
-- JupyterLab
-- VS Code
+-   **Positron** (Posit)
+-   RStudio
+-   JupyterLab
+-   VS Code
 :::
 
 ::: {.column width="50%"}
 **Key Features:**
 
-- Code editor
-- Console/terminal
-- File browser
-- Variable viewer
-- Plot viewer
+-   Code editor
+-   Console/terminal
+-   File browser
+-   Variable viewer
+-   Plot viewer
 :::
-:::
+:::::
 
 ## LLMs for Coding
 
 **Large Language Models powering AI assistants:**
 
-::: {.incremental}
-- **GitHub Copilot**: Uses OpenAI models (GPT-4) and Anthropic Claude
-- **OpenAI GPT**: GPT-4, GPT-4 Turbo
-- **Anthropic Claude**: Opus, Sonnet, Haiku
-- **Others**: Google Gemini, Meta Llama, Mistral
+::: incremental
+-   **GitHub Copilot**: Uses OpenAI models (GPT-4) and Anthropic Claude
+-   **OpenAI GPT**: GPT-4, GPT-4 Turbo
+-   **Anthropic Claude**: Opus, Sonnet, Haiku
+-   **Others**: Google Gemini, Meta Llama, Mistral
 :::
 
 . . .
 
-::: {.callout-note}
+::: callout-note
 ## Software Development vs Data Analysis
+
 While these tools were built for software development, they excel at data analysis tasks: data cleaning, statistical modeling, visualization, and report generation.
 :::
 
@@ -307,22 +310,22 @@ While these tools were built for software development, they excel at data analys
 
 ## How to Start?
 
-::: {.incremental}
-1. **Set up your environment** → [Full Instructions](setup-instructions.qmd#setup)
-2. **Start with small experiments**
-3. **Join our Community of Practice**
-4. **Share your experiences**
+::: incremental
+1.  **Set up your environment** → [Full Instructions](setup-instructions.qmd#setup)
+2.  **Start with small experiments**
+3.  **Join our Community of Practice**
+4.  **Share your experiences**
 :::
 
----
+------------------------------------------------------------------------
 
 ## Resources
 
-- **Setup Guide**: [Workflow Setup Instructions](setup-instructions.qmd)
-- **GitHub**: [github.com/worldbank](https://github.com/worldbank)
-- **Documentation**: Project repository
+-   **Setup Guide**: [Workflow Setup Instructions](setup-instructions.qmd)
+-   **GitHub**: [github.com/worldbank](https://github.com/worldbank)
+-   **Documentation**: Project repository
 
----
+------------------------------------------------------------------------
 
 ## Q&A {.discussion}
 
@@ -330,18 +333,15 @@ While these tools were built for software development, they excel at data analys
 
 **Contact**:
 
-- Eduard Bukin: [ebukin@worldbank.org](mailto:ebukin@worldbank.org)
-- Henry Stemmler: [hstemmler@worldbank.org](mailto:hstemmler@worldbank.org)
+-   Eduard Bukin: [ebukin\@worldbank.org](mailto:ebukin@worldbank.org)
+-   Henry Stemmler: [hstemmler\@worldbank.org](mailto:hstemmler@worldbank.org)
 
----
+------------------------------------------------------------------------
 
 ## Thank You! {.title}
 
 ### Stay Connected
 
-Next in the GeoPov Series:
-- The geography of jobs in India
-- Survey representativeness methods
-- Mobile phone data for poverty analysis
+Next in the GeoPov Series: - The geography of jobs in India - Survey representativeness methods - Mobile phone data for poverty analysis
 
 [→ Visit our website for updates](../../index.qmd)
