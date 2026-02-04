@@ -32,10 +32,11 @@ format:
 
 # Motivation {background-iframe="grid-worms/index.html"}
 
-:::::::::: semi-transparent-bg
+<!-- :::::::::: semi-transparent-bg -->
 ::::::::: columns
 :::::: {.column width="50%"}
-::::: {style="font-size: 0.8em;"}
+::: semi-transparent-bg
+::: {style="font-size: 0.8em;"}
 **Chat and Web-Based AI tools** are impressive!
 
 > [ChatGPT](https://chatgpt.com/) \| [Copilot](https://copilot.microsoft.com/) \| [Gemini](https://search.google/ai-in-search/) \| [WB MAI](https://ai.worldbank.org/chat/mai)
@@ -48,20 +49,26 @@ Use familiar technologies:
 -   📝 Stata editor,
 -   [**📋 copy-paste**]{style="color: red;"} ...
 :::
-
-::: fragment
-**Is this the best way to use AI for data analysis❓**
 :::
 :::::
 ::::::
 
 :::: {.column width="50%"}
+
+::: semi-transparent-bg
 ::: fragment
-In fact, there are many 🚀AI-powered [**Integrated Development Environments (IDEs)**](style=%22color:%20blue;%22) for coding and data science 💻
+**Is this the best way to use AI for data analysis❓**
+:::
+
+::: fragment
+In fact, there are many <br/>AI-powered<br/>
+[**Integrated <br/>Development <br/>Environments (IDEs)**](style=%22color:%20blue;%22)<br/>
+for coding and data science!
+:::
 :::
 ::::
 :::::::::
-::::::::::
+<!-- :::::::::: -->
 
 ## The goal
 
@@ -99,7 +106,7 @@ There are many IDEs ➔
 ::: {style="font-size: 0.8em;"}
 -   Introduce several AI-Concepts (vocabulary)
 
--   Sahre experience of using AI-assisted workflow in [Positron]{style="colour: blue;"} with Stata and R
+-   Share experience of using AI-assisted workflow in [Positron]{style="colour: blue;"} with Stata and R
 
 -   Provide kick-off instructions and resources.
 :::
@@ -118,7 +125,7 @@ There are many IDEs ➔
 
 ------------------------------------------------------------------------
 
-## 💬 [AI Integrated IDE]{style="color:#1565c0;"}: Chat \| Agent \| Inline
+## 💬 [AI Integrated IDE]{style="color:#1565c0;"}
 
 {{< video https://positron.posit.co/videos/positron-assistant-copytoeditor.mp4 >}}
 
@@ -129,12 +136,15 @@ Source: [Positron: AI Features](https://positron.posit.co/features.html){target=
 ## 💬 [AI: Chat]{style="color:#1565c0;"}
 
 ::: {style="max-width: 40%; font-size: 0.85em;"}
-[Positron Assistant](https://positron.posit.co/assistant-chat.html){target="_blank"} or similar chats in other editors
+[Positron Assistant](https://positron.posit.co/assistant-chat.html){target="_blank"}
 
--   **Ask** an LLM (Claude 4.5) through Github Copilot
+-   **Ask** AI (Claude 4.5) through **Github Copilot**
 -   Provides explanations, suggestions, and code snippets.
 -   Integrates with project context, and code.
--   Learn more: [Positron Assistant Chat](https://positron.posit.co/assistant-chat.html){target="_blank"}
+-   Learn more:
+
+    [Assistant Chat](https://positron.posit.co/assistant-chat.html){target="_blank"}
+
 :::
 
 ::: r-stacked
@@ -153,9 +163,9 @@ Source: [Positron: AI Features](https://positron.posit.co/features.html){target=
     -   Runs code
     -   Fixes errors
     -   Learns
-    -   Resons
+    -   Reasons
 
--   See live demo for more!
+-   See more in the live demo!
 :::
 
 ::: r-stacked
@@ -245,19 +255,32 @@ Sources: [Anthropic Claude Sonnet 4.5](https://www.anthropic.com/news/claude-son
 ## ✍️ [Efficient Prompting]{style="color:#2e7d32;"}
 
 :::: incremental
-::: {style="font-size: 0.6em;"}
+::: {style="font-size: 0.60em;"}
 
--   [🎯 **Be specific**]{style="color:#1b5e20;"}: "Write a Stata do-file to …" / "Refactor this R function to …"
+-   [🎯 **Be specific**]{style="color:#1b5e20;"}:
 
--   [🧩 **Provide context**]{style="color:#1b5e20;"}: "Goal: X; Dataset: Y variables; Constraints: Z (WB rules, packages, runtime)"
+    "Write a Stata do-file to …" / "Refactor this R function to …"
 
--   [📌 **Define expected output**]{style="color:#1b5e20;"}: "Save as regression_results.xlsx, format as APA table" / "Create bar chart with 95% CIs"
+-   [🧩 **Provide context**]{style="color:#1b5e20;"}:
 
--   [🔁 **Summarize + clarify first**]{style="color:#1b5e20;"}: "Restate and ask clarifying questions before implementing", "Explain why ...", "Give alternatives with trade-offs..."
+    "Goal: X; Dataset: Y variables; Constraints: Z (WB rules, packages, runtime)"
 
--   [🪜 **Iterate in small steps**]{style="color:#1b5e20;"}: minimal changes, then refine
+-   [📌 **Define expected output**]{style="color:#1b5e20;"}:
 
--   [🛑 **Set boundaries**]{style="color:#1b5e20;"}: "Don’t use ... data", "Don’t print secrets, ask if in doubt.", "Don’t change files".
+    "Save as regression_results.xlsx, format as APA table" / "Create bar chart with 95% CIs"
+
+-   [🔁 **Summarize + clarify first**]{style="color:#1b5e20;"}:
+
+    "Restate and ask clarifying questions before implementing", "Explain why ...", "Give alternatives with
+trade-offs..."
+-   [🪜 **Iterate in small steps**]{style="color:#1b5e20;"}:
+
+    "minimal changes", "refine"
+
+-   [🛑 **Set boundaries**]{style="color:#1b5e20;"}:
+
+    "Don’t use ... data", "Don’t print secrets, ask if in doubt.", "Don’t change files".
+
 :::
 ::::
 
@@ -286,7 +309,7 @@ Sources: [Anthropic Claude Sonnet 4.5](https://www.anthropic.com/news/claude-son
 
 -   [⚠︎ **Confidentiality / security / privacy**]{style="color:#b00020;"}
 
-    [✓ **Constrain context**]{style="color:#1b5e20;"}: exclude sensitive data; use `.copilot-ignore`; Follow [WB AI guidelines](https://ai.worldbank.org/responsible-use)
+    [✓ **Constrain context**]{style="color:#1b5e20;"}: exclude sensitive data; use `.copilot-ignore`; [AI \@ WB](https://ai.worldbank.org/responsible-use)
 
 -   [⚠︎ **Reproducibility**]{style="color:#b00020;"}: answers can vary across sessions/models/settings
 
@@ -335,7 +358,7 @@ Sources: [Anthropic Claude Sonnet 4.5](https://www.anthropic.com/news/claude-son
 -   See more slides with [additional materials](#additional-materials) below.
 :::
 
-<iframe src="setup-instructions.html" class="absolute" style="right: 0; top: 0; width: 45%; height: 100%; border: 1px solid #ccc; zoom: 0.5;">
+<iframe src="setup-instructions.html" class="absolute" style="right: 0; top: 0; width: 50%; height: 100%; border: 1px solid #ccc; zoom: 0.4;">
 
 </iframe>
 
@@ -410,7 +433,7 @@ QR Code
     -   Open assistant: `Ctrl+Shift+P` \> "Ask Positron Assistant"
     -   Try: chat, agent mode, inline code completion
 
-## Positron IDE: Self-learning {.smalled}
+## Positron IDE: Self-learning {.smaller}
 
 ::::: columns
 ::: {.column width="35%"}
