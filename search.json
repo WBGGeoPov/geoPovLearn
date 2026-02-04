@@ -588,11 +588,11 @@
     ]
   },
   {
-    "objectID": "seminars/seminar-2026-02/slides.html#ai-integrated-ide-chat-agent-inline",
-    "href": "seminars/seminar-2026-02/slides.html#ai-integrated-ide-chat-agent-inline",
+    "objectID": "seminars/seminar-2026-02/slides.html#ai-integrated-ide",
+    "href": "seminars/seminar-2026-02/slides.html#ai-integrated-ide",
     "title": "GeoPov",
-    "section": "💬 AI Integrated IDE: Chat | Agent | Inline",
-    "text": "💬 AI Integrated IDE: Chat | Agent | Inline\n\n\nSource: Positron: AI Features",
+    "section": "💬 AI Integrated IDE",
+    "text": "💬 AI Integrated IDE\n\n\nSource: Positron: AI Features",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -604,7 +604,7 @@
     "href": "seminars/seminar-2026-02/slides.html#ai-chat",
     "title": "GeoPov",
     "section": "💬 AI: Chat",
-    "text": "💬 AI: Chat\n\nPositron Assistant or similar chats in other editors\n\nAsk an LLM (Claude 4.5) through Github Copilot\nProvides explanations, suggestions, and code snippets.\nIntegrates with project context, and code.\nLearn more: Positron Assistant Chat",
+    "text": "💬 AI: Chat\n\nPositron Assistant\n\nAsk AI (Claude 4.5) through Github Copilot\nProvides explanations, suggestions, and code snippets.\nIntegrates with project context, and code.\nLearn more:\nAssistant Chat",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -616,7 +616,7 @@
     "href": "seminars/seminar-2026-02/slides.html#ai-agent",
     "title": "GeoPov",
     "section": "💬 AI: Agent",
-    "text": "💬 AI: Agent\n\nPositron Assistant\n\nExecutes instructions.\nActs independently\n\nRuns code\nFixes errors\nLearns\nResons\n\nSee live demo for more!",
+    "text": "💬 AI: Agent\n\nPositron Assistant\n\nExecutes instructions.\nActs independently\n\nRuns code\nFixes errors\nLearns\nReasons\n\nSee more in the live demo!",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -676,7 +676,7 @@
     "href": "seminars/seminar-2026-02/slides.html#efficient-prompting",
     "title": "GeoPov",
     "section": "✍️ Efficient Prompting",
-    "text": "✍️ Efficient Prompting\n\n\n🎯 Be specific: “Write a Stata do-file to …” / “Refactor this R function to …”\n🧩 Provide context: “Goal: X; Dataset: Y variables; Constraints: Z (WB rules, packages, runtime)”\n📌 Define expected output: “Save as regression_results.xlsx, format as APA table” / “Create bar chart with 95% CIs”\n🔁 Summarize + clarify first: “Restate and ask clarifying questions before implementing”, “Explain why …”, “Give alternatives with trade-offs…”\n🪜 Iterate in small steps: minimal changes, then refine\n🛑 Set boundaries: “Don’t use … data”, “Don’t print secrets, ask if in doubt.”, “Don’t change files”.\n\n\n\nTip: Treat the assistant as a collaborator.",
+    "text": "✍️ Efficient Prompting\n\n\n🎯 Be specific:\n“Write a Stata do-file to …” / “Refactor this R function to …”\n🧩 Provide context:\n“Goal: X; Dataset: Y variables; Constraints: Z (WB rules, packages, runtime)”\n📌 Define expected output:\n“Save as regression_results.xlsx, format as APA table” / “Create bar chart with 95% CIs”\n🔁 Summarize + clarify first:\n“Restate and ask clarifying questions before implementing”, “Explain why …”, “Give alternatives with trade-offs…”\n🪜 Iterate in small steps:\n“minimal changes”, “refine”\n🛑 Set boundaries:\n“Don’t use … data”, “Don’t print secrets, ask if in doubt.”, “Don’t change files”.\n\n\n\nTip: Treat the assistant as a collaborator.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -688,7 +688,7 @@
     "href": "seminars/seminar-2026-02/slides.html#limitations-and-remedies",
     "title": "GeoPov",
     "section": "⚠️ Limitations and Remedies",
-    "text": "⚠️ Limitations and Remedies\n\n⚠︎ Wrong-but-plausible outputs / hallucinations: code runs but logic is wrong\n✓ Verify and validate: ask the model to explain and justify the solution\n⚠︎ Context limits: not all files/data are in context; too large projects.\n✓ Be explicit: state assumptions, expected inputs/outputs, and references\n⚠︎ Outdated knowledge: suggested APIs/packages/options may have changed\n✓ Teach the model: provide references/links; ask it to learn\n⚠︎ Over-reliance: erodes fundamentals; mistakes slip through unchallenged\n✓ Keep learning: ask for step-by-step reasoning; request alternatives and trade-offs\n⚠︎ Confidentiality / security / privacy\n✓ Constrain context: exclude sensitive data; use .copilot-ignore; Follow WB AI guidelines\n⚠︎ Reproducibility: answers can vary across sessions/models/settings\n✓ Cutomize agents: save prompts, use Git; create AI agents\n\n\nRead more: GitHub Copilot Trust Center | AI @ WB: ai.worldbank.org",
+    "text": "⚠️ Limitations and Remedies\n\n⚠︎ Wrong-but-plausible outputs / hallucinations: code runs but logic is wrong\n✓ Verify and validate: ask the model to explain and justify the solution\n⚠︎ Context limits: not all files/data are in context; too large projects.\n✓ Be explicit: state assumptions, expected inputs/outputs, and references\n⚠︎ Outdated knowledge: suggested APIs/packages/options may have changed\n✓ Teach the model: provide references/links; ask it to learn\n⚠︎ Over-reliance: erodes fundamentals; mistakes slip through unchallenged\n✓ Keep learning: ask for step-by-step reasoning; request alternatives and trade-offs\n⚠︎ Confidentiality / security / privacy\n✓ Constrain context: exclude sensitive data; use .copilot-ignore; AI @ WB\n⚠︎ Reproducibility: answers can vary across sessions/models/settings\n✓ Cutomize agents: save prompts, use Git; create AI agents\n\n\nRead more: GitHub Copilot Trust Center | AI @ WB: ai.worldbank.org",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",

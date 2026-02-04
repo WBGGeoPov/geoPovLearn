@@ -152,9 +152,10 @@
 <section>
 <section id="motivation" class="title-slide slide level1 center" data-background-iframe="grid-worms/index.html">
 <h1>Motivation</h1>
-<div class="semi-transparent-bg">
+<!-- :::::::::: semi-transparent-bg -->
 <div class="columns">
 <div class="column" style="width:50%;">
+<div class="semi-transparent-bg">
 <div style="font-size: 0.8em;">
 <p><strong>Chat and Web-Based AI tools</strong> are impressive!</p>
 <blockquote>
@@ -169,16 +170,19 @@
 <li><span style="color: red;"><strong>📋 copy-paste</strong></span> …</li>
 </ul>
 </div>
-<div class="fragment">
-<p><strong>Is this the best way to use AI for data analysis❓</strong></p>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
+<div class="semi-transparent-bg">
 <div class="fragment">
-<p>In fact, there are many 🚀AI-powered <a href="style=&quot;color: blue;&quot;"><strong>Integrated Development Environments (IDEs)</strong></a> for coding and data science 💻</p>
+<p><strong>Is this the best way to use AI for data analysis❓</strong></p>
+</div>
+<div class="fragment">
+<p>In fact, there are many <br>AI-powered<br> <a href="style=&quot;color: blue;&quot;"><strong>Integrated <br>Development <br>Environments (IDEs)</strong></a><br> for coding and data science!</p>
+</div>
 </div>
 </div></div>
-</div>
+<!-- :::::::::: -->
 </section>
 <section id="the-goal" class="slide level2">
 <h2>The goal</h2>
@@ -214,7 +218,7 @@
 <div style="font-size: 0.8em;">
 <ul>
 <li><p>Introduce several AI-Concepts (vocabulary)</p></li>
-<li><p>Sahre experience of using AI-assisted workflow in <span style="colour: blue;">Positron</span> with Stata and R</p></li>
+<li><p>Share experience of using AI-assisted workflow in <span style="colour: blue;">Positron</span> with Stata and R</p></li>
 <li><p>Provide kick-off instructions and resources.</p></li>
 </ul>
 </div>
@@ -234,8 +238,8 @@
 <li>⚠️ <span style="color:#b00020;"><strong>Caveats and limitations</strong></span>: What to watch out for</li>
 </ol>
 </section>
-<section id="ai-integrated-ide-chat-agent-inline" class="slide level2">
-<h2>💬 <span style="color:#1565c0;">AI Integrated IDE</span>: Chat | Agent | Inline</h2>
+<section id="ai-integrated-ide" class="slide level2">
+<h2>💬 <span style="color:#1565c0;">AI Integrated IDE</span></h2>
 <video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://positron.posit.co/videos/positron-assistant-copytoeditor.mp4"></video>
 <div class="footer">
 <p>Source: <a href="https://positron.posit.co/features.html" target="_blank">Positron: AI Features</a></p>
@@ -244,12 +248,13 @@
 <section id="ai-chat" class="slide level2">
 <h2>💬 <span style="color:#1565c0;">AI: Chat</span></h2>
 <div style="max-width: 40%; font-size: 0.85em;">
-<p><a href="https://positron.posit.co/assistant-chat.html" target="_blank">Positron Assistant</a> or similar chats in other editors</p>
+<p><a href="https://positron.posit.co/assistant-chat.html" target="_blank">Positron Assistant</a></p>
 <ul>
-<li><strong>Ask</strong> an LLM (Claude 4.5) through Github Copilot</li>
-<li>Provides explanations, suggestions, and code snippets.</li>
-<li>Integrates with project context, and code.</li>
-<li>Learn more: <a href="https://positron.posit.co/assistant-chat.html" target="_blank">Positron Assistant Chat</a></li>
+<li><p><strong>Ask</strong> AI (Claude 4.5) through <strong>Github Copilot</strong></p></li>
+<li><p>Provides explanations, suggestions, and code snippets.</p></li>
+<li><p>Integrates with project context, and code.</p></li>
+<li><p>Learn more:</p>
+<p><a href="https://positron.posit.co/assistant-chat.html" target="_blank">Assistant Chat</a></p></li>
 </ul>
 </div>
 <div class="r-stacked">
@@ -267,9 +272,9 @@
 <li>Runs code</li>
 <li>Fixes errors</li>
 <li>Learns</li>
-<li>Resons</li>
+<li>Reasons</li>
 </ul></li>
-<li><p>See live demo for more!</p></li>
+<li><p>See more in the live demo!</p></li>
 </ul>
 </div>
 <div class="r-stacked">
@@ -349,14 +354,20 @@
 </section>
 <section id="efficient-prompting" class="slide level2">
 <h2>✍️ <span style="color:#2e7d32;">Efficient Prompting</span></h2>
-<div style="font-size: 0.6em;">
+<div style="font-size: 0.60em;">
 <ul>
-<li class="fragment"><p><span style="color:#1b5e20;">🎯 <strong>Be specific</strong></span>: “Write a Stata do-file to …” / “Refactor this R function to …”</p></li>
-<li class="fragment"><p><span style="color:#1b5e20;">🧩 <strong>Provide context</strong></span>: “Goal: X; Dataset: Y variables; Constraints: Z (WB rules, packages, runtime)”</p></li>
-<li class="fragment"><p><span style="color:#1b5e20;">📌 <strong>Define expected output</strong></span>: “Save as regression_results.xlsx, format as APA table” / “Create bar chart with 95% CIs”</p></li>
-<li class="fragment"><p><span style="color:#1b5e20;">🔁 <strong>Summarize + clarify first</strong></span>: “Restate and ask clarifying questions before implementing”, “Explain why …”, “Give alternatives with trade-offs…”</p></li>
-<li class="fragment"><p><span style="color:#1b5e20;">🪜 <strong>Iterate in small steps</strong></span>: minimal changes, then refine</p></li>
-<li class="fragment"><p><span style="color:#1b5e20;">🛑 <strong>Set boundaries</strong></span>: “Don’t use … data”, “Don’t print secrets, ask if in doubt.”, “Don’t change files”.</p></li>
+<li class="fragment"><p><span style="color:#1b5e20;">🎯 <strong>Be specific</strong></span>:</p>
+<p>“Write a Stata do-file to …” / “Refactor this R function to …”</p></li>
+<li class="fragment"><p><span style="color:#1b5e20;">🧩 <strong>Provide context</strong></span>:</p>
+<p>“Goal: X; Dataset: Y variables; Constraints: Z (WB rules, packages, runtime)”</p></li>
+<li class="fragment"><p><span style="color:#1b5e20;">📌 <strong>Define expected output</strong></span>:</p>
+<p>“Save as regression_results.xlsx, format as APA table” / “Create bar chart with 95% CIs”</p></li>
+<li class="fragment"><p><span style="color:#1b5e20;">🔁 <strong>Summarize + clarify first</strong></span>:</p>
+<p>“Restate and ask clarifying questions before implementing”, “Explain why …”, “Give alternatives with trade-offs…”</p></li>
+<li class="fragment"><p><span style="color:#1b5e20;">🪜 <strong>Iterate in small steps</strong></span>:</p>
+<p>“minimal changes”, “refine”</p></li>
+<li class="fragment"><p><span style="color:#1b5e20;">🛑 <strong>Set boundaries</strong></span>:</p>
+<p>“Don’t use … data”, “Don’t print secrets, ask if in doubt.”, “Don’t change files”.</p></li>
 </ul>
 </div>
 <div class="footer">
@@ -375,7 +386,7 @@
 <li class="fragment"><p><span style="color:#b00020;">⚠︎ <strong>Over-reliance</strong></span>: erodes fundamentals; mistakes slip through unchallenged</p>
 <p><span style="color:#1b5e20;">✓ <strong>Keep learning</strong></span>: ask for step-by-step reasoning; request alternatives and trade-offs</p></li>
 <li class="fragment"><p><span style="color:#b00020;">⚠︎ <strong>Confidentiality / security / privacy</strong></span></p>
-<p><span style="color:#1b5e20;">✓ <strong>Constrain context</strong></span>: exclude sensitive data; use <code>.copilot-ignore</code>; Follow <a href="https://ai.worldbank.org/responsible-use">WB AI guidelines</a></p></li>
+<p><span style="color:#1b5e20;">✓ <strong>Constrain context</strong></span>: exclude sensitive data; use <code>.copilot-ignore</code>; <a href="https://ai.worldbank.org/responsible-use">AI @ WB</a></p></li>
 <li class="fragment"><p><span style="color:#b00020;">⚠︎ <strong>Reproducibility</strong></span>: answers can vary across sessions/models/settings</p>
 <p><span style="color:#1b5e20;">✓ <strong>Cutomize agents</strong></span>: save prompts, use Git; create AI agents</p></li>
 </ul>
@@ -420,7 +431,7 @@
 <li><p>See more slides with <a href="#/additional-materials">additional materials</a> below.</p></li>
 </ul>
 </div>
-<iframe src="setup-instructions.html" class="absolute" style="right: 0; top: 0; width: 45%; height: 100%; border: 1px solid #ccc; zoom: 0.5;">
+<iframe src="setup-instructions.html" class="absolute" style="right: 0; top: 0; width: 50%; height: 100%; border: 1px solid #ccc; zoom: 0.4;">
 </iframe>
 </section></section>
 <section>
@@ -513,7 +524,7 @@
 </ul></li>
 </ol>
 </section>
-<section id="positron-ide-self-learning" class="slide level2 smalled">
+<section id="positron-ide-self-learning" class="slide level2 smaller">
 <h2>Positron IDE: Self-learning</h2>
 <div class="columns">
 <div class="column" style="width:35%;">
