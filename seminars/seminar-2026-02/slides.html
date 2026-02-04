@@ -291,6 +291,7 @@
 <li>🎯 Project-specific suggestions</li>
 <li>🔗 Understands dependencies</li>
 <li>🛡️ Reduces hallucinations</li>
+<li>⏱️ Improves efficiency</li>
 </ul>
 </div></div>
 <div class="footer">
@@ -300,9 +301,12 @@
 <section id="model-context-protocol-mcp" class="slide level2 smaller">
 <h2>🔌 <span style="color:#00695c;">Model Context Protocol (MCP)</span></h2>
 <p>“MCP is a universal adapter for AI”—<a href="https://www.anthropic.com/news/model-context-protocol" target="_blank">Anthropic’s invention</a></p>
-<p>MCP are essential to connect <a href="https://github.com/modelcontextprotocol/servers" target="_blank">everything</a>: <a href="https://github.com/sepinetam/stata-mcp" target="_blank">Stata-MCP</a> or <a href="https://tidyverse.org/blog/2025/07/mcptools-0-1-0/" target="_blank">R MCP</a> for Stata/R -&gt; Positron -&gt; Copilot -&gt; LLMs,</p>
-
-<img data-src="images/mcp-simple-diagram.avif" class="r-stretch"><div class="footer">
+<p>MCP are essential to connect <a href="https://github.com/modelcontextprotocol/servers" target="_blank">data flows</a>:</p>
+<ul>
+<li><img data-src="images/stata-mcp-icon.png" width="25"> <a href="https://github.com/sepinetam/stata-mcp" target="_blank">Stata-MCP</a> or <a href="https://tidyverse.org/blog/2025/07/mcptools-0-1-0/" target="_blank">R MCP</a> for Stata/R -&gt; Positron -&gt; Copilot -&gt; LLMs,</li>
+</ul>
+<p><img data-src="images/mcp-simple-diagram.avif"></p>
+<div class="footer">
 <p><strong>Read more:</strong> <a href="https://modelcontextprotocol.io/docs/getting-started/intro" target="_blank">modelcontextprotocol.io</a></p>
 </div>
 </section>
@@ -390,42 +394,65 @@
 <li>Advanced AI features for data analysis,</li>
 </ul>
 </div>
-</section></section>
-<section>
-<section id="where-to-start" class="title-slide slide level1 center">
-<h1>Where to Start?</h1>
+</section>
+<section id="where-to-start" class="slide level2">
+<h2>Where to Start?</h2>
+<div style="max-width: 50%; font-size: 0.6em;">
 <ul>
 <li><p>Setup the software: follow <a href="../../seminars/seminar-2026-02/setup-instructions.html">instructions</a></p></li>
-<li><p>Step out of your comfort zone.</p></li>
-<li><p>Experiment and learn by doing.</p></li>
-<li><p>Ask AI to explain how to use the software.</p></li>
-<li><p>Learn new technologies: <a href="https://positron.posit.co/git.html">Git</a>, GitHub, R, Python—they are there for a good reason!</p></li>
+<li><p>Reproduce these demos:</p>
+<ul>
+<li><p><a href="#/stata-demo">Live demo in Positron with Stata</a></p></li>
+<li><p><a href="https://github.com/posit-dev/posit-conf-2025-positron-assistant-demo">Posit Conf 2025 Postron assistant Demo in R and Python</a></p></li>
+</ul></li>
+<li><p>Ask AI’s help to learn. Type in <a href="https://m365.cloud.microsoft/chat">MS Copilot</a></p>
+<ul>
+<li>“Explain how to use this software: https://git-scm.com/.”</li>
+<li>“Why do I need it. How could it improve my workflow?”</li>
+</ul></li>
+<li><p>Step out of your comfort zone:</p>
+<ul>
+<li>learn and experiment with new technologies: <a href="https://positron.posit.co/git.html">Git</a>, <a href="https://learn.github.com/">GitHub</a>, <a href="https://r4ds.had.co.nz/">R</a>, <a href="https://www.python.org/about/gettingstarted/">Python</a>—they are there for a good reason!</li>
+</ul></li>
+<li><p>See more slides with <a href="#/additional-materials">additional materials</a> below.</p></li>
 </ul>
-</section>
-<section class="slide level2">
-
+</div>
+<iframe src="setup-instructions.html" class="absolute" style="right: 0; top: 0; width: 45%; height: 100%; border: 1px solid #ccc; zoom: 0.5;">
+</iframe>
 </section></section>
 <section>
-<section id="live-demo" class="title-slide slide level1 title center">
+<section id="stata-demo" class="title-slide slide level1 title center">
 <h1>Live Demo</h1>
-<ul>
-<li><p>From an old analysis in Stata to an upgraded Stata+R reproducibility package in under 10 minutes!</p></li>
-<li><p>Source code to replicate the demo <a href="#/">TODO ADD LINK</a></p></li>
-</ul>
+<p><strong>From an old analysis in Stata to an upgraded Stata+R reproddatesucibility package in under 10 minutes!</strong></p>
+<p>Download the demo project from here: <a href="https://github.com/WBGGeoPov/seminar-coding-with-ai-demo">github.com/WBGGeoPov/seminar-coding-with-ai-demo</a></p>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>💡 <strong>Ask AI for help</strong>: “How do I download a project from GitHub and open it in Positron IDE?”</p>
+</div>
+</div>
+</div>
 </section>
-<section id="live-demo-using-positron-ide" class="slide level2">
-<h2>Live Demo using Positron IDE</h2>
+<section id="live-demo-positron-ide-overview" class="slide level2">
+<h2>Live Demo: Positron IDE overview</h2>
 
 <img data-src="images/user-interface-for-rstudio-migration.jpeg" class="r-stretch"></section>
 <section id="questions" class="slide level2">
 <h2>Questions?</h2>
 <ul>
-<li>What would you need us to show you next?</li>
+<li>What would you like us to show you next?</li>
 </ul>
 </section>
 <section id="thank-you" class="slide level2 title">
 <h2>Thank You!</h2>
 <p><a href="../../index.html">→ Visit our website for updates</a></p>
+<p><a href="https://wbggeopov.github.io/geoPovLearn/" class="uri">https://wbggeopov.github.io/geoPovLearn/</a></p>
 <p><strong>Contact</strong>:</p>
 <ul>
 <li>Eduard Bukin: <a href="mailto:ebukin@worldbank.org">ebukin@worldbank.org</a></li>
@@ -462,11 +489,7 @@
 <ul>
 <li><strong>Stata MCP</strong>, <strong>Quarto</strong></li>
 </ul></li>
-<li><strong>Connect GitHub</strong>: Sign in to GitHub account
-<ul>
-<li>Enable Positron Assistant in settings</li>
-<li>Configure LLM provider (GitHub Copilot/Claude/GPT)</li>
-</ul></li>
+<li><strong>Connect GitHub</strong> and configure <a href="https://positron.posit.co/assistant.html">Positron Assistant</a></li>
 <li><strong>Start experimenting!</strong>
 <ul>
 <li>Open assistant: <code>Ctrl+Shift+P</code> &gt; “Ask Positron Assistant”</li>
@@ -504,18 +527,16 @@
 <h2>Positron: Data explorer</h2>
 <video id="video_shortcode_videojs_video3" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://positron.posit.co/videos/data-explorer.mp4"></video>
 </section>
-<section id="positron-running-stata-setup" class="slide level2 scrollable">
-<h2>Positron: Running Stata: Setup</h2>
+<section id="positron-stata" class="slide level2 scrollable">
+<h2>Positron + Stata</h2>
+<div width="100%">
 <ol type="1">
-<li class="fragment">Install Python</li>
-<li class="fragment">Install uv extension in Python: <code>pip install uv</code></li>
-<li class="fragment">Install Stata MCP extension in Positron</li>
-<li class="fragment">Configure Stata path in Positron settings</li>
+<li><p>Make sure <a href="../../seminars/seminar-2026-02/setup-instructions.html#prereq-software">prerequisite software is installed</a> (Stata, R, Positron)</p></li>
+<li><p><a href="../../seminars/seminar-2026-02/setup-instructions.html#python-uv">Install Python</a> after that the <code>uv</code> package: <code>pip install uv</code></p></li>
+<li><p><a href="../../seminars/seminar-2026-02/setup-instructions.html#stata-mcp-extension">Install Stata MCP</a> in Positron and configure Stata path and Edition</p></li>
+<li><p>Create a new Stata do-file, write some code, save it and press run it.</p></li>
 </ol>
-</section>
-<section id="positron-running-stata-execution" class="slide level2">
-<h2>Positron: Running Stata: Execution</h2>
-<p>TODO: Add a video showing Stata integration in Positron</p>
+</div>
 
 
 </section></section>
