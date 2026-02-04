@@ -366,7 +366,7 @@ Sources: [Anthropic Claude Sonnet 4.5](https://www.anthropic.com/news/claude-son
 
 **Resources & Source Code**
 
--   [→ Visit our website for updates](../../index.qmd) \| <wbggeopov.github.io/geoPovLearn/>
+-   [→ Visit our website for updates](../../index.qmd) \| [wbggeopov.github.io/geoPovLearn/](https://wbggeopov.github.io/geoPovLearn/)
 -   📖 [Presentation Source Code](https://github.com/WBGGeoPov/geoPovLearn/blob/main/seminars/seminar-2026-02/slides.qmd){target="_blank"}
 -   📚 [Setup Instructions](setup-instructions.qmd)
 -   🎥 [Stata Demo](https://github.com/WBGGeoPov/seminar-coding-with-ai-demo) \| [Recording](TODO)
