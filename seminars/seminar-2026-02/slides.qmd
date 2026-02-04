@@ -351,19 +351,17 @@ Sources: [Anthropic Claude Sonnet 4.5](https://www.anthropic.com/news/claude-son
 
 - From an old analysis in Stata to an upgraded Stata+R reproducibility package in under 10 minutes!
 
+- Source code to replicate the demo [TODO ADD LINK](#)
+
 ------------------------------------------------------------------------
 
 ## Live Demo using Positron IDE
 
 ![](images/user-interface-for-rstudio-migration.jpeg)
 
-## Source code to replicate the demo
-
-TODO: Add link to GitHub repo with demo code
-
 ## Questions?
 
-- What would you like us to show you next time?
+- What would you need us to show you next?
 
 ------------------------------------------------------------------------
 
