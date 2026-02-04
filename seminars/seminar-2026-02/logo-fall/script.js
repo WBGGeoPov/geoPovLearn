@@ -56,6 +56,11 @@
             src: "Gemini.png",
             width: 320,
             height: 320
+          },
+          {
+            src: "mcp-logo.svg",
+            width: 320,
+            height: 320
           }
         ],
         polygon: {

@@ -2,15 +2,16 @@
 title: Revolutionize Your Analysis in Stata and R
 subtitle: "AI Agent-Assisted Workflow with GitHub Copilot and Claude"
 author: |
-  **Eduard Bukin**
-  [ebukin@worldbank.org](mailto:ebukin@worldbank.org)
+  <p>**Eduard Bukin** [ebukin@worldbank.org](mailto:ebukin@worldbank.org)
+  <br/>Distributional Impact of Policies,
+  <br/>Fiscal Policy and Growth Department<p/>
 date: "February 5, 2026"
 format:
   revealjs:
-    width: 1600
-    height: 1200
+    background-transition: zoom
+    # width: 1600
+    # height: 1200
     preload-iframes: true
-
     theme: white
     smaller: false
     scrollable: true
@@ -18,118 +19,56 @@ format:
     slide-number: true
     preview-links: auto
     logo: images/geopov-logo.png
-    footer: "GeoPov BBL Series | Eduard Bukin | February 2026"
+    footer: "WKPEP Seminar Series | Eduard Bukin | February 2026"
     css: custom.css
+    scss: custom.scss
+    template-partials:
+      - title-slide.html
     resources:
       - grid-worms/**
       - boids/**
+      - logo-fall/**
 ---
 
-## {background-iframe="grid-worms/index.html" .center}
 
-:::::: {.semi-transparent-bg}
+# Motivation
 
-::::: {.columns .v-center-container}
+::: {style="max-width: 55%; font-size: 0.8em;"}
 
-::: {.column width="25%"}
+**Chat and Web-Based AI tools** are impressive!
 
-![](images/prosp-logo.webp){width="100%"}
-![](images/geopov-logo.png){width="100%"}
-![](images/mml-logo.png){width="100%"}
-
-:::
-
-::: {.column width="75%"}
-
-### Revolutionize Your Analysis in Stata and R
-
-**AI Agent-Assisted Workflow with GitHub Copilot and Claude**
-
-Speaker:
-
-- **Eduard Bukin** [ebukin\@worldbank.org](mailto:ebukin@worldbank.org)
-- Distributional Impact of Policies,
-- Fiscal Policy and Growth Department
-
-:::
-
-:::::
-
-::::::
-
-# Inroduction {.smaller background-iframe="boids/index.html"}
-
-:::::: {.semi-transparent-bg}
-
-::: {.callout-note icon=false}
-### Key AI-Concepts relevant to data analysis:
-
--   AI: Chat vs Agent vs Inline Code
--   Context awareness
--   MCP: Model communication protocol
--   IDE: Integrated Development Environment
--   Universe of LLMs: GitHub Copilot, Anthropic Claude, OpenAI GTP, and others
-:::
-
-::: {.callout-tip icon=false}
-### How to start using AI in coding?
-
--   Software Setup: Positron, R, Python, Stata MCP, GitHub Copilot/Claude
--   Tips and Best Practices
-:::
-
-::: {.callout-important icon=false}
-### Live Example:
-
--   From an old code to a reproduciblity package with AI assistance
-
-:::
-
-::::::
-
----
-
-## Motivation: "old worklfow"  {background-iframe="boids/index.html"}
-
-AI tools that we got used to over past years are impressive!
-
-:::::: columns
-
-::: {.column width="60%"}
+> [ChatGPT](https://chatgpt.com/) | [Copilot](https://copilot.microsoft.com/) | [Gemini](https://search.google/ai-in-search/) | [WB MAI](https://ai.worldbank.org/chat/mai)
 
 ::: fragment
-**Traditional Chat-Based Web-Tools:**
+Use familiar technologies: Web-Browser, Chat, Stata editor, [**copy-paste**]{style="background-color: yellow;"} ...
+:::
 
--   [Open AI ChatGPT](https://chatgpt.com/)
--   [Microsoft Copilot](https://copilot.microsoft.com/)
--   [Google AI in search](https://search.google/ai-in-search/)
--   [WB MAI](https://ai.worldbank.org/chat/mai)
+::: fragment
 
-**Pros:** Use familiar technologies: Web-Browser, Chat, Stata editor, **copy-paste** ...
+**However: Is this the best way to use AI for data analysis?**
+
+:::
+
+::: fragment
+> Why are there so many AI-powered **Integrated Development Environments (IDEs)** for coding and data science?
+:::
 
 :::
 
 ::: fragment
 
-**Cons:**
+![](images/positron-small.gif){.absolute .stacked-gif top=0 right=0 width="380"}
 
--   Not integrated with analysis
--   Not aware of the context
--   Generic, not project-specific
-:::
+![](images/vscode-small.gif){.absolute .stacked-gif top=150 right=60 width="380"}
 
-:::
+![](images/cursor-small.gif){.absolute .stacked-gif top=300 right=0 width="380"}
 
-::: {.column width="40%"}
-
-TODO: gif showing ChatGPT in browser vs Positron with Agent
+![](images/claude-small.gif){.absolute .stacked-gif top=450 right=60 width="380"}
 
 :::
-
-::::::
 
 ::: notes
--   Integrated Development Environment (IDE) - [Positron](https://positron.posit.co/){target="_blank"}
+-   Integrated Development Environment (IDE) -
 
 -   [GitHub Copilot](https://github.com/features/copilot){target="_blank"} that used Anthropic [Claude Sonnet 4.5 LLM](https://claude.com/) to provide:
 
@@ -138,31 +77,27 @@ TODO: gif showing ChatGPT in browser vs Positron with Agent
     -   [Agent: active changes to my code and code execution](https://positron.posit.co/assistant-chat-agents.html){target="_blank"}
 :::
 
-## Motivation: "Modern worklfow"
-
-::::: columns
-
-::: {.column width="60%"}
-
-{{< video https://positron.posit.co/videos/positron-assistant-copytoeditor.mp4 width="100%" >}}
-
+::: footer
+**Sources:** [Positron](https://positron.posit.co/) | [VS Code](https://code.visualstudio.com/) | [Cursor](https://www.cursor.com/) | [Claude Code](https://claude.ai/download)
 :::
 
-::: {.column width="40%"}
+# Agenda {background-iframe="logo-fall/index.html"}
 
-- **AI-Agent**: AI acts autonomously
-- **Context aware**: AI understands files, data, and code
-- **IDE**: AI is **integrated** into the **development environment**
-- **Privacy**: AI **does NOT have access to data**: all code is ran locally
+::: {.semi-transparent-bg}
 
-:::
-
-:::::
+> The goal of this seminar is to introduce you to AI-assisted data analysis workflow with [**Positron IDE**]{style="color: blue;"} and [**GitHub Copilot/Anthropic Claude**](style="color: darkpurple;").
 
 ::: fragment
-### How does this different from a familiar AI-chat?
+::: {style="font-size: 0.8em;"}
+In the next 30 minutes I will:
 
-- Efficeint and intuitive workflow
+-   Introduce several AI-Concepts (vocabulary)
+-   Show AI-assisted workflow in Positron IDE with Stata and R
+-   Provide kick-off instructions and resources.
+
+:::
+:::
+
 :::
 
 
@@ -170,329 +105,244 @@ TODO: gif showing ChatGPT in browser vs Positron with Agent
 
 **What do we need to know about modern analysis with AI?**
 
-1.  AI: Chat \| Agent \| Inline Completion
+1.  AI Integration: Chat \| Agent \| Inline Chat and Completion
 2.  Context awareness
 3.  Model Context Protocol (MCP)
-4.  Integrated Development Environments (IDEs)
-5.  LLMs for coding: GitHub Copilot, OpenAI GTP, Anthropic Claude, and others
-6.  Efficient prompting
+4.  GitHub Copilot \| Anthropic Claude and other LLMs
+5.  Efficient prompting
+6.  Caveats and limitations
 
 ------------------------------------------------------------------------
 
-## AI: Chat \| Agent \| Inline Code
+## AI Integration: Chat | Agent | Inline
 
-::::::::: columns
-:::: {.column .fragment width="30%"}
-**AI-Chat**
+{{< video https://positron.posit.co/videos/positron-assistant-copytoeditor.mp4 >}}
 
--   General assistance
--   Limited context: only what you tell it
--   Code snippets
--   Explanations of code/output
-
-::: callout-tip
-Use to **Ask** the model to think and reason.
+:::footer
+Source: [Positron: AI Features](https://positron.posit.co/features.html){target="_blank"}
 :::
-::::
 
-:::: {.column .fragment width="40%"}
-**AI-Agent**
+## AI: Chat
 
--   Execute Mode
--   Context awareness
--   Integrated with development
--   Writes and runs after user's approval
--   End‑to‑end tasks (clean → estimate → table → robustness)
+::: {style="max-width: 40%; font-size: 0.85em;"}
 
-::: callout-tip
-Use **Agent** mode to execute explicit instructions.
+[Positron Assistant](https://positron.posit.co/assistant-chat.html){target="_blank"} or similar chats in others editors
+
+- **Ask** an LLM (Claude 4.5) through Github Copilot
+- Provides explanations, suggestions, and code snippets.
+- Integrates with project context, and code.
+- Read more: [Positron Assistant Chat](https://positron.posit.co/assistant-chat.html){target="_blank"}
+
 :::
-::::
 
-:::: {.column .fragment width="30%"}
-**Inline Code Completion**
+::: r-stacked
 
--   Real-time code suggestions while you type
+![](images/positron-assistant.png){.absolute .stacked-gif top=0 right=200 width="300"}
+![](images/positron-assistant-ask-small.gif){.fragment .absolute .stacked-gif top=50 right=0 width="600"}
 
-::: callout-tip
-Use for quick code snippets.
 :::
-::::
-:::::::::
 
-------------------------------------------------------------------------
+
+## AI: Agent
+
+::: {style="max-width: 30%; font-size: 0.8em;"}
+
+[Positron Assistant](https://positron.posit.co/assistant-chat.html){target="_blank"}
+
+- Runs explicit instructions for you.
+- Acts independently (if permitted).
+
+:::
+
+::: r-stacked
+
+![](images/positron-agent.png){.absolute .stacked-gif top=0 right=250 width="300"}
+![](images/positron-agent-small.gif){.fragment .absolute .stacked-gif top=50 right=0 width="700"}
+
+:::
+
+## AI: Inline Completion
+
+[Positron Inline Code Completion](https://positron.posit.co/assistant-completions.html){target="_blank"}: Suggests code snippets as you type.
+
+![](images/positron-inline-small.gif){.fragment .absolute .stacked-gif top=180 right=150 width="650"}
 
 ## Context Awareness
 
 ::::: columns
-::: {.column width="60%"}
-**What AI "knows":**
 
--   **Files**: Code, docs, structure
--   **Data structure**: Variable names, types
+::: {.column width="60%"}
+
+Positron accesses metadata about the project. Thus **AI 'knows':**
+
+-   **Files str.**: Code, docs
+-   **Data**: Var. names, types
 -   **History**: Edits, commands
--   **Environment**: Packages, dependencies
+-   **Environment**: Packages
 -   **Intent**: Current task
--   **Execution results**: Output, errors
+-   **Results**: Output, errors
+
 :::
 
 ::: {.column width="40%"}
-**Why it matters:**
+**Why does it matter?**
 
 -   Project-specific suggestions
 -   Understands dependencies
 -   Reduces hallucinations
+
 :::
+
 :::::
 
 ::: footer
-**See:** [Positron: AI Context](https://positron.posit.co/assistant-chat-context.html){target="_blank"}, or [GHCopilot](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot#understanding-copilot-context){target="_blank"}, and [Claude](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"}
+**Read more:** [Positron: AI Context](https://positron.posit.co/assistant-chat-context.html){target="_blank"} | [GH Copilot](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot#understanding-copilot-context){target="_blank"} | [Claude](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"}
 :::
 
-## Model Context Protocol (MCP)
+## Model Context Protocol (MCP) {.smaller}
 
-:::::: columns
-::: {.column width="15%"}
-![](images/mcp-logo.png){width="100"}
+"MCP is a universal adapter for AI"—[Anthropic's invention](https://www.anthropic.com/news/model-context-protocol){target="_blank"}
+
+MCP are essential to conect [everything](https://github.com/modelcontextprotocol/servers){target="_blank"}: [Stata-MCP](https://github.com/sepinetam/stata-mcp){target="_blank"} or [R MCP](https://tidyverse.org/blog/2025/07/mcptools-0-1-0/){target="_blank"} for Stata/R -> Poitron -> Copilot -> LLMs,
+
+![](images/mcp-simple-diagram.avif)
+
+:::footer
+**Read more:** [modelcontextprotocol.io](https://modelcontextprotocol.io/docs/getting-started/intro){target="_blank"}
 :::
 
-:::: {.column width="85%"}
-::: {.callout-note appearance="simple"}
-"A universal adapter for AI: one standard protocol replacing fragmented data integrations, connecting assistants to any system where information lives."— [Anthropic's invention](https://www.anthropic.com/news/model-context-protocol){target="_blank"}
-:::
-::::
-::::::
+## GitHub Copilot \| Anthropic Claude {.smaller}
+
+::::: columns
+
+::: {.column width="40%"}
+
+**GitHub Copilot**
+
+- WB-approved
+- Accessed through [github.com/worldbank](https://github.com/worldbank){target="_blank"}
+- Uses other LLMs **OpenAI GPT**, **Anthropic Claude**
+- Integrates with Positron and other IDEs.
 
 ::: fragment
-There is a [growing ecosystem of MCPs](https://github.com/modelcontextprotocol/servers){target="_blank"} .
+
+Users are free to choose an optimal LLM:
+
+- Claude Sonnet/Haiku/Opus;
+- Open AI GPT...
+
 :::
 
-::::: columns
-::: {.column .fragment width="75%"}
-**MCP are essential to connect LLMs with:**
-
--   Execution environments: **Stata**, R, Python
--   Editors: Positron, VS Code, RStudio, JupyterLab
--   Data sources: databases, APIs, files
--   Tools: version control (GitHub), visualization, reporting
 :::
 
-::: {.column .fragment width="25%"}
-Relevant are:
+::: {.column width="60%"}
 
--   [Stata-MCP extension](https://github.com/sepinetam/stata-mcp){target="_blank"}
--   [R MCP Tools](https://tidyverse.org/blog/2025/07/mcptools-0-1-0/){target="_blank"}
+::: fragment
+
+![](images/claude-preformace.webp){.stacked-gif}
+
 :::
+
+:::
+
 :::::
 
-## Integrated Development Environments (IDEs)
-
-**Your all-in-one workspace for data analysis:**
-
-::::: columns
-::: {.column width="50%"}
--   **Positron** (Posit) - Modern AI-native IDE for data science and any programming language
--   **RStudio** - R-focused environment
--   **JupyterLab** - Notebook-based interface
--   **VS Code** - General-purpose with extensions
--   **Claude Code** - Anthropic's AI coding IDE
+::: footer
+Sources: [Althropic Claude Sonnet 4.5](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"}
 :::
 
-::: {.column width="50%"}
-**What IDEs provide:**
+## Efficient Prompting
 
--   **Code editor** with syntax highlighting
--   **Console/terminal** for interactive execution
--   **File browser** and project management
--   **Variable/data viewer** to inspect objects
--   **Plot viewer** for visualizations
--   **Integrated AI assistants** (Chat, Agent, Completions)
+::: incremental
+::: {style="font-size: 0.6em;"}
+- [🎯 **Be specific about the task**]{style="color:#1b5e20;"}: "Write a Stata do-file to …" / "Refactor this R function to …"
+
+- [🧩 **Provide context**]{style="color:#1b5e20;"}: goal, dataset description, key variables, constraints (WB rules, packages, runtime)
+
+- [📌 **Define the expected output**]{style="color:#1b5e20;"}: table/figure format, file to modify, function signature, acceptance criteria
+
+- [🔁 **Ask AI to summarize + clarify first**]{style="color:#1b5e20;"}: "Restate the task in your own words and ask any clarifying questions before implementing."
+
+- [🔍 **Ask for assumptions + checks**]{style="color:#1b5e20;"}: "List assumptions; add validation/tests; include edge cases"
+
+- [🪜 **Iterate in small steps**]{style="color:#1b5e20;"}: request a minimal working change, then refine (don’t "rewrite everything")
+
+- [🧠 **Force transparency**]{style="color:#1b5e20;"}: "Explain *why* this approach; give 1–2 alternatives with trade-offs"
+
+- [🧾 **Make it reproducible**]{style="color:#1b5e20;"}: "Use set seed; pin versions; avoid randomness; write comments; ask LLM to write comments"
+
+- [🛑 **Set boundaries**]{style="color:#1b5e20;"}: "Don’t use external data; don’t print secrets; don’t change unrelated files"
 :::
-:::::
-
-## LLMs for Coding
-
-**Large Language Models power AI assistants through coding agents:**
-
-::::: columns
-::: {.column width="35%"}
-**GitHub Copilot** uses: OpenAI GPT, Anthropic Claude, and others.
-
-**Chrome/Web-browser extensions** also provide access to LLMs.
-
-**Claude Code** IDE uses **Anthropic Claude** only models.
-:::
-
-::: {.column width="65%"}
-![](images/claude-preformace.webp)
-:::
-:::::
-
-## Question 2. How do you use AI tools in your daily work?
-
-List top 3 use cases for the AI tools you use.
-
--   Spell checking, grammar, and writing assistance
-
--   Read and summarise text and documents
-
--   Understand code and text
-
--   Dumping data into LLM and asking for insights
-
--   Other
-
-## Software Development vs Data Analysis: Different AI Roles
-
-::::: columns
-::: {.column width="50%"}
-**Software Development**
-
--   **Goal:** Build functional systems
--   **Success metric:** Binary (works/breaks)
--   **Central question:** "Does it execute correctly?"
--   **AI's strength:**
-    -   Generate boilerplate code
-    -   Suggest syntax and patterns
-    -   Automate testing
-    -   Refactor code structure
--   **Primary risk:** Bugs, crashes, security flaws
--   **Verification:** Unit tests, integration tests
--   **Trust level:** High for implementation
 :::
 
-::: {.column width="50%"}
-**Data Analysis**
-
--   **Goal:** Generate valid insights
--   **Success metric:**
--   **Central question:** "Are these conclusions sound?"
--   **AI's strength:**
-    -   Write data manipulation code
-    -   Create visualizations
-    -   Suggest statistical methods
-    -   Automate repetitive tasks
--   **Primary risk:** Correct code producing invalid conclusions
--   **Verification:** Domain expertise, theoretical validity
--   **Trust level:** Low for interpretation
-:::
-:::::
-
-::: callout-warning
-**Key insight:** In analysis, syntactically correct code ≠ methodologically sound results.
-AI can produce perfect code that violates logic and common sense, or draws invalid inferences.
+::: footer
+**Tip:** Treat the assistant as a *collaborator*.
 :::
 
-::: callout-note
-**Bottom line:** AI excels at the *mechanics* of analysis (data cleaning, computation, visualization).
-Researchers must retain ownership of *scientific judgment*: choosing appropriate methods, validating assumptions, and interpreting substantive meaning.
+## [Limitations]{style="color:#b00020;"} and [Remedies]{style="color:#1b5e20;"} {.smaller}
+
+::: incremental
+- [⚠︎ **Wrong-but-plausible outputs / hallucinations**]{style="color:#b00020;"}: code runs but logic is wrong
+
+  [✓ **Verify and validate**]{style="color:#1b5e20;"}: ask the model to **explain and justify** the solution
+
+- [⚠︎ **Context limits**]{style="color:#b00020;"}: not all files/data are in context; too large projects.
+
+  [✓ **Be explicit**]{style="color:#1b5e20;"}: state assumptions, expected inputs/outputs, and references
+
+- [⚠︎ **Outdated knowledge**]{style="color:#b00020;"}: suggested APIs/packages/options may have changed
+
+  [✓ **Teach the model**]{style="color:#1b5e20;"}: provide references/links; ask it to learn
+
+- [⚠︎ **Over-reliance**]{style="color:#b00020;"}: erodes fundamentals; mistakes slip through unchallenged
+
+  [✓ **Keep learning**]{style="color:#1b5e20;"}: ask for step-by-step reasoning; request alternatives and trade-offs
+
+- [⚠︎ **Confidentiality / security / privacy**]{style="color:#b00020;"}
+
+  [✓ **Constrain context**]{style="color:#1b5e20;"}: exclude sensitive data; use `.copilot-ignore`
+
+- [⚠︎ **Reproducibility**]{style="color:#b00020;"}: answers can vary across sessions/models/settings
+
+  [✓ **Make it reproducible**]{style="color:#1b5e20;"}: save prompts, use Git; create AI agents
+
 :::
 
-## Integrated workflow {.diagram}
+::: footer
+**Read more:** [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/){target="_blank"}
+:::
 
-**Your all-in-one workspace for data analysis:**
+## Summary
 
-```{mermaid}
-%%| fig-width: 14
-%%| fig-height: 8
-%%| fig-cap: "AI-Assisted Analysis Workflow"
-graph LR
-    subgraph IDE["🖥️ Local IDE Environment"]
-        direction TB
+::: fragment
+[**Why AI in IDEs, not a web-browsers-based workflow?**]{style="color: blue;"}
 
-        subgraph Editors["📝 Code Editors"]
-            direction LR
-            P["<b>Positron</b><br/><i>Posit</i>"]
-            R["<b>RStudio</b><br/><i>Posit</i>"]
-            V["<b>VS Code</b><br/><i>Microsoft</i>"]
-            C["<b>Claude Code</b><br/><i>Anthropic</i>"]
-            J["<b>JupyterLab</b><br/><i>Project Jupyter</i>"]
-            CS["<b>Cursor</b><br/><i>Anysphere</i>"]
-        end
+- Context-awareness
+- Streamlined workflow
+- Reduced friction
 
+:::
 
-        AI["🤖 <b>AI Integration</b><br/>• Chat<br/>• Agent<br/>• Inline Code"]
-        MCP["🔌<b>Model Context Protocol</b><br/>• Stata MCP<br/>• R/Python MCP"]
-        Exec["⚙️ <b>Execution</b><br/>• Stata<br/>• R<br/>• Python"]
+::: fragment
+[**Why Positron?**]{style="color: blue;"}
 
-        Editors <==> AI
-        Editors <==> MCP
-        Editors <==> Exec
-        AI <==> MCP
-        MCP <==> Exec
-    end
+- Built for data science, [not software development]{style="background-color: lightred;"}
+- Integrated Stata, R, Python and more
+- Advanced AI features for data analysis,
 
-    subgraph Cloud["☁️ Cloud Services"]
-        direction LR
-        subgraph AA[" "]
-            subgraph AIProviders["🌐 AI Platforms"]
-                direction LR
-                GHC["<b>GitHub Copilot</b>"]
-                ANT["<b>Anthropic Claude</b>"]
-            end
-            subgraph AIAgents["🌐 AI Agents"]
-                direction LR
-                MAI["<b>WB Mai</b>"]
-                OTH["<b>Other</b>"]
-            end
-        end
+:::
 
-        subgraph LLM["🧠 LLMs"]
-            direction LR
-            GPT["OpenAI<br/>GPT-4"]
-            Claude["Anthropic<br/>Claude"]
-            Google["Google<br/>Gemini"]
+# Where to Start?
 
-        end
-    end
+-  Setup the software: follow [instructions](setup-instructions.qmd)
 
-    MCP <===>|"API Calls"| AIProviders
-    GHC <===>|"Chooses from"| LLM
-    ANT <===> Claude
-    AIAgents <===> LLM
+-  Step out of your comfort zone.
 
-    classDef ideBox fill:#e8f4f8,stroke:#0277bd,stroke-width:3px,color:#000
-    classDef editorBox fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
-    classDef editorItem fill:#ffe0b2,stroke:#e65100,stroke-width:2px,color:#000
-    classDef aiBox fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px,color:#000
-    classDef mcpBox fill:#e8f5e9,stroke:#43a047,stroke-width:2px,color:#000
-    classDef mcpItem fill:#c8e6c9,stroke:#2e7d32,stroke-width:1px,color:#000
-    classDef execBox fill:#fce4ec,stroke:#d81b60,stroke-width:2px,color:#000
-    classDef cloudBox fill:#e1f5fe,stroke:#0288d1,stroke-width:3px,color:#000
-    classDef providerBox fill:#b3e5fc,stroke:#0277bd,stroke-width:2px,color:#000
-    classDef providerItem fill:#81d4fa,stroke:#01579b,stroke-width:2px,color:#000
-    classDef llmBox fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
-    classDef llmItem fill:#fff59d,stroke:#f57f17,stroke-width:1px,color:#000
+-  Experiment and learn by doing.
 
-    class IDE ideBox
-    class Editors editorBox
-    class P,R,V,C,J,CS editorItem
-    class AI aiBox
-    class MCP mcpBox
-    class ST,RP,PY mcpItem
-    class Exec execBox
-    class Cloud cloudBox
-    class AA providerBox
-    class AIProviders providerBox
-    class AIAgents providerBox
-    class GHC,ANT providerItem
-    class MAI,OTH providerItem
-    class LLM llmBox
-    class GPT,Claude,Google llmItem
-```
+-  Ask AI to explain how to use the software.
 
-# How to Start?
-
--  Setup the software
-
--  Challenge your usual workflow
-
--  Experiment with AI assistance
-
--  Learn by doing
-
--  Keep learning new technologies: Git, GitHub, R, Python, etc.
-
+-  Learn new technologies: [Git](https://positron.posit.co/git.html), GitHub, R, Python, they are are there for a good reason!
 
 ## Software Setup Overview
 
@@ -513,12 +363,43 @@ graph LR
     -   Open assistant: `Ctrl+Shift+P` \> "Ask Positron Assistant"
     -   Try: chat, agent mode, inline code completion
 
-## Positron overview
+
+## Positron IDE: Overview
 
 ![](images/user-interface-for-rstudio-migration.jpeg)
 
 
-## Positron Assistant Features
+## Positron IDE: Self-learning {.smalled}
+
+:::::: columns
+
+::: {.column width="35%"}
+
+[Positron](https://positron.posit.co/){target="_blank"}: **Modern AI-native IDE for data science**
+
+- Built by [Posit](https://posit.co/){target="_blank"} (creators of RStudio)
+- Supports Stata, R, Python, and others
+- Watch the [introduction video](https://www.youtube.com/watch?v=MOpJYbhLgyc){target="_blank"} →
+
+- Try it yourself with examples in R and Python:
+
+  - [github.com/posit-dev/posit-conf-2025-positron-assistant-demo](https://github.com/posit-dev/posit-conf-2025-positron-assistant-demo)
+
+:::
+
+::: {.column width="65%"}
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/MOpJYbhLgyc?si=rOYv9MDfTv4MAQ7B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::
+
+::::::
+
+## Positron: Starting new project
+
+TODO: Add a video showing how to start a new project in Positron with Stata/R
+
+## Positron: Assistant
 
 {{< video https://positron.posit.co/videos/positron-assistant-copytoeditor.mp4 >}}
 
@@ -526,13 +407,16 @@ graph LR
 Source: [positron.posit.co/features](https://positron.posit.co/features.html)
 :::
 
-## Starting a project in Positron
+## Positron: Data explorer
+
+{{< video https://positron.posit.co/videos/data-explorer.mp4 >}}
 
 
-## Creating a '.do' file and writing code with AI assistance
+## Positron: Git integration
 
+TODO: Add a video showing Git integration in Positron
 
-## Running Stata in Positron
+## Positron: Running Stata
 
 ::: incremental
 1. install Python
@@ -541,31 +425,11 @@ Source: [positron.posit.co/features](https://positron.posit.co/features.html)
 4. configure Stata path in Positron settings
 :::
 
-## Explore further
+TODO: Add a video showing stata integration in Positron
 
--  Git
--  GitHub
--  R and Python
--  Software development best practices
--  Testing and validation
--  Building applications
+# Live Demo {.title}
 
-## Question 3.
-
-What use cases do you see for AI-assisted analysis in your work that you want to learn more about?
-
--  Reproducible research packages
--  Data cleaning and preparation
--  Statistical analysis and modeling
--  Visualization and reporting
--  Mapping and spatial analysis
--  Other
-
-## Resources
-
--   **Setup Guide**: [Workflow Setup Instructions](setup-instructions.qmd)
--   **GitHub**: [github.com/worldbank](https://github.com/worldbank)
--   **Documentation**: Project repository
+- From an old analysis in Stata to an uprgraded Stata+R reproducibility package in under 10 minutes!
 
 ------------------------------------------------------------------------
 
