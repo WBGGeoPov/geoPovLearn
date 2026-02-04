@@ -576,11 +576,23 @@
     ]
   },
   {
-    "objectID": "seminars/seminar-2026-02/slides.html#ai-integration-chat-agent-inline",
-    "href": "seminars/seminar-2026-02/slides.html#ai-integration-chat-agent-inline",
+    "objectID": "seminars/seminar-2026-02/slides.html#the-goal",
+    "href": "seminars/seminar-2026-02/slides.html#the-goal",
     "title": "GeoPov",
-    "section": "💬 AI Integration: Chat | Agent | Inline",
-    "text": "💬 AI Integration: Chat | Agent | Inline\n\n\nSource: Positron: AI Features",
+    "section": "The goal",
+    "text": "The goal\n\n\n\n\n\nof this seminar is to introduce you to AI-assisted data analysis with Positron IDE and GitHub Copilot | Claude.\n\n\n\n\n\n\nThere are many IDEs ➔\n\n\n\n\n\n\n\n\n\n\nThose are: Positron | VS Code | Cursor | Claude Code | and more…",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Slides"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/slides.html#ai-integrated-ide-chat-agent-inline",
+    "href": "seminars/seminar-2026-02/slides.html#ai-integrated-ide-chat-agent-inline",
+    "title": "GeoPov",
+    "section": "💬 AI Integrated IDE: Chat | Agent | Inline",
+    "text": "💬 AI Integrated IDE: Chat | Agent | Inline\n\n\nSource: Positron: AI Features",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -592,7 +604,7 @@
     "href": "seminars/seminar-2026-02/slides.html#ai-chat",
     "title": "GeoPov",
     "section": "💬 AI: Chat",
-    "text": "💬 AI: Chat\n\nPositron Assistant or similar chats in other editors\n\nAsk an LLM (Claude 4.5) through Github Copilot\nProvides explanations, suggestions, and code snippets.\nIntegrates with project context, and code.\nRead more: Positron Assistant Chat",
+    "text": "💬 AI: Chat\n\nPositron Assistant or similar chats in other editors\n\nAsk an LLM (Claude 4.5) through Github Copilot\nProvides explanations, suggestions, and code snippets.\nIntegrates with project context, and code.\nLearn more: Positron Assistant Chat",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -604,7 +616,7 @@
     "href": "seminars/seminar-2026-02/slides.html#ai-agent",
     "title": "GeoPov",
     "section": "💬 AI: Agent",
-    "text": "💬 AI: Agent\n\nPositron Assistant\n\nRuns explicit instructions for you.\nActs independently (if permitted).",
+    "text": "💬 AI: Agent\n\nPositron Assistant\n\nExecutes instructions.\nActs independently\n\nRuns code\nFixes errors\nLearns\nResons\n\nSee live demo for more!",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -628,7 +640,7 @@
     "href": "seminars/seminar-2026-02/slides.html#context-awareness",
     "title": "GeoPov",
     "section": "🧠 Context Awareness",
-    "text": "🧠 Context Awareness\n\n\nPositron accesses metadata about the project. Thus AI ‘knows’:\n\n📁 Files str.: Code, docs\n📊 Data: Var. names, types\n⏮️ History: Edits, commands\n📦 Environment: Packages\n🎯 Intent: Current task\n✅ Results: Output, errors\n\n\nWhy does it matter?\n\n🎯 Project-specific suggestions\n🔗 Understands dependencies\n🛡️ Reduces hallucinations\n⏱️ Improves efficiency\n\n\n\nRead more: Positron: AI Context | GH Copilot | Claude",
+    "text": "🧠 Context Awareness\n\n\nPositron accesses project metadata. Thus AI ‘knows’:\n\n📁 Files str.: Code, docs\n📊 Data: Var. names, types\n⏮️ History: Edits, commands\n📦 Environment: Packages\n🎯 Intent: Current task\n✅ Results: Output, errors\n\n\nWhy does it matter?\n\n🎯 Project-specific suggestions\n🔗 Understands dependencies\n🛡️ Reduces hallucinations\n⏱️ Improves efficiency\n\n\n\nRead more: Positron: AI Context | GH Copilot | Claude | WB AI Responsible Use",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -640,7 +652,7 @@
     "href": "seminars/seminar-2026-02/slides.html#model-context-protocol-mcp",
     "title": "GeoPov",
     "section": "🔌 Model Context Protocol (MCP)",
-    "text": "🔌 Model Context Protocol (MCP)\n“MCP is a universal adapter for AI”—Anthropic’s invention\nMCP are essential to connect data flows:\n\n Stata-MCP or R MCP for Stata/R -&gt; Positron -&gt; Copilot -&gt; LLMs,\n\n\n\nRead more: modelcontextprotocol.io",
+    "text": "🔌 Model Context Protocol (MCP)\nMCP is a universal adapter for AI—Anthropic— that connects data flows:\n\nStata-MCP or R MCP for Stata/R ⟶ Positron ⟶ Copilot ⟶ LLMs.\n\n\n\nRead more: modelcontextprotocol.io",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -652,7 +664,7 @@
     "href": "seminars/seminar-2026-02/slides.html#github-copilot-anthropic-claude",
     "title": "GeoPov",
     "section": "🤖 GitHub Copilot | Anthropic Claude",
-    "text": "🤖 GitHub Copilot | Anthropic Claude\n\n\nGitHub Copilot\n\n✅ WB-approved\n🌐 Accessed through github.com/worldbank\n🤝 Uses OpenAI GPT, Anthropic Claude\n🔌 Integrates with Positron and other IDEs\n\n\nChoose your LLM:\n\n🧠 Claude Sonnet/Haiku/Opus\n💡 OpenAI GPT-4/o1…\n\n\n\n\n\n\n\n\nSources: Anthropic Claude Sonnet 4.5",
+    "text": "🤖 GitHub Copilot | Anthropic Claude\n\n\nGitHub Copilot\n\n✅ WB-approved\n🌐 github.com/worldbank\n🤝 Uses Claude | GPT\n🔌 Integrates with IDEs\ngithub@worldbank.org\nAI @ WB: ai.worldbank.org\n\n\nChoose your LLM:\n\n🧠 Claude Sonnet/Haiku/Opus\n💡 OpenAI GPT-4/o1…\n\n\n\n\n\n\n\n\nSources: Anthropic Claude Sonnet 4.5",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -664,7 +676,7 @@
     "href": "seminars/seminar-2026-02/slides.html#efficient-prompting",
     "title": "GeoPov",
     "section": "✍️ Efficient Prompting",
-    "text": "✍️ Efficient Prompting\n\n\n🎯 Be specific about the task: “Write a Stata do-file to …” / “Refactor this R function to …”\n🧩 Provide context: goal, dataset description, key variables, constraints (WB rules, packages, runtime)\n📌 Define the expected output: table/figure format, file to modify, function signature, acceptance criteria\n🔁 Ask AI to summarize + clarify first: “Restate the task in your own words and ask any clarifying questions before implementing.”\n🔍 Ask for assumptions + checks: “List assumptions; add validation/tests; include edge cases”\n🪜 Iterate in small steps: request a minimal working change, then refine (don’t “rewrite everything”)\n🧠 Force transparency: “Explain why this approach; give 1–2 alternatives with trade-offs”\n🧾 Make it reproducible: “Use set seed; pin versions; avoid randomness; write comments; ask LLM to write comments”\n🛑 Set boundaries: “Don’t use external data; don’t print secrets; don’t change unrelated files”\n\n\n\nTip: Treat the assistant as a collaborator.",
+    "text": "✍️ Efficient Prompting\n\n\n🎯 Be specific: “Write a Stata do-file to …” / “Refactor this R function to …”\n🧩 Provide context: “Goal: X; Dataset: Y variables; Constraints: Z (WB rules, packages, runtime)”\n📌 Define expected output: “Save as regression_results.xlsx, format as APA table” / “Create bar chart with 95% CIs”\n🔁 Summarize + clarify first: “Restate and ask clarifying questions before implementing”, “Explain why …”, “Give alternatives with trade-offs…”\n🪜 Iterate in small steps: minimal changes, then refine\n🛑 Set boundaries: “Don’t use … data”, “Don’t print secrets, ask if in doubt.”, “Don’t change files”.\n\n\n\nTip: Treat the assistant as a collaborator.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -676,7 +688,7 @@
     "href": "seminars/seminar-2026-02/slides.html#limitations-and-remedies",
     "title": "GeoPov",
     "section": "⚠️ Limitations and Remedies",
-    "text": "⚠️ Limitations and Remedies\n\n⚠︎ Wrong-but-plausible outputs / hallucinations: code runs but logic is wrong\n✓ Verify and validate: ask the model to explain and justify the solution\n⚠︎ Context limits: not all files/data are in context; too large projects.\n✓ Be explicit: state assumptions, expected inputs/outputs, and references\n⚠︎ Outdated knowledge: suggested APIs/packages/options may have changed\n✓ Teach the model: provide references/links; ask it to learn\n⚠︎ Over-reliance: erodes fundamentals; mistakes slip through unchallenged\n✓ Keep learning: ask for step-by-step reasoning; request alternatives and trade-offs\n⚠︎ Confidentiality / security / privacy\n✓ Constrain context: exclude sensitive data; use .copilot-ignore\n⚠︎ Reproducibility: answers can vary across sessions/models/settings\n✓ Make it reproducible: save prompts, use Git; create AI agents\n\n\nRead more: GitHub Copilot Trust Center",
+    "text": "⚠️ Limitations and Remedies\n\n⚠︎ Wrong-but-plausible outputs / hallucinations: code runs but logic is wrong\n✓ Verify and validate: ask the model to explain and justify the solution\n⚠︎ Context limits: not all files/data are in context; too large projects.\n✓ Be explicit: state assumptions, expected inputs/outputs, and references\n⚠︎ Outdated knowledge: suggested APIs/packages/options may have changed\n✓ Teach the model: provide references/links; ask it to learn\n⚠︎ Over-reliance: erodes fundamentals; mistakes slip through unchallenged\n✓ Keep learning: ask for step-by-step reasoning; request alternatives and trade-offs\n⚠︎ Confidentiality / security / privacy\n✓ Constrain context: exclude sensitive data; use .copilot-ignore; Follow WB AI guidelines\n⚠︎ Reproducibility: answers can vary across sessions/models/settings\n✓ Cutomize agents: save prompts, use Git; create AI agents\n\n\nRead more: GitHub Copilot Trust Center | AI @ WB: ai.worldbank.org",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -700,7 +712,7 @@
     "href": "seminars/seminar-2026-02/slides.html#where-to-start",
     "title": "GeoPov",
     "section": "Where to Start?",
-    "text": "Where to Start?\n\n\nSetup the software: follow instructions\nReproduce these demos:\n\nLive demo in Positron with Stata\nPosit Conf 2025 Postron assistant Demo in R and Python\n\nAsk AI’s help to learn. Type in MS Copilot\n\n“Explain how to use this software: https://git-scm.com/.”\n“Why do I need it. How could it improve my workflow?”\n\nStep out of your comfort zone:\n\nlearn and experiment with new technologies: Git, GitHub, R, Python—they are there for a good reason!\n\nSee more slides with additional materials below.",
+    "text": "Where to Start?\n\n\nSetup the software: follow instructions\nReproduce demos:\n\nLive demo in Positron with Stata\nPosit Conf 2025 Postron assistant Demo in R and Python\n\nAsk AI’s help to learn.\nStep out of your comfort zone:\n\nlearn and experiment with new technologies: Git, GitHub, R, Python—they are there for a good reason!\n\nSee more slides with additional materials below.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -720,23 +732,11 @@
     ]
   },
   {
-    "objectID": "seminars/seminar-2026-02/slides.html#questions",
-    "href": "seminars/seminar-2026-02/slides.html#questions",
+    "objectID": "seminars/seminar-2026-02/slides.html#thank-you-questins",
+    "href": "seminars/seminar-2026-02/slides.html#thank-you-questins",
     "title": "GeoPov",
-    "section": "Questions?",
-    "text": "Questions?\n\nWhat would you like us to show you next?",
-    "crumbs": [
-      "GeoPov BBL Series",
-      "Revolutionizing Coding in Stata/R",
-      "Slides"
-    ]
-  },
-  {
-    "objectID": "seminars/seminar-2026-02/slides.html#thank-you",
-    "href": "seminars/seminar-2026-02/slides.html#thank-you",
-    "title": "GeoPov",
-    "section": "Thank You!",
-    "text": "Thank You!\nResources & Source Code\n\n→ Visit our website for updates | https://wbggeopov.github.io/geoPovLearn/\n📖 Presentation Source Code\n📚 Setup Instructions\n🎥 Positron + Stata Demo Repository\n\nContact:\n\nEduard Bukin: ebukin@worldbank.org",
+    "section": "Thank You! Questins?",
+    "text": "Thank You! Questins?\n\n\n\n\nResources & Source Code\n\n→ Visit our website for updates | &lt;wbggeopov.github.io/geoPovLearn/&gt;\n📖 Presentation Source Code\n📚 Setup Instructions\n🎥 Stata Demo | Recording\n\nContact:\n\nDistributional Impact of Policies poverty@worldbank.org\n\n\nLet us know your feedback and what you’d like to see in future sessions!:\n👉 Feedback Form\nQR Code",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
