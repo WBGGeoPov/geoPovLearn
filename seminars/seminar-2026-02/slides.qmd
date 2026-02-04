@@ -296,35 +296,41 @@ Sources: [Anthropic Claude Sonnet 4.5](https://www.anthropic.com/news/claude-son
 -   Advanced AI features for data analysis,
 :::
 
-## Where to Start? {.smaller}
+## Where to Start?
 
-::: {style="max-width: 50%; font-size: 0.9em;"}
-
+::: {style="max-width: 50%; font-size: 0.6em;"}
 -   Setup the software: follow [instructions](setup-instructions.qmd)
 
--   Ask AI's help to learn. Type in [MS Copilot](https://m365.cloud.microsoft/chat)
+-   Reproduce these demos:
 
-    -   "Explain how to use this software: https://git-scm.com/. Why do I need it. How Could it improve my workflow?"
+    -   [Live demo in Positron with Stata](#stata-demo)
+
+    -   [Posit Conf 2025 Postron assistant Demo in R and Python](https://github.com/posit-dev/posit-conf-2025-positron-assistant-demo)
+
+-   Ask AI's help to learn.
+    Type in [MS Copilot](https://m365.cloud.microsoft/chat)
+
+    -   "Explain how to use this software: https://git-scm.com/."
+    -   "Why do I need it. How could it improve my workflow?"
 
 -   Step out of your comfort zone:
 
-    -   experiment and learn by doing.
-    -   learn new technologies: [Git](https://positron.posit.co/git.html), [GitHub](https://learn.github.com/), [R](https://r4ds.had.co.nz/), [Python](https://www.python.org/about/gettingstarted/)—they are there for a good reason!
+    -   learn and experiment with new technologies: [Git](https://positron.posit.co/git.html), [GitHub](https://learn.github.com/), [R](https://r4ds.had.co.nz/), [Python](https://www.python.org/about/gettingstarted/)—they are there for a good reason!
 
 -   See more slides with [additional materials](#additional-materials) below.
-
 :::
 
-<iframe src="setup-instructions.html" class="absolute" style="right: 0; top: 0; width: 45%; height: 100%; border: 1px solid #ccc; zoom: 0.5;"></iframe>
+<iframe src="setup-instructions.html" class="absolute" style="right: 0; top: 0; width: 45%; height: 100%; border: 1px solid #ccc; zoom: 0.5;">
 
+</iframe>
 
-# Live Demo {.title}
+# Live Demo {#stata-demo .title}
 
-### From an old analysis in Stata to an upgraded Stata+R reproducibility package in under 10 minutes!
+**From an old analysis in Stata to an upgraded Stata+R reproddatesucibility package in under 10 minutes!**
 
 Download the demo project from here: [github.com/WBGGeoPov/seminar-coding-with-ai-demo](https://github.com/WBGGeoPov/seminar-coding-with-ai-demo)
 
-::: {.callout-tip icon=true}
+::: {.callout-tip icon="true"}
 💡 **Ask AI for help**: "How do I download a project from GitHub and open it in Positron IDE?"
 :::
 
@@ -344,13 +350,13 @@ Download the demo project from here: [github.com/WBGGeoPov/seminar-coding-with-a
 
 [→ Visit our website for updates](../../index.qmd)
 
-[https://wbggeopov.github.io/geoPovLearn/](https://wbggeopov.github.io/geoPovLearn/)
+<https://wbggeopov.github.io/geoPovLearn/>
 
 **Contact**:
 
 -   Eduard Bukin: [ebukin\@worldbank.org](mailto:ebukin@worldbank.org)
 
-# Additional materials {.title #additional-materials}
+# Additional materials {#additional-materials .title}
 
 ------------------------------------------------------------------------
 
@@ -366,9 +372,7 @@ Download the demo project from here: [github.com/WBGGeoPov/seminar-coding-with-a
 2.  **Install Positron IDE** (system-level install): Request help from IT if needed
 3.  **Install key extensions** in Positron
     -   **Stata MCP**, **Quarto**
-4.  **Connect GitHub**: Sign in to GitHub account
-    -   Enable Positron Assistant in settings
-    -   Configure LLM provider (GitHub Copilot/Claude/GPT)
+4.  **Connect GitHub** and configure [Positron Assistant](https://positron.posit.co/assistant.html)
 5.  **Start experimenting!**
     -   Open assistant: `Ctrl+Shift+P` \> "Ask Positron Assistant"
     -   Try: chat, agent mode, inline code completion
@@ -412,7 +416,6 @@ Source: [positron.posit.co/features](https://positron.posit.co/features.html)
 ## Positron + Stata
 
 ::: {width="100%"}
-
 1.  Make sure [prerequisite software is installed](./setup-instructions.qmd#prereq-software) (Stata, R, Positron)
 
 2.  [Install Python](./setup-instructions.qmd#python-uv) after that the `uv` package: `pip install uv`
@@ -420,5 +423,4 @@ Source: [positron.posit.co/features](https://positron.posit.co/features.html)
 3.  [Install Stata MCP](./setup-instructions.qmd#stata-mcp-extension) in Positron and configure Stata path and Edition
 
 4.  Create a new Stata do-file, write some code, save it and press run it.
-
 :::

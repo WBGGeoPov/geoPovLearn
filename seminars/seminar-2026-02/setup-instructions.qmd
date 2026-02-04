@@ -157,6 +157,8 @@ To connect GitHub to Positron:
 | ![](images/gh-auth-4.png){width="300"} | Grant necessary permissions |
 | ![](images/gh-auth-5.png){width="300"} |  |
 
+See also [Positron Assistant Guide](https://positron.posit.co/assistant.html) for more details on connecting GitHub and using the assistant.
+
 ### Step 2. Enabling Positron Assistant in Positron Settings
 
 1.  Open settings [positron.assistant.enable](positron://settings/positron.assistant.enable) and check the box to enable it.
