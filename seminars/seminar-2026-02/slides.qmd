@@ -348,7 +348,12 @@ Download the demo project from here: [github.com/WBGGeoPov/seminar-coding-with-a
 
 ## Thank You! {.title}
 
-[→ Visit our website for updates](../../index.qmd) \| <https://wbggeopov.github.io/geoPovLearn/>
+**Resources & Source Code**
+
+-   [→ Visit our website for updates](../../index.qmd) \| <https://wbggeopov.github.io/geoPovLearn/>
+-   📖 [Presentation Source Code](https://github.com/WBGGeoPov/geoPovLearn/blob/main/seminars/seminar-2026-02/slides.qmd){target="_blank"}
+-   📚 [Setup Instructions](setup-instructions.qmd)
+-   🎥 [Positron + Stata Demo Repository](https://github.com/WBGGeoPov/seminar-coding-with-ai-demo)
 
 **Contact**:
 

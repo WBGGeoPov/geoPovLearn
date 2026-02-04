@@ -1,6 +1,6 @@
 # GeoPov Learning Hub
 
-🌐 **Website:** [https://cautious-adventure-5l2735e.pages.github.io/](https://cautious-adventure-5l2735e.pages.github.io/)
+🌐 **Website:** [https://wbggeopov.github.io/geoPovLearn/](https://wbggeopov.github.io/geoPovLearn/)
 
 This repository hosts learning materials developed and maintained by the GeoPov team - a global multi-disciplinary team in the Distributional Impact of Policy under the Prosperity Vice Presidency at the World Bank.
 
@@ -15,10 +15,6 @@ This repository contains materials from our:
 - **Seminar Series**: Technical presentations and workshops on geospatial data and poverty analysis
 - **Training Materials**: Hands-on guides and practical exercise
 - **Resources**: Curated data sources and methodological guidance
-
-## 🌐 Website
-
-Visit our website: **[https://worldbank.github.io/geoPovLearn](https://worldbank.github.io/geoPovLearn)**
 
 ## 🎯 Our Three Pillars
 
