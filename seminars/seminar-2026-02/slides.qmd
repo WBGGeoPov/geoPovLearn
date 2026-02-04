@@ -292,8 +292,8 @@ Sources: [Anthropic Claude Sonnet 4.5](https://www.anthropic.com/news/claude-son
 [**Why Positron?**]{style="color: blue;"}
 
 -   Built for data science, [not software development]{style="background-color: lightred;"}
--   Integrated Stata, R, Python and more
--   Advanced AI features for data analysis,
+-   Integrates with Stata, R, and Python seamlessly
+-   Advanced AI features for data analysis
 :::
 
 ## Where to Start?
