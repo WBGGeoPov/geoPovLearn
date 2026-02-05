@@ -33,10 +33,11 @@ format:
 # Motivation {background-iframe="grid-worms/index.html"}
 
 <!-- :::::::::: semi-transparent-bg -->
-::::::::: columns
+
+::::::::::: columns
 :::::: {.column width="50%"}
-::: semi-transparent-bg
-::: {style="font-size: 0.8em;"}
+::::: semi-transparent-bg
+:::: {style="font-size: 0.8em;"}
 **Chat and Web-Based AI tools** are impressive!
 
 > [ChatGPT](https://chatgpt.com/) \| [Copilot](https://copilot.microsoft.com/) \| [Gemini](https://search.google/ai-in-search/) \| [WB MAI](https://ai.worldbank.org/chat/mai)
@@ -49,25 +50,23 @@ Use familiar technologies:
 -   📝 Stata editor,
 -   [**📋 copy-paste**]{style="color: red;"} ...
 :::
-:::
+::::
 :::::
 ::::::
 
-:::: {.column width="50%"}
-
-::: semi-transparent-bg
+:::::: {.column width="50%"}
+::::: semi-transparent-bg
 ::: fragment
 **Is this the best way to use AI for data analysis❓**
 :::
 
 ::: fragment
-In fact, there are many <br/>AI-powered<br/>
-[**Integrated <br/>Development <br/>Environments (IDEs)**](style=%22color:%20blue;%22)<br/>
-for coding and data science!
+In fact, there are many <br/>AI-powered<br/> [**Integrated** <br/>Development <br/>Environments (IDEs)](style=%22color:%20blue;%22)<br/> for coding and data science!
 :::
-:::
-::::
-:::::::::
+:::::
+::::::
+:::::::::::
+
 <!-- :::::::::: -->
 
 ## The goal
@@ -139,12 +138,14 @@ Source: [Positron: AI Features](https://positron.posit.co/features.html){target=
 [Positron Assistant](https://positron.posit.co/assistant-chat.html){target="_blank"}
 
 -   **Ask** AI (Claude 4.5) through **Github Copilot**
+
 -   Provides explanations, suggestions, and code snippets.
+
 -   Integrates with project context, and code.
+
 -   Learn more:
 
     [Assistant Chat](https://positron.posit.co/assistant-chat.html){target="_blank"}
-
 :::
 
 ::: r-stacked
@@ -204,7 +205,7 @@ Thus **AI 'knows':**
 :::::
 
 ::: footer
-**Read more:** [Positron: AI Context](https://positron.posit.co/assistant-chat-context.html){target="_blank"} \| [GH Copilot](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot#understanding-copilot-context){target="_blank"} \| [Claude](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"} \| [WB AI Responsible Use](https://ai.worldbank.org/responsible-use ){target="_blank"}
+**Read more:** [Positron: AI Context](https://positron.posit.co/assistant-chat-context.html){target="_blank"} \| [GH Copilot](https://docs.github.com/en/copilot/using-github-copilot/getting-started-with-github-copilot#understanding-copilot-context){target="_blank"} \| [Claude](https://www.anthropic.com/news/claude-sonnet-4-5){target="_blank"} \| [WB AI Responsible Use](https://ai.worldbank.org/responsible-use){target="_blank"}
 :::
 
 ## 🔌 [Model Context Protocol (MCP)]{style="color:#00695c;"} {.smaller}
@@ -227,17 +228,16 @@ MCP is a universal adapter for AI—[Anthropic](https://www.anthropic.com/news/m
 
 -   ✅ WB-approved
 -   🌐 [github.com/worldbank](https://github.com/worldbank){target="_blank"}
--   🤝 Uses [**Claude**]{style="color:#d97757;"} | [**GPT**]{style="color:#10a37f;"}
+-   🤝 Uses [**Claude**]{style="color:#d97757;"} \| [**GPT**]{style="color:#10a37f;"}
 -   🔌 Integrates with **IDEs**
--    [github\@worldbank.org](mailto:github@worldbank.org)
--    [**AI \@ WB**]{style="color:#b00020;"}: [ai.worldbank.org](https://ai.worldbank.org/responsible-use)
+-   [github\@worldbank.org](mailto:github@worldbank.org)
+-   [**AI \@ WB**]{style="color:#b00020;"}: [ai.worldbank.org](https://ai.worldbank.org/responsible-use)
 
 ::: fragment
 [**Choose your LLM:**]{style="color:#e65100;"}
 
 -   🧠 Claude Sonnet/Haiku/Opus
 -   💡 OpenAI GPT-4/o1...
-
 :::
 ::::
 
@@ -256,7 +256,6 @@ Sources: [Anthropic Claude Sonnet 4.5](https://www.anthropic.com/news/claude-son
 
 :::: incremental
 ::: {style="font-size: 0.60em;"}
-
 -   [🎯 **Be specific**]{style="color:#1b5e20;"}:
 
     "Write a Stata do-file to …" / "Refactor this R function to …"
@@ -271,8 +270,8 @@ Sources: [Anthropic Claude Sonnet 4.5](https://www.anthropic.com/news/claude-son
 
 -   [🔁 **Summarize + clarify first**]{style="color:#1b5e20;"}:
 
-    "Restate and ask clarifying questions before implementing", "Explain why ...", "Give alternatives with
-trade-offs..."
+    "Restate and ask clarifying questions before implementing", "Explain why ...", "Give alternatives with trade-offs..."
+
 -   [🪜 **Iterate in small steps**]{style="color:#1b5e20;"}:
 
     "minimal changes", "refine"
@@ -280,7 +279,6 @@ trade-offs..."
 -   [🛑 **Set boundaries**]{style="color:#1b5e20;"}:
 
     "Don’t use ... data", "Don’t print secrets, ask if in doubt.", "Don’t change files".
-
 :::
 ::::
 
@@ -368,7 +366,7 @@ trade-offs..."
 
 -   Download materials here: [github.com/WBGGeoPov/seminar-coding-with-ai-demo](https://github.com/WBGGeoPov/seminar-coding-with-ai-demo)
 
--   Watch pre-recorded demo video here: [youtube.com/watch](){target="_blank"}
+-   Watch pre-recorded demo video here: [youtu.be/V6NZUXUHviE](https://youtu.be/V6NZUXUHviE){target="_blank"}
 
 ::: {.callout-tip icon="true"}
 💡 **Ask AI for help**: "How do I download a project from GitHub and open it in Positron IDE? The link is: ..."
@@ -382,35 +380,32 @@ trade-offs..."
 
 ## Thank You! Questins? {background-iframe="logo-fall/index.html"}
 
-:::: {style="font-size: 0.8em;"}
-:::: semi-transparent-bg
-::: columns
+::::::: {style="font-size: 0.8em;"}
+:::::: semi-transparent-bg
+::::: columns
 ::: {.column width="60%"}
-
 **Resources & Source Code**
 
 -   [→ Visit our website for updates](../../index.qmd) \| [wbggeopov.github.io/geoPovLearn/](https://wbggeopov.github.io/geoPovLearn/)
 -   📖 [Presentation Source Code](https://github.com/WBGGeoPov/geoPovLearn/blob/main/seminars/seminar-2026-02/slides.qmd){target="_blank"}
 -   📚 [Setup Instructions](setup-instructions.qmd)
--   🎥 [Stata Demo](https://github.com/WBGGeoPov/seminar-coding-with-ai-demo) \| [Recording](TODO)
+-   🎥 [Stata Demo](https://github.com/WBGGeoPov/seminar-coding-with-ai-demo) \| [youtu.be/V6NZUXUHviE](https://youtu.be/V6NZUXUHviE)
 
 **Contact**:
 
-- Distributional Impact of Policies [poverty\@worldbank.org](mailto:poverty@worldbank.org)
-
+-   Distributional Impact of Policies [poverty\@worldbank.org](mailto:poverty@worldbank.org)
 :::
 
 ::: {.column width="40%"}
 Let us know your feedback and what you'd like to see in future sessions!:
 
-[**👉 Feedback Form**](){target="_blank"}
+**👉 Feedback:** **slido.com \# 3802 578 \|** Passcode: **wkpep**
 
-QR Code
-
+![](images/QR Code for 20260205 BBL event.png){fig-align="center"}
 :::
-:::
-::::
-::::
+:::::
+::::::
+:::::::
 
 # Additional materials {#additional-materials .title}
 
