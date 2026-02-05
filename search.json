@@ -114,7 +114,7 @@
     "href": "seminars/seminar-2026-02/overview.html#materials",
     "title": "AI-Assisted Coding in Stata and R",
     "section": "Materials",
-    "text": "Materials\n\nSeminar\n\nInternal seminar page\nRecording\nPositron + Stata Live Demo materials: github.com/WBGGeoPov/seminar-coding-with-ai-demo\nSlides (web) + Slides (PDF)\n📚 Setup Instructions\n\n\n\nPresentation Slides\n\n\nView Slides | Download PDF",
+    "text": "Materials\n\nSeminar\n\nInternal seminar page\nRecording\nPositron + Stata Live Demo materials: github.com/WBGGeoPov/seminar-coding-with-ai-demo\nSlides (web) + Slides (PDF)\n📚 Setup Instructions\n\n\n\nPresentation Slides\n\n\nView Slides | Download PDF\n[Q/A] | Questions and Answers from the Seminar",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R"
@@ -137,432 +137,6 @@
     "title": "GeoPov",
     "section": "",
     "text": "IFrame background https://github.com/EmilHvitfeldt/quarto-iframe-examples"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to GeoPov",
-    "section": "",
-    "text": "🌍 We are a group of development economists and geospatial enthusiasts working at the intersection of poverty, place, and policy. At GeoPov, we believe that where people live matters just as much as how they live — and we’re here to make sure that spatial realities are part of the poverty dialogue.",
-    "crumbs": [
-      "About Us"
-    ]
-  },
-  {
-    "objectID": "index.html#our-goal",
-    "href": "index.html#our-goal",
-    "title": "Welcome to GeoPov",
-    "section": "🎯 Our Goal",
-    "text": "🎯 Our Goal\nTo develop a global agenda that:\n\nEmpowers economists by integrating geospatial data and spatial analysis into country-level diagnostics and policy engagement.\nContributes to global knowledge that helps design local solutions grounded in data and spatial context.",
-    "crumbs": [
-      "About Us"
-    ]
-  },
-  {
-    "objectID": "index.html#what-we-do",
-    "href": "index.html#what-we-do",
-    "title": "Welcome to GeoPov",
-    "section": "🧭 What We Do",
-    "text": "🧭 What We Do\nOur work is organized around three main pillars:\n\nPillar 1: Spatial Analysis\nWe apply a geographic lens to pressing policy questions on poverty and inequality. Whether it’s identifying where jobs are (and aren’t) for the poor, mapping urban deprivation, or analyzing rural income dynamics, we use spatially disaggregated data to generate actionable insights. This includes household surveys, censuses, administrative records, private sector data, and satellite-based remote sensing — covering everything from climate and land use to infrastructure and conflict. We also develop and share open, reproducible code and tools that can be adapted across countries and topics.\nLearn more about our Spatial Analysis work →\n\n\nPillar 2: Knowledge and Data Center\nWe bring clarity to the what, why, and how of using geospatial data in poverty analysis. This pillar focuses on:\n\nBuilding a curated repository of geospatial data sources and methods, with clear guidance on how they can (and can’t) be used in applied work.\nShowcasing examples of microeconomic analyses that successfully integrate geospatial data to answer real-world policy questions.\n\nExplore our Knowledge and Data Center →\n\n\nPillar 3: Capacity Building\nWe help demystify geospatial data for microeconomists. Through hands-on trainings and peer-learning events, we build core skills for microeconomists to use geospatial methods with confidence. Whether you’re just getting started or looking to refine your toolkit, we’re here to support you through our growing Community of Practice.\nExplore our seminars and training events →",
-    "crumbs": [
-      "About Us"
-    ]
-  },
-  {
-    "objectID": "index.html#meet-the-team",
-    "href": "index.html#meet-the-team",
-    "title": "Welcome to GeoPov",
-    "section": "👥 Meet the Team",
-    "text": "👥 Meet the Team\nWe’re a global multi-disciplinary team in the Distributional Impact of Policy under the Prosperity Vice Presidency. We combine expertise in microeconomic analysis, spatial economics, and data engineering.\nWho we are:\n\nCurious minds who ask “where”, “who”, “what” and “why” together\nPassionate about open data, open code, and inclusive analytics\nBelievers in the power of maps and evidence to drive better policy\n\nMeet our team members →",
-    "crumbs": [
-      "About Us"
-    ]
-  },
-  {
-    "objectID": "team/henry-stemmler.html",
-    "href": "team/henry-stemmler.html",
-    "title": "Henry Stemmler",
-    "section": "",
-    "text": "An Economist by training, Henry Stemmler works on poverty analysis and geospatial analytics at the World Bank. His current work explores how spatial factors shape labor market outcomes and welfare in developing countries, with a particular interest in urban job accessibility and the geographic dimensions of poverty.\nHe has co-authored World Bank flagship reports including the Poverty, Prosperity and Planet Report, and his work has appeared in journals such as the Economic Journal, Journal of Development Economics, World Development, and Food Policy. He holds a PhD in Economics from the University of Göttingen and previously worked as a postdoctoral researcher at ETH Zürich and as an Economist at the International Labor Organization.",
-    "crumbs": [
-      "Team",
-      "Henry Stemmler"
-    ]
-  },
-  {
-    "objectID": "team/henry-stemmler.html#bio",
-    "href": "team/henry-stemmler.html#bio",
-    "title": "Henry Stemmler",
-    "section": "",
-    "text": "An Economist by training, Henry Stemmler works on poverty analysis and geospatial analytics at the World Bank. His current work explores how spatial factors shape labor market outcomes and welfare in developing countries, with a particular interest in urban job accessibility and the geographic dimensions of poverty.\nHe has co-authored World Bank flagship reports including the Poverty, Prosperity and Planet Report, and his work has appeared in journals such as the Economic Journal, Journal of Development Economics, World Development, and Food Policy. He holds a PhD in Economics from the University of Göttingen and previously worked as a postdoctoral researcher at ETH Zürich and as an Economist at the International Labor Organization.",
-    "crumbs": [
-      "Team",
-      "Henry Stemmler"
-    ]
-  },
-  {
-    "objectID": "team/ben-brunckhorst.html",
-    "href": "team/ben-brunckhorst.html",
-    "title": "Ben Brunckhorst",
-    "section": "",
-    "text": "Ben Brunckhorst is a research analyst at the World Bank, where he contributes to the understanding of economic development and policy impact through interdisciplinary work spanning economics, climate change, and data science. He supports global welfare monitoring efforts with a particular focus on subnational spatial disparities in poverty and inequality. With a strong background in development economics and engineering, he utilizes tools such as R and Python to analyze large datasets and extract meaningful insights. His research has been published in academic journals and World Bank reports, and covered by the New York Times.",
-    "crumbs": [
-      "Team",
-      "Ben Brunckhorst"
-    ]
-  },
-  {
-    "objectID": "team/ben-brunckhorst.html#bio",
-    "href": "team/ben-brunckhorst.html#bio",
-    "title": "Ben Brunckhorst",
-    "section": "",
-    "text": "Ben Brunckhorst is a research analyst at the World Bank, where he contributes to the understanding of economic development and policy impact through interdisciplinary work spanning economics, climate change, and data science. He supports global welfare monitoring efforts with a particular focus on subnational spatial disparities in poverty and inequality. With a strong background in development economics and engineering, he utilizes tools such as R and Python to analyze large datasets and extract meaningful insights. His research has been published in academic journals and World Bank reports, and covered by the New York Times.",
-    "crumbs": [
-      "Team",
-      "Ben Brunckhorst"
-    ]
-  },
-  {
-    "objectID": "team/nga-nguyen.html",
-    "href": "team/nga-nguyen.html",
-    "title": "Nga Thi Viet Nguyen",
-    "section": "",
-    "text": "A Senior Economist who is passionate about how policies shape people’s lives — and how where they live changes the story. She’s worked across Sub-Saharan Africa, Central Asia, and the EU, combining solid economic analysis with a growing love for using spatial data to uncover new insights into welfare outcomes.\nHer research has appeared in journals like the Journal of Economic Inequality, World Bank Economic Review, and Journal of Development Studies. These days, she’s especially excited about turning geospatial insights into smarter, more grounded policies that deliver real impact.",
-    "crumbs": [
-      "Team",
-      "Nga Thi Viet Nguyen"
-    ]
-  },
-  {
-    "objectID": "team/nga-nguyen.html#bio",
-    "href": "team/nga-nguyen.html#bio",
-    "title": "Nga Thi Viet Nguyen",
-    "section": "",
-    "text": "A Senior Economist who is passionate about how policies shape people’s lives — and how where they live changes the story. She’s worked across Sub-Saharan Africa, Central Asia, and the EU, combining solid economic analysis with a growing love for using spatial data to uncover new insights into welfare outcomes.\nHer research has appeared in journals like the Journal of Economic Inequality, World Bank Economic Review, and Journal of Development Studies. These days, she’s especially excited about turning geospatial insights into smarter, more grounded policies that deliver real impact.",
-    "crumbs": [
-      "Team",
-      "Nga Thi Viet Nguyen"
-    ]
-  },
-  {
-    "objectID": "team/nga-nguyen.html#expertise",
-    "href": "team/nga-nguyen.html#expertise",
-    "title": "Nga Thi Viet Nguyen",
-    "section": "Expertise",
-    "text": "Expertise\n\nPoverty and inequality analysis\nSpatial economics\nPolicy impact evaluation\nMicroeconomic analysis",
-    "crumbs": [
-      "Team",
-      "Nga Thi Viet Nguyen"
-    ]
-  },
-  {
-    "objectID": "projects/capacity-building.html",
-    "href": "projects/capacity-building.html",
-    "title": "Capacity Building",
-    "section": "",
-    "text": "We help demystify geospatial data for microeconomists. Through hands-on trainings and peer-learning events, we build core skills for microeconomists to use geospatial methods with confidence.",
-    "crumbs": [
-      "Projects",
-      "Capacity Building"
-    ]
-  },
-  {
-    "objectID": "projects/capacity-building.html#overview",
-    "href": "projects/capacity-building.html#overview",
-    "title": "Capacity Building",
-    "section": "",
-    "text": "We help demystify geospatial data for microeconomists. Through hands-on trainings and peer-learning events, we build core skills for microeconomists to use geospatial methods with confidence.",
-    "crumbs": [
-      "Projects",
-      "Capacity Building"
-    ]
-  },
-  {
-    "objectID": "projects/capacity-building.html#our-approach",
-    "href": "projects/capacity-building.html#our-approach",
-    "title": "Capacity Building",
-    "section": "Our Approach",
-    "text": "Our Approach\nWhether you’re just getting started or looking to refine your toolkit, we’re here to support you through our growing Community of Practice.",
-    "crumbs": [
-      "Projects",
-      "Capacity Building"
-    ]
-  },
-  {
-    "objectID": "projects/capacity-building.html#training-programs",
-    "href": "projects/capacity-building.html#training-programs",
-    "title": "Capacity Building",
-    "section": "Training Programs",
-    "text": "Training Programs\n\nIntroductory Workshops\nFor those new to geospatial analysis\n\n\nAdvanced Methods\nDeep dives into specific techniques\n\n\nApplied Case Studies\nLearning from real-world applications",
-    "crumbs": [
-      "Projects",
-      "Capacity Building"
-    ]
-  },
-  {
-    "objectID": "projects/capacity-building.html#community-of-practice",
-    "href": "projects/capacity-building.html#community-of-practice",
-    "title": "Capacity Building",
-    "section": "Community of Practice",
-    "text": "Community of Practice\nJoin our community to:\n\nShare experiences and challenges\nLearn from peers\nAccess ongoing support\nContribute to collective knowledge",
-    "crumbs": [
-      "Projects",
-      "Capacity Building"
-    ]
-  },
-  {
-    "objectID": "projects/capacity-building.html#upcoming-events",
-    "href": "projects/capacity-building.html#upcoming-events",
-    "title": "Capacity Building",
-    "section": "Upcoming Events",
-    "text": "Upcoming Events\nCheck the Seminars page for upcoming training events",
-    "crumbs": [
-      "Projects",
-      "Capacity Building"
-    ]
-  },
-  {
-    "objectID": "projects/capacity-building.html#resources",
-    "href": "projects/capacity-building.html#resources",
-    "title": "Capacity Building",
-    "section": "Resources",
-    "text": "Resources\n\nTraining materials\nCode examples\nSelf-paced tutorials\nCommunity forums",
-    "crumbs": [
-      "Projects",
-      "Capacity Building"
-    ]
-  },
-  {
-    "objectID": "projects/knowledge-data-center.html",
-    "href": "projects/knowledge-data-center.html",
-    "title": "Knowledge and Data Center",
-    "section": "",
-    "text": "We bring clarity to the what, why, and how of using geospatial data in poverty analysis.",
-    "crumbs": [
-      "Projects",
-      "Knowledge and Data Center"
-    ]
-  },
-  {
-    "objectID": "projects/knowledge-data-center.html#overview",
-    "href": "projects/knowledge-data-center.html#overview",
-    "title": "Knowledge and Data Center",
-    "section": "",
-    "text": "We bring clarity to the what, why, and how of using geospatial data in poverty analysis.",
-    "crumbs": [
-      "Projects",
-      "Knowledge and Data Center"
-    ]
-  },
-  {
-    "objectID": "projects/knowledge-data-center.html#what-we-provide",
-    "href": "projects/knowledge-data-center.html#what-we-provide",
-    "title": "Knowledge and Data Center",
-    "section": "What We Provide",
-    "text": "What We Provide\n\nData Repository\nBuilding a curated repository of geospatial data sources and methods, with clear guidance on how they can (and can’t) be used in applied work.\n\n\nPractical Examples\nShowcasing examples of microeconomic analyses that successfully integrate geospatial data to answer real-world policy questions.",
-    "crumbs": [
-      "Projects",
-      "Knowledge and Data Center"
-    ]
-  },
-  {
-    "objectID": "projects/knowledge-data-center.html#resources",
-    "href": "projects/knowledge-data-center.html#resources",
-    "title": "Knowledge and Data Center",
-    "section": "Resources",
-    "text": "Resources\n\nData Sources\nCurated list of geospatial data sources\n\n\nMethods and Guidelines\nBest practices and methodological guidance\n\n\nCase Studies\nExamples of successful applications",
-    "crumbs": [
-      "Projects",
-      "Knowledge and Data Center"
-    ]
-  },
-  {
-    "objectID": "projects/knowledge-data-center.html#how-to-use-this-resource",
-    "href": "projects/knowledge-data-center.html#how-to-use-this-resource",
-    "title": "Knowledge and Data Center",
-    "section": "How to Use This Resource",
-    "text": "How to Use This Resource\nGuidance for economists new to geospatial data",
-    "crumbs": [
-      "Projects",
-      "Knowledge and Data Center"
-    ]
-  },
-  {
-    "objectID": "projects/spatial-analysis.html",
-    "href": "projects/spatial-analysis.html",
-    "title": "Spatial Analysis",
-    "section": "",
-    "text": "We apply a geographic lens to pressing policy questions on poverty and inequality. Whether it’s identifying where jobs are (and aren’t) for the poor, mapping urban deprivation, or analyzing rural income dynamics, we use spatially disaggregated data to generate actionable insights.",
-    "crumbs": [
-      "Projects",
-      "Spatial Analysis"
-    ]
-  },
-  {
-    "objectID": "projects/spatial-analysis.html#overview",
-    "href": "projects/spatial-analysis.html#overview",
-    "title": "Spatial Analysis",
-    "section": "",
-    "text": "We apply a geographic lens to pressing policy questions on poverty and inequality. Whether it’s identifying where jobs are (and aren’t) for the poor, mapping urban deprivation, or analyzing rural income dynamics, we use spatially disaggregated data to generate actionable insights.",
-    "crumbs": [
-      "Projects",
-      "Spatial Analysis"
-    ]
-  },
-  {
-    "objectID": "projects/spatial-analysis.html#our-approach",
-    "href": "projects/spatial-analysis.html#our-approach",
-    "title": "Spatial Analysis",
-    "section": "Our Approach",
-    "text": "Our Approach\nWe work with diverse data sources including:\n\nHousehold surveys\nCensuses\nAdministrative records\nPrivate sector data\nSatellite-based remote sensing\n\nOur analysis covers everything from climate and land use to infrastructure and conflict.",
-    "crumbs": [
-      "Projects",
-      "Spatial Analysis"
-    ]
-  },
-  {
-    "objectID": "projects/spatial-analysis.html#tools-and-methods",
-    "href": "projects/spatial-analysis.html#tools-and-methods",
-    "title": "Spatial Analysis",
-    "section": "Tools and Methods",
-    "text": "Tools and Methods\nWe develop and share open, reproducible code and tools that can be adapted across countries and topics.",
-    "crumbs": [
-      "Projects",
-      "Spatial Analysis"
-    ]
-  },
-  {
-    "objectID": "projects/spatial-analysis.html#current-projects",
-    "href": "projects/spatial-analysis.html#current-projects",
-    "title": "Spatial Analysis",
-    "section": "Current Projects",
-    "text": "Current Projects\nProject examples will be added here",
-    "crumbs": [
-      "Projects",
-      "Spatial Analysis"
-    ]
-  },
-  {
-    "objectID": "projects/spatial-analysis.html#publications-and-outputs",
-    "href": "projects/spatial-analysis.html#publications-and-outputs",
-    "title": "Spatial Analysis",
-    "section": "Publications and Outputs",
-    "text": "Publications and Outputs\nKey outputs will be added here",
-    "crumbs": [
-      "Projects",
-      "Spatial Analysis"
-    ]
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Our work is organized around three main pillars that guide our approach to integrating geospatial data with poverty analysis.",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "projects/index.html#our-three-pillars",
-    "href": "projects/index.html#our-three-pillars",
-    "title": "Projects",
-    "section": "Our Three Pillars",
-    "text": "Our Three Pillars\n\nSpatial Analysis\nApplying a geographic lens to pressing policy questions on poverty and inequality.\n\n\nKnowledge and Data Center\nBuilding a curated repository of geospatial data sources and methods for poverty analysis.\n\n\nCapacity Building\nDemystifying geospatial data for microeconomists through hands-on training and peer-learning.",
-    "crumbs": [
-      "Projects"
-    ]
-  },
-  {
-    "objectID": "WB-IGO-RIDER.html",
-    "href": "WB-IGO-RIDER.html",
-    "title": "GeoPov",
-    "section": "",
-    "text": "WORLD BANK IGO RIDER - PROCEDURAL TERMS\nWhere the Licensor is an intergovernmental organization (IGO), the following additional terms shall apply: 1. Privileges and Immunities Nothing in this License shall constitute or be interpreted as a waiver, express or implied, of any privileges and immunities that apply to the Licensor pursuant to international law, treaties, or the Licensor’s constituent documents, including immunity from jurisdiction and execution. 2. Dispute Resolution Any dispute arising under this License that involves the Licensor shall be resolved, to the extent not settled amicably, through the following procedures: - First, by non-binding mediation conducted in accordance with rules designated by the Licensor, or, if none, the UNCITRAL Mediation Rules; - Failing settlement within 45 days, by final and binding arbitration in accordance with the UNCITRAL Arbitration Rules then in force, by a sole arbitrator, conducted in English, seated at the Licensor’s headquarters, and conducted remotely when practicable. 3. Interpretation under International Law This License shall be interpreted in accordance with general principles of international law, including those reflected in the Berne Convention (1971), the WIPO Copyright Treaty (1996), and the Universal Copyright Convention (1971). No provision shall be interpreted in a manner that derogates from the legal status of the Licensor under international law. 4. No Waiver No provision of this License shall be deemed waived and no breach consented to unless expressly agreed in writing and signed by the Licensor. 5. No Ongoing Support or Maintenance Nothing in this License shall be construed to create an obligation on the part of the Licensor to provide updates, maintenance, support or any form of continued service for the software once released. 6. Entire Agreement This License constitutes the entire agreement between the Licensee and the Licensor concerning the Work and supersedes any additional terms submitted by You. No modification shall be effective unless agreed in writing by both parties. 7. Severability If any provision of this License is held to be unenforceable, it shall be interpreted to give effect to its purpose to the extent permitted by applicable law, and the remainder of the License shall remain in full force and effect. 8. Precedence In the event of any inconsistency between these Additional Terms for IGOs and the terms of the MIT License, these Additional Terms for IGOs shall prevail."
-  },
-  {
-    "objectID": "team/index.html",
-    "href": "team/index.html",
-    "title": "Meet the Team",
-    "section": "",
-    "text": "We’re a global multi-disciplinary team in the Distributional Impact of Policy under the Prosperity Vice Presidency. We combine expertise in microeconomic analysis, spatial economics, and data engineering.",
-    "crumbs": [
-      "Team"
-    ]
-  },
-  {
-    "objectID": "team/index.html#who-we-are",
-    "href": "team/index.html#who-we-are",
-    "title": "Meet the Team",
-    "section": "Who We Are",
-    "text": "Who We Are\n\nCurious minds who ask “where”, “who”, “what” and “why” together\nPassionate about open data, open code, and inclusive analytics\nBelievers in the power of maps and evidence to drive better policy",
-    "crumbs": [
-      "Team"
-    ]
-  },
-  {
-    "objectID": "team/index.html#our-team",
-    "href": "team/index.html#our-team",
-    "title": "Meet the Team",
-    "section": "Our Team",
-    "text": "Our Team",
-    "crumbs": [
-      "Team"
-    ]
-  },
-  {
-    "objectID": "team/index.html#join-us",
-    "href": "team/index.html#join-us",
-    "title": "Meet the Team",
-    "section": "Join Us",
-    "text": "Join Us\nInterested in collaborating or learning more? Contact any team member directly.",
-    "crumbs": [
-      "Team"
-    ]
-  },
-  {
-    "objectID": "team/eduard-bukin.html",
-    "href": "team/eduard-bukin.html",
-    "title": "Eduard Bukin",
-    "section": "",
-    "text": "Eduard Bukin is an experienced economist, data scientist, and statistician spending the last decade at the World Bank, UN, and academia. His career has focused on econometrics, economic research, microeconomics, and statistics, with a strong emphasis on empowering non-specialists to extract insights from complex datasets and effectively communicate analyses through interactive web tools, and artificial intelligence.\nKey technical expertise lies in use of the modern data science technologies and programming languages such as R, Python, STATA, and GIS tools. He holds a Master’s degree in Rural Development from Ghent University and pursues a Ph.D. in Agricultural Economics from Justus Liebig University Giessen.\nHis research focuses on land and agricultural economics in transitional countries, such as Ukraine and Kazakhstan as well as on economic modelling of trade and climate policies impacts on welfare in developing countries. His work has contributed to several peer-reviewed publications published in the Land Use Policy Journal, Environmental Research Letters, Environmental and Resource Economics and other academic outlets as well as World Bank reports, Food and Agriculture Organization (FAO) publications, and internal documents.",
-    "crumbs": [
-      "Team",
-      "Eduard Bukin"
-    ]
-  },
-  {
-    "objectID": "team/eduard-bukin.html#bio",
-    "href": "team/eduard-bukin.html#bio",
-    "title": "Eduard Bukin",
-    "section": "",
-    "text": "Eduard Bukin is an experienced economist, data scientist, and statistician spending the last decade at the World Bank, UN, and academia. His career has focused on econometrics, economic research, microeconomics, and statistics, with a strong emphasis on empowering non-specialists to extract insights from complex datasets and effectively communicate analyses through interactive web tools, and artificial intelligence.\nKey technical expertise lies in use of the modern data science technologies and programming languages such as R, Python, STATA, and GIS tools. He holds a Master’s degree in Rural Development from Ghent University and pursues a Ph.D. in Agricultural Economics from Justus Liebig University Giessen.\nHis research focuses on land and agricultural economics in transitional countries, such as Ukraine and Kazakhstan as well as on economic modelling of trade and climate policies impacts on welfare in developing countries. His work has contributed to several peer-reviewed publications published in the Land Use Policy Journal, Environmental Research Letters, Environmental and Resource Economics and other academic outlets as well as World Bank reports, Food and Agriculture Organization (FAO) publications, and internal documents.",
-    "crumbs": [
-      "Team",
-      "Eduard Bukin"
-    ]
-  },
-  {
-    "objectID": "team/maria-davalos.html",
-    "href": "team/maria-davalos.html",
-    "title": "Maria Davalos",
-    "section": "",
-    "text": "María Eugenia Dávalos is a Senior Economist driving analysis and evidence-based policy design to expand economic opportunity and reduce poverty. She has worked across Latin America and the Caribbean and Europe and Central Asia, and brings together analytics and operations on economic mobility, distributional impact of policies and shocks, labor markets, gender, migration, and inequality. In the past few years, María has increasingly focused her work on how place shapes life chances and how spatially targeted solutions can promote more inclusive growth. Her recent policy-oriented research has focused on a geographic lens to inequality of opportunity and intergenerational mobility, and ongoing work on the geography of labor markets and job quality. Beyond her analytical experience, her operational work has leveraged the Bank’s financing instruments to turn diagnostics into policy reform.",
-    "crumbs": [
-      "Team",
-      "Maria Davalos"
-    ]
-  },
-  {
-    "objectID": "team/maria-davalos.html#bio",
-    "href": "team/maria-davalos.html#bio",
-    "title": "Maria Davalos",
-    "section": "",
-    "text": "María Eugenia Dávalos is a Senior Economist driving analysis and evidence-based policy design to expand economic opportunity and reduce poverty. She has worked across Latin America and the Caribbean and Europe and Central Asia, and brings together analytics and operations on economic mobility, distributional impact of policies and shocks, labor markets, gender, migration, and inequality. In the past few years, María has increasingly focused her work on how place shapes life chances and how spatially targeted solutions can promote more inclusive growth. Her recent policy-oriented research has focused on a geographic lens to inequality of opportunity and intergenerational mobility, and ongoing work on the geography of labor markets and job quality. Beyond her analytical experience, her operational work has leveraged the Bank’s financing instruments to turn diagnostics into policy reform.",
-    "crumbs": [
-      "Team",
-      "Maria Davalos"
-    ]
   },
   {
     "objectID": "seminars/seminar-2026-02/slides.html#the-goal",
@@ -790,6 +364,516 @@
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
       "Slides"
+    ]
+  },
+  {
+    "objectID": "team/maria-davalos.html",
+    "href": "team/maria-davalos.html",
+    "title": "Maria Davalos",
+    "section": "",
+    "text": "María Eugenia Dávalos is a Senior Economist driving analysis and evidence-based policy design to expand economic opportunity and reduce poverty. She has worked across Latin America and the Caribbean and Europe and Central Asia, and brings together analytics and operations on economic mobility, distributional impact of policies and shocks, labor markets, gender, migration, and inequality. In the past few years, María has increasingly focused her work on how place shapes life chances and how spatially targeted solutions can promote more inclusive growth. Her recent policy-oriented research has focused on a geographic lens to inequality of opportunity and intergenerational mobility, and ongoing work on the geography of labor markets and job quality. Beyond her analytical experience, her operational work has leveraged the Bank’s financing instruments to turn diagnostics into policy reform.",
+    "crumbs": [
+      "Team",
+      "Maria Davalos"
+    ]
+  },
+  {
+    "objectID": "team/maria-davalos.html#bio",
+    "href": "team/maria-davalos.html#bio",
+    "title": "Maria Davalos",
+    "section": "",
+    "text": "María Eugenia Dávalos is a Senior Economist driving analysis and evidence-based policy design to expand economic opportunity and reduce poverty. She has worked across Latin America and the Caribbean and Europe and Central Asia, and brings together analytics and operations on economic mobility, distributional impact of policies and shocks, labor markets, gender, migration, and inequality. In the past few years, María has increasingly focused her work on how place shapes life chances and how spatially targeted solutions can promote more inclusive growth. Her recent policy-oriented research has focused on a geographic lens to inequality of opportunity and intergenerational mobility, and ongoing work on the geography of labor markets and job quality. Beyond her analytical experience, her operational work has leveraged the Bank’s financing instruments to turn diagnostics into policy reform.",
+    "crumbs": [
+      "Team",
+      "Maria Davalos"
+    ]
+  },
+  {
+    "objectID": "team/eduard-bukin.html",
+    "href": "team/eduard-bukin.html",
+    "title": "Eduard Bukin",
+    "section": "",
+    "text": "Eduard Bukin is an experienced economist, data scientist, and statistician spending the last decade at the World Bank, UN, and academia. His career has focused on econometrics, economic research, microeconomics, and statistics, with a strong emphasis on empowering non-specialists to extract insights from complex datasets and effectively communicate analyses through interactive web tools, and artificial intelligence.\nKey technical expertise lies in use of the modern data science technologies and programming languages such as R, Python, STATA, and GIS tools. He holds a Master’s degree in Rural Development from Ghent University and pursues a Ph.D. in Agricultural Economics from Justus Liebig University Giessen.\nHis research focuses on land and agricultural economics in transitional countries, such as Ukraine and Kazakhstan as well as on economic modelling of trade and climate policies impacts on welfare in developing countries. His work has contributed to several peer-reviewed publications published in the Land Use Policy Journal, Environmental Research Letters, Environmental and Resource Economics and other academic outlets as well as World Bank reports, Food and Agriculture Organization (FAO) publications, and internal documents.",
+    "crumbs": [
+      "Team",
+      "Eduard Bukin"
+    ]
+  },
+  {
+    "objectID": "team/eduard-bukin.html#bio",
+    "href": "team/eduard-bukin.html#bio",
+    "title": "Eduard Bukin",
+    "section": "",
+    "text": "Eduard Bukin is an experienced economist, data scientist, and statistician spending the last decade at the World Bank, UN, and academia. His career has focused on econometrics, economic research, microeconomics, and statistics, with a strong emphasis on empowering non-specialists to extract insights from complex datasets and effectively communicate analyses through interactive web tools, and artificial intelligence.\nKey technical expertise lies in use of the modern data science technologies and programming languages such as R, Python, STATA, and GIS tools. He holds a Master’s degree in Rural Development from Ghent University and pursues a Ph.D. in Agricultural Economics from Justus Liebig University Giessen.\nHis research focuses on land and agricultural economics in transitional countries, such as Ukraine and Kazakhstan as well as on economic modelling of trade and climate policies impacts on welfare in developing countries. His work has contributed to several peer-reviewed publications published in the Land Use Policy Journal, Environmental Research Letters, Environmental and Resource Economics and other academic outlets as well as World Bank reports, Food and Agriculture Organization (FAO) publications, and internal documents.",
+    "crumbs": [
+      "Team",
+      "Eduard Bukin"
+    ]
+  },
+  {
+    "objectID": "team/index.html",
+    "href": "team/index.html",
+    "title": "Meet the Team",
+    "section": "",
+    "text": "We’re a global multi-disciplinary team in the Distributional Impact of Policy under the Prosperity Vice Presidency. We combine expertise in microeconomic analysis, spatial economics, and data engineering.",
+    "crumbs": [
+      "Team"
+    ]
+  },
+  {
+    "objectID": "team/index.html#who-we-are",
+    "href": "team/index.html#who-we-are",
+    "title": "Meet the Team",
+    "section": "Who We Are",
+    "text": "Who We Are\n\nCurious minds who ask “where”, “who”, “what” and “why” together\nPassionate about open data, open code, and inclusive analytics\nBelievers in the power of maps and evidence to drive better policy",
+    "crumbs": [
+      "Team"
+    ]
+  },
+  {
+    "objectID": "team/index.html#our-team",
+    "href": "team/index.html#our-team",
+    "title": "Meet the Team",
+    "section": "Our Team",
+    "text": "Our Team",
+    "crumbs": [
+      "Team"
+    ]
+  },
+  {
+    "objectID": "team/index.html#join-us",
+    "href": "team/index.html#join-us",
+    "title": "Meet the Team",
+    "section": "Join Us",
+    "text": "Join Us\nInterested in collaborating or learning more? Contact any team member directly.",
+    "crumbs": [
+      "Team"
+    ]
+  },
+  {
+    "objectID": "WB-IGO-RIDER.html",
+    "href": "WB-IGO-RIDER.html",
+    "title": "GeoPov",
+    "section": "",
+    "text": "WORLD BANK IGO RIDER - PROCEDURAL TERMS\nWhere the Licensor is an intergovernmental organization (IGO), the following additional terms shall apply: 1. Privileges and Immunities Nothing in this License shall constitute or be interpreted as a waiver, express or implied, of any privileges and immunities that apply to the Licensor pursuant to international law, treaties, or the Licensor’s constituent documents, including immunity from jurisdiction and execution. 2. Dispute Resolution Any dispute arising under this License that involves the Licensor shall be resolved, to the extent not settled amicably, through the following procedures: - First, by non-binding mediation conducted in accordance with rules designated by the Licensor, or, if none, the UNCITRAL Mediation Rules; - Failing settlement within 45 days, by final and binding arbitration in accordance with the UNCITRAL Arbitration Rules then in force, by a sole arbitrator, conducted in English, seated at the Licensor’s headquarters, and conducted remotely when practicable. 3. Interpretation under International Law This License shall be interpreted in accordance with general principles of international law, including those reflected in the Berne Convention (1971), the WIPO Copyright Treaty (1996), and the Universal Copyright Convention (1971). No provision shall be interpreted in a manner that derogates from the legal status of the Licensor under international law. 4. No Waiver No provision of this License shall be deemed waived and no breach consented to unless expressly agreed in writing and signed by the Licensor. 5. No Ongoing Support or Maintenance Nothing in this License shall be construed to create an obligation on the part of the Licensor to provide updates, maintenance, support or any form of continued service for the software once released. 6. Entire Agreement This License constitutes the entire agreement between the Licensee and the Licensor concerning the Work and supersedes any additional terms submitted by You. No modification shall be effective unless agreed in writing by both parties. 7. Severability If any provision of this License is held to be unenforceable, it shall be interpreted to give effect to its purpose to the extent permitted by applicable law, and the remainder of the License shall remain in full force and effect. 8. Precedence In the event of any inconsistency between these Additional Terms for IGOs and the terms of the MIT License, these Additional Terms for IGOs shall prevail."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Our work is organized around three main pillars that guide our approach to integrating geospatial data with poverty analysis.",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "projects/index.html#our-three-pillars",
+    "href": "projects/index.html#our-three-pillars",
+    "title": "Projects",
+    "section": "Our Three Pillars",
+    "text": "Our Three Pillars\n\nSpatial Analysis\nApplying a geographic lens to pressing policy questions on poverty and inequality.\n\n\nKnowledge and Data Center\nBuilding a curated repository of geospatial data sources and methods for poverty analysis.\n\n\nCapacity Building\nDemystifying geospatial data for microeconomists through hands-on training and peer-learning.",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "projects/spatial-analysis.html",
+    "href": "projects/spatial-analysis.html",
+    "title": "Spatial Analysis",
+    "section": "",
+    "text": "We apply a geographic lens to pressing policy questions on poverty and inequality. Whether it’s identifying where jobs are (and aren’t) for the poor, mapping urban deprivation, or analyzing rural income dynamics, we use spatially disaggregated data to generate actionable insights.",
+    "crumbs": [
+      "Projects",
+      "Spatial Analysis"
+    ]
+  },
+  {
+    "objectID": "projects/spatial-analysis.html#overview",
+    "href": "projects/spatial-analysis.html#overview",
+    "title": "Spatial Analysis",
+    "section": "",
+    "text": "We apply a geographic lens to pressing policy questions on poverty and inequality. Whether it’s identifying where jobs are (and aren’t) for the poor, mapping urban deprivation, or analyzing rural income dynamics, we use spatially disaggregated data to generate actionable insights.",
+    "crumbs": [
+      "Projects",
+      "Spatial Analysis"
+    ]
+  },
+  {
+    "objectID": "projects/spatial-analysis.html#our-approach",
+    "href": "projects/spatial-analysis.html#our-approach",
+    "title": "Spatial Analysis",
+    "section": "Our Approach",
+    "text": "Our Approach\nWe work with diverse data sources including:\n\nHousehold surveys\nCensuses\nAdministrative records\nPrivate sector data\nSatellite-based remote sensing\n\nOur analysis covers everything from climate and land use to infrastructure and conflict.",
+    "crumbs": [
+      "Projects",
+      "Spatial Analysis"
+    ]
+  },
+  {
+    "objectID": "projects/spatial-analysis.html#tools-and-methods",
+    "href": "projects/spatial-analysis.html#tools-and-methods",
+    "title": "Spatial Analysis",
+    "section": "Tools and Methods",
+    "text": "Tools and Methods\nWe develop and share open, reproducible code and tools that can be adapted across countries and topics.",
+    "crumbs": [
+      "Projects",
+      "Spatial Analysis"
+    ]
+  },
+  {
+    "objectID": "projects/spatial-analysis.html#current-projects",
+    "href": "projects/spatial-analysis.html#current-projects",
+    "title": "Spatial Analysis",
+    "section": "Current Projects",
+    "text": "Current Projects\nProject examples will be added here",
+    "crumbs": [
+      "Projects",
+      "Spatial Analysis"
+    ]
+  },
+  {
+    "objectID": "projects/spatial-analysis.html#publications-and-outputs",
+    "href": "projects/spatial-analysis.html#publications-and-outputs",
+    "title": "Spatial Analysis",
+    "section": "Publications and Outputs",
+    "text": "Publications and Outputs\nKey outputs will be added here",
+    "crumbs": [
+      "Projects",
+      "Spatial Analysis"
+    ]
+  },
+  {
+    "objectID": "projects/knowledge-data-center.html",
+    "href": "projects/knowledge-data-center.html",
+    "title": "Knowledge and Data Center",
+    "section": "",
+    "text": "We bring clarity to the what, why, and how of using geospatial data in poverty analysis.",
+    "crumbs": [
+      "Projects",
+      "Knowledge and Data Center"
+    ]
+  },
+  {
+    "objectID": "projects/knowledge-data-center.html#overview",
+    "href": "projects/knowledge-data-center.html#overview",
+    "title": "Knowledge and Data Center",
+    "section": "",
+    "text": "We bring clarity to the what, why, and how of using geospatial data in poverty analysis.",
+    "crumbs": [
+      "Projects",
+      "Knowledge and Data Center"
+    ]
+  },
+  {
+    "objectID": "projects/knowledge-data-center.html#what-we-provide",
+    "href": "projects/knowledge-data-center.html#what-we-provide",
+    "title": "Knowledge and Data Center",
+    "section": "What We Provide",
+    "text": "What We Provide\n\nData Repository\nBuilding a curated repository of geospatial data sources and methods, with clear guidance on how they can (and can’t) be used in applied work.\n\n\nPractical Examples\nShowcasing examples of microeconomic analyses that successfully integrate geospatial data to answer real-world policy questions.",
+    "crumbs": [
+      "Projects",
+      "Knowledge and Data Center"
+    ]
+  },
+  {
+    "objectID": "projects/knowledge-data-center.html#resources",
+    "href": "projects/knowledge-data-center.html#resources",
+    "title": "Knowledge and Data Center",
+    "section": "Resources",
+    "text": "Resources\n\nData Sources\nCurated list of geospatial data sources\n\n\nMethods and Guidelines\nBest practices and methodological guidance\n\n\nCase Studies\nExamples of successful applications",
+    "crumbs": [
+      "Projects",
+      "Knowledge and Data Center"
+    ]
+  },
+  {
+    "objectID": "projects/knowledge-data-center.html#how-to-use-this-resource",
+    "href": "projects/knowledge-data-center.html#how-to-use-this-resource",
+    "title": "Knowledge and Data Center",
+    "section": "How to Use This Resource",
+    "text": "How to Use This Resource\nGuidance for economists new to geospatial data",
+    "crumbs": [
+      "Projects",
+      "Knowledge and Data Center"
+    ]
+  },
+  {
+    "objectID": "projects/capacity-building.html",
+    "href": "projects/capacity-building.html",
+    "title": "Capacity Building",
+    "section": "",
+    "text": "We help demystify geospatial data for microeconomists. Through hands-on trainings and peer-learning events, we build core skills for microeconomists to use geospatial methods with confidence.",
+    "crumbs": [
+      "Projects",
+      "Capacity Building"
+    ]
+  },
+  {
+    "objectID": "projects/capacity-building.html#overview",
+    "href": "projects/capacity-building.html#overview",
+    "title": "Capacity Building",
+    "section": "",
+    "text": "We help demystify geospatial data for microeconomists. Through hands-on trainings and peer-learning events, we build core skills for microeconomists to use geospatial methods with confidence.",
+    "crumbs": [
+      "Projects",
+      "Capacity Building"
+    ]
+  },
+  {
+    "objectID": "projects/capacity-building.html#our-approach",
+    "href": "projects/capacity-building.html#our-approach",
+    "title": "Capacity Building",
+    "section": "Our Approach",
+    "text": "Our Approach\nWhether you’re just getting started or looking to refine your toolkit, we’re here to support you through our growing Community of Practice.",
+    "crumbs": [
+      "Projects",
+      "Capacity Building"
+    ]
+  },
+  {
+    "objectID": "projects/capacity-building.html#training-programs",
+    "href": "projects/capacity-building.html#training-programs",
+    "title": "Capacity Building",
+    "section": "Training Programs",
+    "text": "Training Programs\n\nIntroductory Workshops\nFor those new to geospatial analysis\n\n\nAdvanced Methods\nDeep dives into specific techniques\n\n\nApplied Case Studies\nLearning from real-world applications",
+    "crumbs": [
+      "Projects",
+      "Capacity Building"
+    ]
+  },
+  {
+    "objectID": "projects/capacity-building.html#community-of-practice",
+    "href": "projects/capacity-building.html#community-of-practice",
+    "title": "Capacity Building",
+    "section": "Community of Practice",
+    "text": "Community of Practice\nJoin our community to:\n\nShare experiences and challenges\nLearn from peers\nAccess ongoing support\nContribute to collective knowledge",
+    "crumbs": [
+      "Projects",
+      "Capacity Building"
+    ]
+  },
+  {
+    "objectID": "projects/capacity-building.html#upcoming-events",
+    "href": "projects/capacity-building.html#upcoming-events",
+    "title": "Capacity Building",
+    "section": "Upcoming Events",
+    "text": "Upcoming Events\nCheck the Seminars page for upcoming training events",
+    "crumbs": [
+      "Projects",
+      "Capacity Building"
+    ]
+  },
+  {
+    "objectID": "projects/capacity-building.html#resources",
+    "href": "projects/capacity-building.html#resources",
+    "title": "Capacity Building",
+    "section": "Resources",
+    "text": "Resources\n\nTraining materials\nCode examples\nSelf-paced tutorials\nCommunity forums",
+    "crumbs": [
+      "Projects",
+      "Capacity Building"
+    ]
+  },
+  {
+    "objectID": "team/nga-nguyen.html",
+    "href": "team/nga-nguyen.html",
+    "title": "Nga Thi Viet Nguyen",
+    "section": "",
+    "text": "A Senior Economist who is passionate about how policies shape people’s lives — and how where they live changes the story. She’s worked across Sub-Saharan Africa, Central Asia, and the EU, combining solid economic analysis with a growing love for using spatial data to uncover new insights into welfare outcomes.\nHer research has appeared in journals like the Journal of Economic Inequality, World Bank Economic Review, and Journal of Development Studies. These days, she’s especially excited about turning geospatial insights into smarter, more grounded policies that deliver real impact.",
+    "crumbs": [
+      "Team",
+      "Nga Thi Viet Nguyen"
+    ]
+  },
+  {
+    "objectID": "team/nga-nguyen.html#bio",
+    "href": "team/nga-nguyen.html#bio",
+    "title": "Nga Thi Viet Nguyen",
+    "section": "",
+    "text": "A Senior Economist who is passionate about how policies shape people’s lives — and how where they live changes the story. She’s worked across Sub-Saharan Africa, Central Asia, and the EU, combining solid economic analysis with a growing love for using spatial data to uncover new insights into welfare outcomes.\nHer research has appeared in journals like the Journal of Economic Inequality, World Bank Economic Review, and Journal of Development Studies. These days, she’s especially excited about turning geospatial insights into smarter, more grounded policies that deliver real impact.",
+    "crumbs": [
+      "Team",
+      "Nga Thi Viet Nguyen"
+    ]
+  },
+  {
+    "objectID": "team/nga-nguyen.html#expertise",
+    "href": "team/nga-nguyen.html#expertise",
+    "title": "Nga Thi Viet Nguyen",
+    "section": "Expertise",
+    "text": "Expertise\n\nPoverty and inequality analysis\nSpatial economics\nPolicy impact evaluation\nMicroeconomic analysis",
+    "crumbs": [
+      "Team",
+      "Nga Thi Viet Nguyen"
+    ]
+  },
+  {
+    "objectID": "team/ben-brunckhorst.html",
+    "href": "team/ben-brunckhorst.html",
+    "title": "Ben Brunckhorst",
+    "section": "",
+    "text": "Ben Brunckhorst is a research analyst at the World Bank, where he contributes to the understanding of economic development and policy impact through interdisciplinary work spanning economics, climate change, and data science. He supports global welfare monitoring efforts with a particular focus on subnational spatial disparities in poverty and inequality. With a strong background in development economics and engineering, he utilizes tools such as R and Python to analyze large datasets and extract meaningful insights. His research has been published in academic journals and World Bank reports, and covered by the New York Times.",
+    "crumbs": [
+      "Team",
+      "Ben Brunckhorst"
+    ]
+  },
+  {
+    "objectID": "team/ben-brunckhorst.html#bio",
+    "href": "team/ben-brunckhorst.html#bio",
+    "title": "Ben Brunckhorst",
+    "section": "",
+    "text": "Ben Brunckhorst is a research analyst at the World Bank, where he contributes to the understanding of economic development and policy impact through interdisciplinary work spanning economics, climate change, and data science. He supports global welfare monitoring efforts with a particular focus on subnational spatial disparities in poverty and inequality. With a strong background in development economics and engineering, he utilizes tools such as R and Python to analyze large datasets and extract meaningful insights. His research has been published in academic journals and World Bank reports, and covered by the New York Times.",
+    "crumbs": [
+      "Team",
+      "Ben Brunckhorst"
+    ]
+  },
+  {
+    "objectID": "team/henry-stemmler.html",
+    "href": "team/henry-stemmler.html",
+    "title": "Henry Stemmler",
+    "section": "",
+    "text": "An Economist by training, Henry Stemmler works on poverty analysis and geospatial analytics at the World Bank. His current work explores how spatial factors shape labor market outcomes and welfare in developing countries, with a particular interest in urban job accessibility and the geographic dimensions of poverty.\nHe has co-authored World Bank flagship reports including the Poverty, Prosperity and Planet Report, and his work has appeared in journals such as the Economic Journal, Journal of Development Economics, World Development, and Food Policy. He holds a PhD in Economics from the University of Göttingen and previously worked as a postdoctoral researcher at ETH Zürich and as an Economist at the International Labor Organization.",
+    "crumbs": [
+      "Team",
+      "Henry Stemmler"
+    ]
+  },
+  {
+    "objectID": "team/henry-stemmler.html#bio",
+    "href": "team/henry-stemmler.html#bio",
+    "title": "Henry Stemmler",
+    "section": "",
+    "text": "An Economist by training, Henry Stemmler works on poverty analysis and geospatial analytics at the World Bank. His current work explores how spatial factors shape labor market outcomes and welfare in developing countries, with a particular interest in urban job accessibility and the geographic dimensions of poverty.\nHe has co-authored World Bank flagship reports including the Poverty, Prosperity and Planet Report, and his work has appeared in journals such as the Economic Journal, Journal of Development Economics, World Development, and Food Policy. He holds a PhD in Economics from the University of Göttingen and previously worked as a postdoctoral researcher at ETH Zürich and as an Economist at the International Labor Organization.",
+    "crumbs": [
+      "Team",
+      "Henry Stemmler"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to GeoPov",
+    "section": "",
+    "text": "🌍 We are a group of development economists and geospatial enthusiasts working at the intersection of poverty, place, and policy. At GeoPov, we believe that where people live matters just as much as how they live — and we’re here to make sure that spatial realities are part of the poverty dialogue.",
+    "crumbs": [
+      "About Us"
+    ]
+  },
+  {
+    "objectID": "index.html#our-goal",
+    "href": "index.html#our-goal",
+    "title": "Welcome to GeoPov",
+    "section": "🎯 Our Goal",
+    "text": "🎯 Our Goal\nTo develop a global agenda that:\n\nEmpowers economists by integrating geospatial data and spatial analysis into country-level diagnostics and policy engagement.\nContributes to global knowledge that helps design local solutions grounded in data and spatial context.",
+    "crumbs": [
+      "About Us"
+    ]
+  },
+  {
+    "objectID": "index.html#what-we-do",
+    "href": "index.html#what-we-do",
+    "title": "Welcome to GeoPov",
+    "section": "🧭 What We Do",
+    "text": "🧭 What We Do\nOur work is organized around three main pillars:\n\nPillar 1: Spatial Analysis\nWe apply a geographic lens to pressing policy questions on poverty and inequality. Whether it’s identifying where jobs are (and aren’t) for the poor, mapping urban deprivation, or analyzing rural income dynamics, we use spatially disaggregated data to generate actionable insights. This includes household surveys, censuses, administrative records, private sector data, and satellite-based remote sensing — covering everything from climate and land use to infrastructure and conflict. We also develop and share open, reproducible code and tools that can be adapted across countries and topics.\nLearn more about our Spatial Analysis work →\n\n\nPillar 2: Knowledge and Data Center\nWe bring clarity to the what, why, and how of using geospatial data in poverty analysis. This pillar focuses on:\n\nBuilding a curated repository of geospatial data sources and methods, with clear guidance on how they can (and can’t) be used in applied work.\nShowcasing examples of microeconomic analyses that successfully integrate geospatial data to answer real-world policy questions.\n\nExplore our Knowledge and Data Center →\n\n\nPillar 3: Capacity Building\nWe help demystify geospatial data for microeconomists. Through hands-on trainings and peer-learning events, we build core skills for microeconomists to use geospatial methods with confidence. Whether you’re just getting started or looking to refine your toolkit, we’re here to support you through our growing Community of Practice.\nExplore our seminars and training events →",
+    "crumbs": [
+      "About Us"
+    ]
+  },
+  {
+    "objectID": "index.html#meet-the-team",
+    "href": "index.html#meet-the-team",
+    "title": "Welcome to GeoPov",
+    "section": "👥 Meet the Team",
+    "text": "👥 Meet the Team\nWe’re a global multi-disciplinary team in the Distributional Impact of Policy under the Prosperity Vice Presidency. We combine expertise in microeconomic analysis, spatial economics, and data engineering.\nWho we are:\n\nCurious minds who ask “where”, “who”, “what” and “why” together\nPassionate about open data, open code, and inclusive analytics\nBelievers in the power of maps and evidence to drive better policy\n\nMeet our team members →",
+    "crumbs": [
+      "About Us"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html",
+    "href": "seminars/seminar-2026-02/qa.html",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "",
+    "text": "Answer:\nBoth integrate well with Git—you get the same source control panel, diff viewer, and commit workflow in either IDE. For Git-heavy workflows, you will not notice any difference.\nKey differences:\n\nPositron is built specifically for data science, so it includes a native Variables pane, Data Viewer, and Plots panel out of the box\nR and Python environment configuration is simpler in Positron (automatic interpreter detection, integrated console)\nVS Code requires more extensions to replicate this functionality and integration is less seamless.\n\n\n\n\nAnswer:\nNot directly comparable. We are not sure it AmazonQ is approved for use at the World Bank, please check with ITS.\n\n\n\nAnswer:\nThese tools serve fundamentally different purposes. The latter onw is not on coding.\n\n\n\nAnswer: Yes. Git also could be developed on OneDrive.\n\nPositron only sees files inside your opened project folder unless you explicitly instruct it to look elsewhere\nYou can keep your Git repository (code, documentation, prompt files) in one location\nConfidential datasets can remain on OneDrive, a network drive, or another restricted folder outside the project\nYour code references the data path, but the AI assistant never indexes or “sees” the raw data. AI sees the results of your code, not the underlying files, unless you explicitly share them as context.\n\n\n\n\nAnswer:\nUsage limits come from GitHub Copilot, not from the IDE itself.\n\nIf you use the same GitHub account in both Positron and VS Code, you have identical usage limits\nThe IDE is just the interface; GitHub’s servers handle the AI requests\nWB Girhub is currently on the Copilot Business plan, which offers generous limits suitable for heavy use in data science projects. Use Chat mode for casual use to conserve tokens and Agent when needed.\n\n\n\n\n\n\n\n\nAnswer:\n\nInstallation instructions: https://wbggeopov.github.io/geoPovLearn/seminars/seminar-2026-02/setup-instructions.html\nCurrently requires IT installation via eServices until Positron becomes available in Software Center\nWhen submitting the eServices request, you will be asked about licensing (see next question)\nCould be installed by any ITS associate with software installation permissions. Now it is being tested for being included on Software Center for self-service installation.\n\nSteps summary:\n\nGo to eServices and request software installation\nSearch for “Positron” or submit a custom software request\nFollow the prompts regarding licensing\nIT will install the application on your machine\n\n\n\n\nAnswer:\n\nCost is $0 — Positron is free, open-source software (built by Posit, the company behind RStudio)\nWhen the eServices form asks “Does your unit have a license?”, enter “Yes”\nThis confirms that no paid license is required.\n\nGitHub Copilot is a separate subscription. The World Bank provides Copilot Business licenses. Feel free to reach out to github@worldbank.org\n\n\n\n\n\n\nAnswer: Yes, through several mechanisms. Read more positron.posit.co/assistant-chat-agents.html\n\nPrompt Files (.prompt.md): Create reusable instruction files that you attach as context when starting a chat. See: https://docs.github.com/en/copilot/tutorials/customization-library/prompt-files\nCopilot Instructions File: Create .github/copilot-instructions.md in your repository root. Copilot automatically reads this file and applies the instructions to all interactions within that workspace.\nAgent files (agent.md): For complex workflows, maintain a markdown file describing your project structure, coding conventions, and common tasks. Attach it as context when needed.\n\nExample .github/copilot-instructions.md:\n\n\n\n\nAnswer: Yes, effectively—through the .github/copilot-instructions.md file.\n\nCreate this file in your repository’s .github/ folder\nCopilot reads it automatically for every chat and completion in that workspace\nInstructions persist across sessions without manual attachment\n\nThis is functionally equivalent to ChatGPT’s “Custom Instructions” or “Memory” features, but scoped to a specific project rather than your entire account.\nLimitations:\n\nInstructions only apply within that workspace/repository\nVery long instruction files may reduce context available for your actual queries\nKeep instructions concise and focused (recommended: under 500 words)\n\nFor personal, cross-project preferences, you can also configure Copilot settings in your GitHub account.\n\n\n\n\nAnswer: It depends on the scope you select:\n\n\n\nScope\nDuration\nRisk level\n\n\n\n\nThis action only\nOne-time\nLow\n\n\nThis session\nUntil you close Positron\nMedium\n\n\nThis workspace\nPermanent for this project\nHigher\n\n\n\n\n\n\n\nAnswer: Yes, and this is strongly recommended for team environments.\nApproaches:\n\nWorkspace settings (.vscode/settings.json): Pre-configure which commands are allowed or blocked, then commit this file to your shared repository\nDocumentation and training: Establish team protocols specifying which permissions are acceptable\nPrompt protocols: Check the GPID workflow protocols: https://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html\nCode review: Require review of any AI-generated code that interacts with file systems or external services\n\n\n\n\n\n\n\n\nAnswer: The AI only processes files you explicitly provide as context. Several safeguards help protect confidential data:\n\nProject isolation: AI only sees files in your Positron project folder—OneDrive folders outside the project are invisible\nIgnore files: Create .copilotignore and/or .aidigestignore in your project root to exclude sensitive files:\n# .copilotignore\ndata/raw/*\n*.dta\n*confidential*\nFolder structure: Keep confidential data in separate restricted folders, outside your code repository entirely\nExplicit context: AI only processes files you attach to a chat or that are open in your editor\nAnonymization assistance: You can ask the AI to help write code that anonymizes data before you expose any real values\n\n\n\n\n\nAnswer: Yes. The AI has no access outside your Positron project directory unless you specifically direct it there.\n\n\n\n\n\n\n\nAnswer: Not currently, due to technical and security constraints: WB imposes policy that forbids running MCP servers locally.\nWhy R works but Stata does not:\n\nPositron has the Model Context Protocol (MCP) server for R that allows Copilot to interact directly with the R console—reading errors, inspecting objects, and running diagnostic code. It also has it for python.\nStata lacks an MCP implementation, and World Bank security policies restrict the installation of custom protocol servers.\nThis means Copilot cannot “see” your Stata console output or automatically diagnose errors\n\nWorkarounds:\n\nManual error copying: Copy the Stata error message and paste it into Copilot chat with your code. The AI can still diagnose and suggest fixes.\nLog files: Direct Stata output to a log file in your project folder:\nlog using \"output/analysis_log.log\", text replace\nThen attach the log file as context for debugging.\n\n\n\n\n\n\n\n\nResponse: Agreed. AI amplifies your existing workflow—it cannot compensate for:\n\nMissing documentation\nUnclear data structures\nInconsistent variable naming\nIrregular file organization\n\nPractical implications:\n\nInvest time in READMEs, codebooks, and data dictionaries\nUse consistent naming conventions the AI can learn from\nStructure projects logically (e.g., data/, code/, output/)\nDocument your workflow before asking AI to help optimize it\n\nWell-organized projects get dramatically better AI assistance.\n\n\n\n\nResponse: Agreed. Standardized prompting improves consistency, reproducibility, and code quality across team members.\nRecommended starting point: The GPID workflow protocols provide an excellent foundation: https://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html\nKey elements of good prompt protocols:\n\nStandard prompt templates for common tasks (data cleaning, merging, visualization)\nRequired context to include (data structure, variable definitions, expected output)\nReview requirements for AI-generated code\nDocumentation standards for AI-assisted work",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#a.-software",
+    "href": "seminars/seminar-2026-02/qa.html#a.-software",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "",
+    "text": "Answer:\nBoth integrate well with Git—you get the same source control panel, diff viewer, and commit workflow in either IDE. For Git-heavy workflows, you will not notice any difference.\nKey differences:\n\nPositron is built specifically for data science, so it includes a native Variables pane, Data Viewer, and Plots panel out of the box\nR and Python environment configuration is simpler in Positron (automatic interpreter detection, integrated console)\nVS Code requires more extensions to replicate this functionality and integration is less seamless.\n\n\n\n\nAnswer:\nNot directly comparable. We are not sure it AmazonQ is approved for use at the World Bank, please check with ITS.\n\n\n\nAnswer:\nThese tools serve fundamentally different purposes. The latter onw is not on coding.\n\n\n\nAnswer: Yes. Git also could be developed on OneDrive.\n\nPositron only sees files inside your opened project folder unless you explicitly instruct it to look elsewhere\nYou can keep your Git repository (code, documentation, prompt files) in one location\nConfidential datasets can remain on OneDrive, a network drive, or another restricted folder outside the project\nYour code references the data path, but the AI assistant never indexes or “sees” the raw data. AI sees the results of your code, not the underlying files, unless you explicitly share them as context.\n\n\n\n\nAnswer:\nUsage limits come from GitHub Copilot, not from the IDE itself.\n\nIf you use the same GitHub account in both Positron and VS Code, you have identical usage limits\nThe IDE is just the interface; GitHub’s servers handle the AI requests\nWB Girhub is currently on the Copilot Business plan, which offers generous limits suitable for heavy use in data science projects. Use Chat mode for casual use to conserve tokens and Agent when needed.",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#b.-setup-it-requirements-licensing",
+    "href": "seminars/seminar-2026-02/qa.html#b.-setup-it-requirements-licensing",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "",
+    "text": "Answer:\n\nInstallation instructions: https://wbggeopov.github.io/geoPovLearn/seminars/seminar-2026-02/setup-instructions.html\nCurrently requires IT installation via eServices until Positron becomes available in Software Center\nWhen submitting the eServices request, you will be asked about licensing (see next question)\nCould be installed by any ITS associate with software installation permissions. Now it is being tested for being included on Software Center for self-service installation.\n\nSteps summary:\n\nGo to eServices and request software installation\nSearch for “Positron” or submit a custom software request\nFollow the prompts regarding licensing\nIT will install the application on your machine\n\n\n\n\nAnswer:\n\nCost is $0 — Positron is free, open-source software (built by Posit, the company behind RStudio)\nWhen the eServices form asks “Does your unit have a license?”, enter “Yes”\nThis confirms that no paid license is required.\n\nGitHub Copilot is a separate subscription. The World Bank provides Copilot Business licenses. Feel free to reach out to github@worldbank.org",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#c.-prompting-personalization-code-structure",
+    "href": "seminars/seminar-2026-02/qa.html#c.-prompting-personalization-code-structure",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "",
+    "text": "Answer: Yes, through several mechanisms. Read more positron.posit.co/assistant-chat-agents.html\n\nPrompt Files (.prompt.md): Create reusable instruction files that you attach as context when starting a chat. See: https://docs.github.com/en/copilot/tutorials/customization-library/prompt-files\nCopilot Instructions File: Create .github/copilot-instructions.md in your repository root. Copilot automatically reads this file and applies the instructions to all interactions within that workspace.\nAgent files (agent.md): For complex workflows, maintain a markdown file describing your project structure, coding conventions, and common tasks. Attach it as context when needed.\n\nExample .github/copilot-instructions.md:\n\n\n\n\nAnswer: Yes, effectively—through the .github/copilot-instructions.md file.\n\nCreate this file in your repository’s .github/ folder\nCopilot reads it automatically for every chat and completion in that workspace\nInstructions persist across sessions without manual attachment\n\nThis is functionally equivalent to ChatGPT’s “Custom Instructions” or “Memory” features, but scoped to a specific project rather than your entire account.\nLimitations:\n\nInstructions only apply within that workspace/repository\nVery long instruction files may reduce context available for your actual queries\nKeep instructions concise and focused (recommended: under 500 words)\n\nFor personal, cross-project preferences, you can also configure Copilot settings in your GitHub account.\n\n\n\n\nAnswer: It depends on the scope you select:\n\n\n\nScope\nDuration\nRisk level\n\n\n\n\nThis action only\nOne-time\nLow\n\n\nThis session\nUntil you close Positron\nMedium\n\n\nThis workspace\nPermanent for this project\nHigher\n\n\n\n\n\n\n\nAnswer: Yes, and this is strongly recommended for team environments.\nApproaches:\n\nWorkspace settings (.vscode/settings.json): Pre-configure which commands are allowed or blocked, then commit this file to your shared repository\nDocumentation and training: Establish team protocols specifying which permissions are acceptable\nPrompt protocols: Check the GPID workflow protocols: https://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html\nCode review: Require review of any AI-generated code that interacts with file systems or external services",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#d.-confidentiality-data-security",
+    "href": "seminars/seminar-2026-02/qa.html#d.-confidentiality-data-security",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "",
+    "text": "Answer: The AI only processes files you explicitly provide as context. Several safeguards help protect confidential data:\n\nProject isolation: AI only sees files in your Positron project folder—OneDrive folders outside the project are invisible\nIgnore files: Create .copilotignore and/or .aidigestignore in your project root to exclude sensitive files:\n# .copilotignore\ndata/raw/*\n*.dta\n*confidential*\nFolder structure: Keep confidential data in separate restricted folders, outside your code repository entirely\nExplicit context: AI only processes files you attach to a chat or that are open in your editor\nAnonymization assistance: You can ask the AI to help write code that anonymizes data before you expose any real values\n\n\n\n\n\nAnswer: Yes. The AI has no access outside your Positron project directory unless you specifically direct it there.",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#e.-stata-r-and-error-handling",
+    "href": "seminars/seminar-2026-02/qa.html#e.-stata-r-and-error-handling",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "",
+    "text": "Answer: Not currently, due to technical and security constraints: WB imposes policy that forbids running MCP servers locally.\nWhy R works but Stata does not:\n\nPositron has the Model Context Protocol (MCP) server for R that allows Copilot to interact directly with the R console—reading errors, inspecting objects, and running diagnostic code. It also has it for python.\nStata lacks an MCP implementation, and World Bank security policies restrict the installation of custom protocol servers.\nThis means Copilot cannot “see” your Stata console output or automatically diagnose errors\n\nWorkarounds:\n\nManual error copying: Copy the Stata error message and paste it into Copilot chat with your code. The AI can still diagnose and suggest fixes.\nLog files: Direct Stata output to a log file in your project folder:\nlog using \"output/analysis_log.log\", text replace\nThen attach the log file as context for debugging.",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#f.-additional-discussion-comments",
+    "href": "seminars/seminar-2026-02/qa.html#f.-additional-discussion-comments",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "",
+    "text": "Response: Agreed. AI amplifies your existing workflow—it cannot compensate for:\n\nMissing documentation\nUnclear data structures\nInconsistent variable naming\nIrregular file organization\n\nPractical implications:\n\nInvest time in READMEs, codebooks, and data dictionaries\nUse consistent naming conventions the AI can learn from\nStructure projects logically (e.g., data/, code/, output/)\nDocument your workflow before asking AI to help optimize it\n\nWell-organized projects get dramatically better AI assistance.\n\n\n\n\nResponse: Agreed. Standardized prompting improves consistency, reproducibility, and code quality across team members.\nRecommended starting point: The GPID workflow protocols provide an excellent foundation: https://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html\nKey elements of good prompt protocols:\n\nStandard prompt templates for common tasks (data cleaning, merging, visualization)\nRequired context to include (data structure, variable definitions, expected output)\nReview requirements for AI-generated code\nDocumentation standards for AI-assisted work",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
     ]
   },
   {
