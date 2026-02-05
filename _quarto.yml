@@ -48,6 +48,8 @@ website:
               href: seminars/seminar-2026-02/slides.qmd
             - text: Setup instructions
               href: seminars/seminar-2026-02/setup-instructions.qmd
+            - text: Q/A
+              href: seminars/seminar-2026-02/qa.qmd
           - text: Geocoding GMD
             href: seminars/seminar-2025-10/overview.qmd
       - section: "Projects"
