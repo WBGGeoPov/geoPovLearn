@@ -70,7 +70,7 @@
     "href": "seminars/seminar-2026-02/overview.html",
     "title": "AI-Assisted Coding in Stata and R",
     "section": "",
-    "text": "This seminar provides an overview of how we can harness the power of AI in our daily analytical work. Essential tools that can significantly improve your analysis and coding workflow will be demonstrated.\nAny task involving coding in Stata or R/Python programming languages can be more efficiently performed with the help of AI (such as Anthropic Claude, ChatGPT, or GitHub Copilot). However, using AI solely through a web browser or Windows Copilot captures only a fraction of its potential.\nTo enhance the efficiency and scope of your work, we can integrate WB-approved software (VS Code) that can incorporate AI-Agents and run Stata or R code directly. This will enable you to leverage AI in your daily analysis, make AI aware of your context, and prompt it to write code specifically to your data and objectives.\nThe goal of this seminar is to introduce these tools, demonstrate their potential and limitations, and provide a starting point for you to explore AI assistance independently.",
+    "text": "Many tasks in Stata or R/Python can be done more efficiently with support from AI tools (such as Anthropic Claude, ChatGPT, or GitHub Copilot). However, using AI only through a web browser (or Windows Copilot) captures only a small share of its potential.\nThis first seminar focuses on how microeconomists can use Positron which is an integrated development environment (IDE) designed for data analysis and statistical programming. It is developed by Posit (the company behind RStudio) and is built on Visual Studio Code, but tailored specifically for R, Python, and data-science workflows. In practical terms, Positron combines the flexibility of VS Code with features that are familiar to users of RStudio. This is a very powerful approach that uses World Bank–approved development environment that can run Stata or R code directly and integrate AI agents. It also makes AI more “aware” of your working context (your scripts, folders, and outputs), so it can help you write, debug, document, and validate code in a way that is specific to your data and objectives.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R"
@@ -81,7 +81,7 @@
     "href": "seminars/seminar-2026-02/overview.html#overview",
     "title": "AI-Assisted Coding in Stata and R",
     "section": "",
-    "text": "This seminar provides an overview of how we can harness the power of AI in our daily analytical work. Essential tools that can significantly improve your analysis and coding workflow will be demonstrated.\nAny task involving coding in Stata or R/Python programming languages can be more efficiently performed with the help of AI (such as Anthropic Claude, ChatGPT, or GitHub Copilot). However, using AI solely through a web browser or Windows Copilot captures only a fraction of its potential.\nTo enhance the efficiency and scope of your work, we can integrate WB-approved software (VS Code) that can incorporate AI-Agents and run Stata or R code directly. This will enable you to leverage AI in your daily analysis, make AI aware of your context, and prompt it to write code specifically to your data and objectives.\nThe goal of this seminar is to introduce these tools, demonstrate their potential and limitations, and provide a starting point for you to explore AI assistance independently.",
+    "text": "Many tasks in Stata or R/Python can be done more efficiently with support from AI tools (such as Anthropic Claude, ChatGPT, or GitHub Copilot). However, using AI only through a web browser (or Windows Copilot) captures only a small share of its potential.\nThis first seminar focuses on how microeconomists can use Positron which is an integrated development environment (IDE) designed for data analysis and statistical programming. It is developed by Posit (the company behind RStudio) and is built on Visual Studio Code, but tailored specifically for R, Python, and data-science workflows. In practical terms, Positron combines the flexibility of VS Code with features that are familiar to users of RStudio. This is a very powerful approach that uses World Bank–approved development environment that can run Stata or R code directly and integrate AI agents. It also makes AI more “aware” of your working context (your scripts, folders, and outputs), so it can help you write, debug, document, and validate code in a way that is specific to your data and objectives.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R"
@@ -114,7 +114,7 @@
     "href": "seminars/seminar-2026-02/overview.html#materials",
     "title": "AI-Assisted Coding in Stata and R",
     "section": "Materials",
-    "text": "Materials\n\nSeminar\n\nInternal seminar page\nRecording\nPositron + Stata Live Demo materials: github.com/WBGGeoPov/seminar-coding-with-ai-demo\nSlides (web) + Slides (PDF)\n📚 Setup Instructions\n\n\n\nPresentation Slides\n\n\nView Slides | Download PDF\n[Q/A] | Questions and Answers from the Seminar",
+    "text": "Materials\n\nSeminar\n\nInternal seminar page\nRecording\nPositron + Stata Live Demo materials: github.com/WBGGeoPov/seminar-coding-with-ai-demo\nSlides (web) + Slides (PDF)\n📚 Setup Instructions\nQ/A: Questions and Answers from the Seminar and Teams Chat\n\n\n\nPresentation Slides\n\n\nView Slides | Download PDF",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R"
@@ -797,7 +797,7 @@
     "href": "seminars/seminar-2026-02/qa.html",
     "title": "Q&A: AI-Assisted Data Analysis with Positron",
     "section": "",
-    "text": "Answer:\nBoth integrate well with Git—you get the same source control panel, diff viewer, and commit workflow in either IDE. For Git-heavy workflows, you will not notice any difference.\nKey differences:\n\nPositron is built specifically for data science, so it includes a native Variables pane, Data Viewer, and Plots panel out of the box\nR and Python environment configuration is simpler in Positron (automatic interpreter detection, integrated console)\nVS Code requires more extensions to replicate this functionality and integration is less seamless.\n\n\n\n\nAnswer:\nNot directly comparable. We are not sure it AmazonQ is approved for use at the World Bank, please check with ITS.\n\n\n\nAnswer:\nThese tools serve fundamentally different purposes. The latter onw is not on coding.\n\n\n\nAnswer: Yes. Git also could be developed on OneDrive.\n\nPositron only sees files inside your opened project folder unless you explicitly instruct it to look elsewhere\nYou can keep your Git repository (code, documentation, prompt files) in one location\nConfidential datasets can remain on OneDrive, a network drive, or another restricted folder outside the project\nYour code references the data path, but the AI assistant never indexes or “sees” the raw data. AI sees the results of your code, not the underlying files, unless you explicitly share them as context.\n\n\n\n\nAnswer:\nUsage limits come from GitHub Copilot, not from the IDE itself.\n\nIf you use the same GitHub account in both Positron and VS Code, you have identical usage limits\nThe IDE is just the interface; GitHub’s servers handle the AI requests\nWB Girhub is currently on the Copilot Business plan, which offers generous limits suitable for heavy use in data science projects. Use Chat mode for casual use to conserve tokens and Agent when needed.\n\n\n\n\n\n\n\n\nAnswer:\n\nInstallation instructions: https://wbggeopov.github.io/geoPovLearn/seminars/seminar-2026-02/setup-instructions.html\nCurrently requires IT installation via eServices until Positron becomes available in Software Center\nWhen submitting the eServices request, you will be asked about licensing (see next question)\nCould be installed by any ITS associate with software installation permissions. Now it is being tested for being included on Software Center for self-service installation.\n\nSteps summary:\n\nGo to eServices and request software installation\nSearch for “Positron” or submit a custom software request\nFollow the prompts regarding licensing\nIT will install the application on your machine\n\n\n\n\nAnswer:\n\nCost is $0 — Positron is free, open-source software (built by Posit, the company behind RStudio)\nWhen the eServices form asks “Does your unit have a license?”, enter “Yes”\nThis confirms that no paid license is required.\n\nGitHub Copilot is a separate subscription. The World Bank provides Copilot Business licenses. Feel free to reach out to github@worldbank.org\n\n\n\n\n\n\nAnswer: Yes, through several mechanisms. Read more positron.posit.co/assistant-chat-agents.html\n\nPrompt Files (.prompt.md): Create reusable instruction files that you attach as context when starting a chat. See: https://docs.github.com/en/copilot/tutorials/customization-library/prompt-files\nCopilot Instructions File: Create .github/copilot-instructions.md in your repository root. Copilot automatically reads this file and applies the instructions to all interactions within that workspace.\nAgent files (agent.md): For complex workflows, maintain a markdown file describing your project structure, coding conventions, and common tasks. Attach it as context when needed.\n\nExample .github/copilot-instructions.md:\n\n\n\n\nAnswer: Yes, effectively—through the .github/copilot-instructions.md file.\n\nCreate this file in your repository’s .github/ folder\nCopilot reads it automatically for every chat and completion in that workspace\nInstructions persist across sessions without manual attachment\n\nThis is functionally equivalent to ChatGPT’s “Custom Instructions” or “Memory” features, but scoped to a specific project rather than your entire account.\nLimitations:\n\nInstructions only apply within that workspace/repository\nVery long instruction files may reduce context available for your actual queries\nKeep instructions concise and focused (recommended: under 500 words)\n\nFor personal, cross-project preferences, you can also configure Copilot settings in your GitHub account.\n\n\n\n\nAnswer: It depends on the scope you select:\n\n\n\nScope\nDuration\nRisk level\n\n\n\n\nThis action only\nOne-time\nLow\n\n\nThis session\nUntil you close Positron\nMedium\n\n\nThis workspace\nPermanent for this project\nHigher\n\n\n\n\n\n\n\nAnswer: Yes, and this is strongly recommended for team environments.\nApproaches:\n\nWorkspace settings (.vscode/settings.json): Pre-configure which commands are allowed or blocked, then commit this file to your shared repository\nDocumentation and training: Establish team protocols specifying which permissions are acceptable\nPrompt protocols: Check the GPID workflow protocols: https://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html\nCode review: Require review of any AI-generated code that interacts with file systems or external services\n\n\n\n\n\n\n\n\nAnswer: The AI only processes files you explicitly provide as context. Several safeguards help protect confidential data:\n\nProject isolation: AI only sees files in your Positron project folder—OneDrive folders outside the project are invisible\nIgnore files: Create .copilotignore and/or .aidigestignore in your project root to exclude sensitive files:\n# .copilotignore\ndata/raw/*\n*.dta\n*confidential*\nFolder structure: Keep confidential data in separate restricted folders, outside your code repository entirely\nExplicit context: AI only processes files you attach to a chat or that are open in your editor\nAnonymization assistance: You can ask the AI to help write code that anonymizes data before you expose any real values\n\n\n\n\n\nAnswer: Yes. The AI has no access outside your Positron project directory unless you specifically direct it there.\n\n\n\n\n\n\n\nAnswer: Not currently, due to technical and security constraints: WB imposes policy that forbids running MCP servers locally.\nWhy R works but Stata does not:\n\nPositron has the Model Context Protocol (MCP) server for R that allows Copilot to interact directly with the R console—reading errors, inspecting objects, and running diagnostic code. It also has it for python.\nStata lacks an MCP implementation, and World Bank security policies restrict the installation of custom protocol servers.\nThis means Copilot cannot “see” your Stata console output or automatically diagnose errors\n\nWorkarounds:\n\nManual error copying: Copy the Stata error message and paste it into Copilot chat with your code. The AI can still diagnose and suggest fixes.\nLog files: Direct Stata output to a log file in your project folder:\nlog using \"output/analysis_log.log\", text replace\nThen attach the log file as context for debugging.\n\n\n\n\n\n\n\n\nResponse: Agreed. AI amplifies your existing workflow—it cannot compensate for:\n\nMissing documentation\nUnclear data structures\nInconsistent variable naming\nIrregular file organization\n\nPractical implications:\n\nInvest time in READMEs, codebooks, and data dictionaries\nUse consistent naming conventions the AI can learn from\nStructure projects logically (e.g., data/, code/, output/)\nDocument your workflow before asking AI to help optimize it\n\nWell-organized projects get dramatically better AI assistance.\n\n\n\n\nResponse: Agreed. Standardized prompting improves consistency, reproducibility, and code quality across team members.\nRecommended starting point: The GPID workflow protocols provide an excellent foundation: https://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html\nKey elements of good prompt protocols:\n\nStandard prompt templates for common tasks (data cleaning, merging, visualization)\nRequired context to include (data structure, variable definitions, expected output)\nReview requirements for AI-generated code\nDocumentation standards for AI-assisted work",
+    "text": "Answer:\nBoth integrate well with Git—you get the same source control panel, diff viewer, and commit workflow in either IDE. For Git-heavy workflows, you will not notice any difference.\nKey differences:\n\nPositron is built specifically for data science, so it includes a native Variables pane, Data Viewer, and Plots panel out of the box\nR and Python environment configuration is simpler in Positron (automatic interpreter detection, integrated console)\nVS Code requires more extensions to replicate this functionality and integration is less seamless.\n\n\n\n\nAnswer:\nNot directly comparable. We are not sure if AmazonQ is approved for use at the World Bank, please check with ITS.\n\n\n\nAnswer:\nThese tools serve fundamentally different purposes. The latter one is not on coding.\n\n\n\nAnswer: Yes. Git also could be developed on OneDrive.\n\nPositron only sees files inside your opened project folder unless you explicitly instruct it to look elsewhere\nYou can keep your Git repository (code, documentation, prompt files) in one location\nConfidential datasets can remain on OneDrive, a network drive, or another restricted folder outside the project\nYour code references the data path, but the AI assistant never indexes or “sees” the raw data. AI sees the results of your code, not the underlying files, unless you explicitly share them as context.\n\n\n\n\nAnswer:\nUsage limits come from GitHub Copilot, not from the IDE itself.\n\nIf you use the same GitHub account in both Positron and VS Code, you have identical usage limits\nThe IDE is just the interface; GitHub’s servers handle the AI requests\nWB GitHub is currently on the Copilot Business plan, which offers generous limits suitable for heavy use in data science projects. Use Chat mode for casual use to conserve tokens and Agent when needed.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -805,11 +805,11 @@
     ]
   },
   {
-    "objectID": "seminars/seminar-2026-02/qa.html#a.-software",
-    "href": "seminars/seminar-2026-02/qa.html#a.-software",
+    "objectID": "seminars/seminar-2026-02/qa.html#how-does-positron-compare-to-vs-code-especially-with-git",
+    "href": "seminars/seminar-2026-02/qa.html#how-does-positron-compare-to-vs-code-especially-with-git",
     "title": "Q&A: AI-Assisted Data Analysis with Positron",
     "section": "",
-    "text": "Answer:\nBoth integrate well with Git—you get the same source control panel, diff viewer, and commit workflow in either IDE. For Git-heavy workflows, you will not notice any difference.\nKey differences:\n\nPositron is built specifically for data science, so it includes a native Variables pane, Data Viewer, and Plots panel out of the box\nR and Python environment configuration is simpler in Positron (automatic interpreter detection, integrated console)\nVS Code requires more extensions to replicate this functionality and integration is less seamless.\n\n\n\n\nAnswer:\nNot directly comparable. We are not sure it AmazonQ is approved for use at the World Bank, please check with ITS.\n\n\n\nAnswer:\nThese tools serve fundamentally different purposes. The latter onw is not on coding.\n\n\n\nAnswer: Yes. Git also could be developed on OneDrive.\n\nPositron only sees files inside your opened project folder unless you explicitly instruct it to look elsewhere\nYou can keep your Git repository (code, documentation, prompt files) in one location\nConfidential datasets can remain on OneDrive, a network drive, or another restricted folder outside the project\nYour code references the data path, but the AI assistant never indexes or “sees” the raw data. AI sees the results of your code, not the underlying files, unless you explicitly share them as context.\n\n\n\n\nAnswer:\nUsage limits come from GitHub Copilot, not from the IDE itself.\n\nIf you use the same GitHub account in both Positron and VS Code, you have identical usage limits\nThe IDE is just the interface; GitHub’s servers handle the AI requests\nWB Girhub is currently on the Copilot Business plan, which offers generous limits suitable for heavy use in data science projects. Use Chat mode for casual use to conserve tokens and Agent when needed.",
+    "text": "Answer:\nBoth integrate well with Git—you get the same source control panel, diff viewer, and commit workflow in either IDE. For Git-heavy workflows, you will not notice any difference.\nKey differences:\n\nPositron is built specifically for data science, so it includes a native Variables pane, Data Viewer, and Plots panel out of the box\nR and Python environment configuration is simpler in Positron (automatic interpreter detection, integrated console)\nVS Code requires more extensions to replicate this functionality and integration is less seamless.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -817,11 +817,11 @@
     ]
   },
   {
-    "objectID": "seminars/seminar-2026-02/qa.html#b.-setup-it-requirements-licensing",
-    "href": "seminars/seminar-2026-02/qa.html#b.-setup-it-requirements-licensing",
+    "objectID": "seminars/seminar-2026-02/qa.html#is-the-positron-set-up-similar-to-amazonq-for-html-in-vs",
+    "href": "seminars/seminar-2026-02/qa.html#is-the-positron-set-up-similar-to-amazonq-for-html-in-vs",
     "title": "Q&A: AI-Assisted Data Analysis with Positron",
     "section": "",
-    "text": "Answer:\n\nInstallation instructions: https://wbggeopov.github.io/geoPovLearn/seminars/seminar-2026-02/setup-instructions.html\nCurrently requires IT installation via eServices until Positron becomes available in Software Center\nWhen submitting the eServices request, you will be asked about licensing (see next question)\nCould be installed by any ITS associate with software installation permissions. Now it is being tested for being included on Software Center for self-service installation.\n\nSteps summary:\n\nGo to eServices and request software installation\nSearch for “Positron” or submit a custom software request\nFollow the prompts regarding licensing\nIT will install the application on your machine\n\n\n\n\nAnswer:\n\nCost is $0 — Positron is free, open-source software (built by Posit, the company behind RStudio)\nWhen the eServices form asks “Does your unit have a license?”, enter “Yes”\nThis confirms that no paid license is required.\n\nGitHub Copilot is a separate subscription. The World Bank provides Copilot Business licenses. Feel free to reach out to github@worldbank.org",
+    "text": "Answer:\nNot directly comparable. We are not sure if AmazonQ is approved for use at the World Bank, please check with ITS.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -829,11 +829,11 @@
     ]
   },
   {
-    "objectID": "seminars/seminar-2026-02/qa.html#c.-prompting-personalization-code-structure",
-    "href": "seminars/seminar-2026-02/qa.html#c.-prompting-personalization-code-structure",
+    "objectID": "seminars/seminar-2026-02/qa.html#what-are-your-thoughts-on-prism-openai-compared-to-the-positroncopilot-set-up",
+    "href": "seminars/seminar-2026-02/qa.html#what-are-your-thoughts-on-prism-openai-compared-to-the-positroncopilot-set-up",
     "title": "Q&A: AI-Assisted Data Analysis with Positron",
     "section": "",
-    "text": "Answer: Yes, through several mechanisms. Read more positron.posit.co/assistant-chat-agents.html\n\nPrompt Files (.prompt.md): Create reusable instruction files that you attach as context when starting a chat. See: https://docs.github.com/en/copilot/tutorials/customization-library/prompt-files\nCopilot Instructions File: Create .github/copilot-instructions.md in your repository root. Copilot automatically reads this file and applies the instructions to all interactions within that workspace.\nAgent files (agent.md): For complex workflows, maintain a markdown file describing your project structure, coding conventions, and common tasks. Attach it as context when needed.\n\nExample .github/copilot-instructions.md:\n\n\n\n\nAnswer: Yes, effectively—through the .github/copilot-instructions.md file.\n\nCreate this file in your repository’s .github/ folder\nCopilot reads it automatically for every chat and completion in that workspace\nInstructions persist across sessions without manual attachment\n\nThis is functionally equivalent to ChatGPT’s “Custom Instructions” or “Memory” features, but scoped to a specific project rather than your entire account.\nLimitations:\n\nInstructions only apply within that workspace/repository\nVery long instruction files may reduce context available for your actual queries\nKeep instructions concise and focused (recommended: under 500 words)\n\nFor personal, cross-project preferences, you can also configure Copilot settings in your GitHub account.\n\n\n\n\nAnswer: It depends on the scope you select:\n\n\n\nScope\nDuration\nRisk level\n\n\n\n\nThis action only\nOne-time\nLow\n\n\nThis session\nUntil you close Positron\nMedium\n\n\nThis workspace\nPermanent for this project\nHigher\n\n\n\n\n\n\n\nAnswer: Yes, and this is strongly recommended for team environments.\nApproaches:\n\nWorkspace settings (.vscode/settings.json): Pre-configure which commands are allowed or blocked, then commit this file to your shared repository\nDocumentation and training: Establish team protocols specifying which permissions are acceptable\nPrompt protocols: Check the GPID workflow protocols: https://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html\nCode review: Require review of any AI-generated code that interacts with file systems or external services",
+    "text": "Answer:\nThese tools serve fundamentally different purposes. The latter one is not on coding.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -841,11 +841,11 @@
     ]
   },
   {
-    "objectID": "seminars/seminar-2026-02/qa.html#d.-confidentiality-data-security",
-    "href": "seminars/seminar-2026-02/qa.html#d.-confidentiality-data-security",
+    "objectID": "seminars/seminar-2026-02/qa.html#does-this-work-with-code-on-git-and-data-on-onedrive",
+    "href": "seminars/seminar-2026-02/qa.html#does-this-work-with-code-on-git-and-data-on-onedrive",
     "title": "Q&A: AI-Assisted Data Analysis with Positron",
     "section": "",
-    "text": "Answer: The AI only processes files you explicitly provide as context. Several safeguards help protect confidential data:\n\nProject isolation: AI only sees files in your Positron project folder—OneDrive folders outside the project are invisible\nIgnore files: Create .copilotignore and/or .aidigestignore in your project root to exclude sensitive files:\n# .copilotignore\ndata/raw/*\n*.dta\n*confidential*\nFolder structure: Keep confidential data in separate restricted folders, outside your code repository entirely\nExplicit context: AI only processes files you attach to a chat or that are open in your editor\nAnonymization assistance: You can ask the AI to help write code that anonymizes data before you expose any real values\n\n\n\n\n\nAnswer: Yes. The AI has no access outside your Positron project directory unless you specifically direct it there.",
+    "text": "Answer: Yes. Git also could be developed on OneDrive.\n\nPositron only sees files inside your opened project folder unless you explicitly instruct it to look elsewhere\nYou can keep your Git repository (code, documentation, prompt files) in one location\nConfidential datasets can remain on OneDrive, a network drive, or another restricted folder outside the project\nYour code references the data path, but the AI assistant never indexes or “sees” the raw data. AI sees the results of your code, not the underlying files, unless you explicitly share them as context.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -853,11 +853,11 @@
     ]
   },
   {
-    "objectID": "seminars/seminar-2026-02/qa.html#e.-stata-r-and-error-handling",
-    "href": "seminars/seminar-2026-02/qa.html#e.-stata-r-and-error-handling",
+    "objectID": "seminars/seminar-2026-02/qa.html#how-do-usage-limits-compare-between-positron-and-vs-code",
+    "href": "seminars/seminar-2026-02/qa.html#how-do-usage-limits-compare-between-positron-and-vs-code",
     "title": "Q&A: AI-Assisted Data Analysis with Positron",
     "section": "",
-    "text": "Answer: Not currently, due to technical and security constraints: WB imposes policy that forbids running MCP servers locally.\nWhy R works but Stata does not:\n\nPositron has the Model Context Protocol (MCP) server for R that allows Copilot to interact directly with the R console—reading errors, inspecting objects, and running diagnostic code. It also has it for python.\nStata lacks an MCP implementation, and World Bank security policies restrict the installation of custom protocol servers.\nThis means Copilot cannot “see” your Stata console output or automatically diagnose errors\n\nWorkarounds:\n\nManual error copying: Copy the Stata error message and paste it into Copilot chat with your code. The AI can still diagnose and suggest fixes.\nLog files: Direct Stata output to a log file in your project folder:\nlog using \"output/analysis_log.log\", text replace\nThen attach the log file as context for debugging.",
+    "text": "Answer:\nUsage limits come from GitHub Copilot, not from the IDE itself.\n\nIf you use the same GitHub account in both Positron and VS Code, you have identical usage limits\nThe IDE is just the interface; GitHub’s servers handle the AI requests\nWB GitHub is currently on the Copilot Business plan, which offers generous limits suitable for heavy use in data science projects. Use Chat mode for casual use to conserve tokens and Agent when needed.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -865,11 +865,179 @@
     ]
   },
   {
-    "objectID": "seminars/seminar-2026-02/qa.html#f.-additional-discussion-comments",
-    "href": "seminars/seminar-2026-02/qa.html#f.-additional-discussion-comments",
+    "objectID": "seminars/seminar-2026-02/qa.html#how-do-you-download-and-install-positron",
+    "href": "seminars/seminar-2026-02/qa.html#how-do-you-download-and-install-positron",
     "title": "Q&A: AI-Assisted Data Analysis with Positron",
-    "section": "",
-    "text": "Response: Agreed. AI amplifies your existing workflow—it cannot compensate for:\n\nMissing documentation\nUnclear data structures\nInconsistent variable naming\nIrregular file organization\n\nPractical implications:\n\nInvest time in READMEs, codebooks, and data dictionaries\nUse consistent naming conventions the AI can learn from\nStructure projects logically (e.g., data/, code/, output/)\nDocument your workflow before asking AI to help optimize it\n\nWell-organized projects get dramatically better AI assistance.\n\n\n\n\nResponse: Agreed. Standardized prompting improves consistency, reproducibility, and code quality across team members.\nRecommended starting point: The GPID workflow protocols provide an excellent foundation: https://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html\nKey elements of good prompt protocols:\n\nStandard prompt templates for common tasks (data cleaning, merging, visualization)\nRequired context to include (data structure, variable definitions, expected output)\nReview requirements for AI-generated code\nDocumentation standards for AI-assisted work",
+    "section": "6. How do you download and install Positron?",
+    "text": "6. How do you download and install Positron?\nAnswer:\n\nInstallation instructions: https://wbggeopov.github.io/geoPovLearn/seminars/seminar-2026-02/setup-instructions.html\nCurrently requires IT installation via eServices until Positron becomes available in Software Center\nWhen submitting the eServices request, you will be asked about licensing (see next question)\nCould be installed by any ITS associate with software installation permissions. Now it is being tested for being included on Software Center for self-service installation.\n\nSteps summary:\n\nGo to eServices and request software installation\nSearch for “Positron” or submit a custom software request\nFollow the prompts regarding licensing\nIT will install the application on your machine",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#do-we-have-a-license-and-what-does-it-cost",
+    "href": "seminars/seminar-2026-02/qa.html#do-we-have-a-license-and-what-does-it-cost",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "7. Do we have a license and what does it cost?",
+    "text": "7. Do we have a license and what does it cost?\nAnswer:\n\nCost is $0 — Positron is free, open-source software (built by Posit, the company behind RStudio)\nWhen the eServices form asks “Does your unit have a license?”, enter “Yes”\nThis confirms that no paid license is required.\n\nGitHub Copilot is a separate subscription. The World Bank provides Copilot Business licenses. Feel free to reach out to github@worldbank.org",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#can-the-ai-be-personalized-so-instructions-dont-need-repeating",
+    "href": "seminars/seminar-2026-02/qa.html#can-the-ai-be-personalized-so-instructions-dont-need-repeating",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "8. Can the AI be personalized so instructions don’t need repeating?",
+    "text": "8. Can the AI be personalized so instructions don’t need repeating?\nAnswer: Yes, through several mechanisms. Read more positron.posit.co/assistant-chat-agents.html\n\nPrompt Files (.prompt.md): Create reusable instruction files that you attach as context when starting a chat. See: https://docs.github.com/en/copilot/tutorials/customization-library/prompt-files\nCopilot Instructions File: Create .github/copilot-instructions.md in your repository root. Copilot automatically reads this file and applies the instructions to all interactions within that workspace.\nAgent files (agent.md): For complex workflows, maintain a markdown file describing your project structure, coding conventions, and common tasks. Attach it as context when needed.\n\nExample .github/copilot-instructions.md:",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#does-positron-have-persistent-project-instructions-like-chatgpt",
+    "href": "seminars/seminar-2026-02/qa.html#does-positron-have-persistent-project-instructions-like-chatgpt",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "9. Does Positron have persistent “project instructions” like ChatGPT?",
+    "text": "9. Does Positron have persistent “project instructions” like ChatGPT?\nAnswer: Yes, effectively—through the .github/copilot-instructions.md file.\n\nCreate this file in your repository’s .github/ folder\nCopilot reads it automatically for every chat and completion in that workspace\nInstructions persist across sessions without manual attachment\n\nThis is functionally equivalent to ChatGPT’s “Custom Instructions” or “Memory” features, but scoped to a specific project rather than your entire account.\nLimitations:\n\nInstructions only apply within that workspace/repository\nVery long instruction files may reduce context available for your actual queries\nKeep instructions concise and focused (recommended: under 500 words)\n\nFor personal, cross-project preferences, you can also configure Copilot settings in your GitHub account.",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#when-i-always-allow-terminal-commands-is-that-permanent",
+    "href": "seminars/seminar-2026-02/qa.html#when-i-always-allow-terminal-commands-is-that-permanent",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "10. When I “always allow” terminal commands, is that permanent?",
+    "text": "10. When I “always allow” terminal commands, is that permanent?\nAnswer: It depends on the scope you select:\n\n\n\nScope\nDuration\nRisk level\n\n\n\n\nThis action only\nOne-time\nLow\n\n\nThis session\nUntil you close Positron\nMedium\n\n\nThis workspace\nPermanent for this project\nHigher",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#can-we-set-institutional-rules-so-users-do-not-accidentally-allow-unsafe-actions",
+    "href": "seminars/seminar-2026-02/qa.html#can-we-set-institutional-rules-so-users-do-not-accidentally-allow-unsafe-actions",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "11. Can we set institutional rules so users do not accidentally allow unsafe actions?",
+    "text": "11. Can we set institutional rules so users do not accidentally allow unsafe actions?\nAnswer: Yes, and this is strongly recommended for team environments.\nApproaches:\n\nWorkspace settings (.vscode/settings.json): Pre-configure which commands are allowed or blocked, then commit this file to your shared repository\nDocumentation and training: Establish team protocols specifying which permissions are acceptable\nPrompt protocols: Check the GPID workflow protocols: https://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html\nCode review: Require review of any AI-generated code that interacts with file systems or external services",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#what-if-i-have-confidential-data-on-onedrive",
+    "href": "seminars/seminar-2026-02/qa.html#what-if-i-have-confidential-data-on-onedrive",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "12. What if I have confidential data on OneDrive?",
+    "text": "12. What if I have confidential data on OneDrive?\nAnswer: The AI only processes files you explicitly provide as context. Several safeguards help protect confidential data:\n\nProject isolation: AI only sees files in your Positron project folder—OneDrive folders outside the project are invisible\nIgnore files: Create .copilotignore and/or .aidigestignore in your project root to exclude sensitive files:\n# .copilotignore\ndata/raw/*\n*.dta\n*confidential*\nFolder structure: Keep confidential data in separate restricted folders, outside your code repository entirely\nExplicit context: AI only processes files you attach to a chat or that are open in your editor\nAnonymization assistance: You can ask the AI to help write code that anonymizes data before you expose any real values",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#can-ai-only-see-folders-we-grant-access-to",
+    "href": "seminars/seminar-2026-02/qa.html#can-ai-only-see-folders-we-grant-access-to",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "13. Can AI only see folders we grant access to?",
+    "text": "13. Can AI only see folders we grant access to?\nAnswer: Yes. The AI has no access outside your Positron project directory unless you specifically direct it there.",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#can-the-integrated-agent-fix-stata-errors-like-it-does-in-r",
+    "href": "seminars/seminar-2026-02/qa.html#can-the-integrated-agent-fix-stata-errors-like-it-does-in-r",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "14. Can the integrated agent fix Stata errors like it does in R?",
+    "text": "14. Can the integrated agent fix Stata errors like it does in R?\nAnswer: Not currently, due to technical and security constraints: WB imposes policy that forbids running MCP servers locally.\nWhy R works but Stata does not:\n\nPositron has the Model Context Protocol (MCP) server for R that allows Copilot to interact directly with the R console—reading errors, inspecting objects, and running diagnostic code. It also has it for python.\nStata lacks an MCP implementation, and World Bank security policies restrict the installation of custom protocol servers.\nThis means Copilot cannot “see” your Stata console output or automatically diagnose errors\n\nWorkarounds:\n\nManual error copying: Copy the Stata error message and paste it into Copilot chat with your code. The AI can still diagnose and suggest fixes.\nLog files: Direct Stata output to a log file in your project folder:\nlog using \"output/analysis_log.log\", text replace\nThen attach the log file as context for debugging.",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#comment-data-management-must-come-first-for-ai-to-be-effective.",
+    "href": "seminars/seminar-2026-02/qa.html#comment-data-management-must-come-first-for-ai-to-be-effective.",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "15. Comment: “Data management must come first for AI to be effective.”",
+    "text": "15. Comment: “Data management must come first for AI to be effective.”\nResponse: Agreed. AI amplifies your existing workflow—it cannot compensate for:\n\nMissing documentation\nUnclear data structures\nInconsistent variable naming\nIrregular file organization\n\nPractical implications:\n\nInvest time in READMEs, codebooks, and data dictionaries\nUse consistent naming conventions the AI can learn from\nStructure projects logically (e.g., data/, code/, output/)\nDocument your workflow before asking AI to help optimize it\n\nWell-organized projects get dramatically better AI assistance.",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#teams-should-establish-prompt-protocols-to-ensure-quality.",
+    "href": "seminars/seminar-2026-02/qa.html#teams-should-establish-prompt-protocols-to-ensure-quality.",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "16. Teams should establish prompt protocols to ensure quality.",
+    "text": "16. Teams should establish prompt protocols to ensure quality.\nResponse: Agreed. Standardized prompting improves consistency, reproducibility, and code quality across team members.\nRecommended starting point: The GPID workflow protocols provide an excellent foundation: https://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html\nKey elements of good prompt protocols:\n\nStandard prompt templates for common tasks (data cleaning, merging, visualization)\nRequired context to include (data structure, variable definitions, expected output)\nReview requirements for AI-generated code\nDocumentation standards for AI-assisted work",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#slides-setup",
+    "href": "seminars/seminar-2026-02/qa.html#slides-setup",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "Slides & Setup",
+    "text": "Slides & Setup\n\nSlides: https://wbggeopov.github.io/geoPovLearn/seminars/seminar-2026-02/slides.html#/\nOverview: https://wbggeopov.github.io/geoPovLearn/seminars/seminar-2026-02/overview.html\nSetup Instructions: https://wbggeopov.github.io/geoPovLearn/seminars/seminar-2026-02/setup-instructions.html",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#prompt-files-documentation",
+    "href": "seminars/seminar-2026-02/qa.html#prompt-files-documentation",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "Prompt Files Documentation",
+    "text": "Prompt Files Documentation\n\nhttps://docs.github.com/en/copilot/tutorials/customization-library/prompt-files",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#gpid-workflow-protocols",
+    "href": "seminars/seminar-2026-02/qa.html#gpid-workflow-protocols",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "GPID Workflow Protocols",
+    "text": "GPID Workflow Protocols\n\nhttps://gpid-wb.github.io/Pip-Technical-Guidelines/copilot_protocols.html",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Q/A"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/qa.html#questions-for-the-audience",
+    "href": "seminars/seminar-2026-02/qa.html#questions-for-the-audience",
+    "title": "Q&A: AI-Assisted Data Analysis with Positron",
+    "section": "Questions for the Audience",
+    "text": "Questions for the Audience\n\nhttps://app.sli.do/event/oHXRPbFZJF8QubPLzHp85h Event code: 3802578 — Passcode: wkpep",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -905,7 +1073,7 @@
     "href": "seminars/seminar-2026-02/setup-instructions.html#software-setup",
     "title": "Positron + Github Copilot: Setup Instructions",
     "section": "Software setup",
-    "text": "Software setup\n\nStep 1. Prerequisite Software: Stata, R, Python\nGo to the World Bank Software Center App and install the following software (if not already installed) :\n\n\n\n\n\n\n\n\n\nSoftware\nNotes\n\n\n\n\n\nStata 19 or higher (latest available)\n\n\n\n\nR 4.5.2 (latest)\n\n\n\n\nPython 3.13+ (latest)\n\n\n\n\nQuarto 1.3.343 (latest)\nMay require software installation request\n\n\n\nGit 2.52+ (latest)\n\n\n\n\nGitHub Desktop Latest\nOptional\n\n\n\n\n\nStep 2. Install Required Python Package\n\nOpen Command Prompt (cmd) or PowerShell:\n\nPress Win + R, type cmd or powershell, and hit Enter.\n\nType pip install uv and press Enter to install the uv package.\n\nuv is a package that allows environments management in python, see https://pypi.org/project/uv/\n\nCheck if UV is installed correctly by typing uv --version in the Command Prompt or PowerShell. You should see the version number displayed, something like this:\nuv 0.9.18 (0cee76417 2025-12-16)\n\n\n\nStep 3. Install Positron (IDE) 1\n\nDownload Positron from https://positron.posit.co/download.html\n\n\n\n\n\n\n\nWarning\n\n\n\nImportant: Use “Windows 10, 11 x64 (system level install)”, not the “user level install”\n\n\n\nMake a “Software Installation Request” on eservice.\n\nGo to eservices/\nSelect “Software Installation Request”\nSee KB0076748 for more details.\n\nOnce approved, you will have two options to install Positron:\n\nITS Personnel will connect to your computer remotely and install Positron using an admin password.\nYou will need an admin password to install Positron yourself.\n\nEither way, follow these installation instructions:\n\nStep 1: Copy the executable (exe) or installation folder to C:\\WBG.\nStep 2: Launch the command shell (cmd.exe) as an administrator.\nStep 3: Navigate to C:\\WBG in the command shell.\nStep 4: Set the user profile, TEMP, and TMP environments, and launch the executable from the shell prompt by typing:\nset userprofile=c:\\wbg\\temp\nset temp=c:\\wbg\\temp\\temp\nset tmp=c:\\wbg\\temp\\temp\nPositron-20XX.XX.X-XXX-Setup-x64.exe\nNote: Replace Positron-20XX.XX.X-XXX-Setup-x64.exe with the actual filename of the Positron installer you downloaded.\n\n\n\n\nStep 4. Install Extensions in Positron\nExtensions are add-ons that enhance Positron’s functionality. To install extensions, open the Extensions panel by clicking the square icon  on the left sidebar or pressing Ctrl+Shift+X. There are many extensions available for Positron. Below are the key extensions to install for AI-assisted analysis:\n\nStata MCP\nStata MCP Extension enables Model Communication Protocol (MCP) for Stata, providing better context awareness for AI agents and allowing you to run Stata code directly from Positron.\nTo install it:\n\n\n\n\n\n\n\n\nDescription\n\n\n\n\n\nOpen the Extensions panel in Positron\n\n\n\nSearch for “Stata MCP” in the Extensions panel\n\n\n\nClick “Install” to add the extension to Positron\n\n\n\nAfter installation, restart Positron or reload the window (Ctrl+Shift+P &gt; Developer: Reload Window &gt; Enter)\n\n\n\nOnce installed, configure the Stata MCP extension by setting up the path to the Stata executable and Stata edition.\n\nOpen stata-vscode.stataPath or press Ctrl+, &gt; search “Stata Path” (or stata-vscode.stataPath), and set it to your Stata executable folder: C:\\Program Files\\StataNow19\\ (for most WB laptops and VDIs). \nOpen stata-vscode.stataEdition\nor press Ctrl+, &gt; search “Stata Edition” (or stata-vscode.stataEdition), and\nset it to “mp” for Stata MP version.\n\n\n\nVerify Stata MCP is working:\n\nCreate and save a new Stata .do file\nType a simple command like: stata     sysuse auto     summarize price     display \"Stata is working!\"\nPress Ctrl+Shift+D in the .do file or Ctrl+Shift+P &gt; type Stata: Run Current File &gt; Enter to run the do file or click on the button \nResults from Stata should appear in the Output panel: Press Ctrl+Shift+P &gt; Output: Show Output Channels... &gt; Enter &gt; Stata. \n\n\n\nOther relevant extensions\nQuarto Extension enables Quarto document editing and rendering in Positron.",
+    "text": "Software setup\n\nStep 1. Prerequisite Software: Stata, R, Python\nGo to the World Bank Software Center App and install the following software (if not already installed) :\n\n\n\n\n\n\n\n\n\nSoftware\nNotes\n\n\n\n\n\nStata 19 or higher (latest available)\n\n\n\n\nPositron Latest\n\n\n\n\nR 4.5.2 (latest)\n\n\n\n\nPython 3.13+ (latest)\n\n\n\n\nQuarto 1.3.343 (latest)\nMay require software installation request\n\n\n\nGit 2.52+ (latest)\n\n\n\n\nGitHub Desktop Latest\nOptional\n\n\n\n\n\nStep 2. Install Required Python Package\n\nOpen Command Prompt (cmd) or PowerShell:\n\nPress Win + R, type cmd or powershell, and hit Enter.\n\nType pip install uv and press Enter to install the uv package.\n\nuv is a package that allows environments management in python, see https://pypi.org/project/uv/\n\nCheck if UV is installed correctly by typing uv --version in the Command Prompt or PowerShell. You should see the version number displayed, something like this:\nuv 0.9.18 (0cee76417 2025-12-16)\n\n\n\nStep 3. Install Positron (IDE) from the software center\nThe positron is now available for installation at the World Bank through the Software Center. No requests or administrative privelages are required. Big thank you ton our ITS colleagues for making this possible!\n\n\nStep 4. Install Extensions in Positron\nExtensions are add-ons that enhance Positron’s functionality. To install extensions, open the Extensions panel by clicking the square icon  on the left sidebar or pressing Ctrl+Shift+X. There are many extensions available for Positron. Below are the key extensions to install for AI-assisted analysis:\n\nStata MCP\nStata MCP Extension enables Model Communication Protocol (MCP) for Stata, providing better context awareness for AI agents and allowing you to run Stata code directly from Positron.\nTo install it:\n\n\n\n\n\n\n\n\nDescription\n\n\n\n\n\nOpen the Extensions panel in Positron\n\n\n\nSearch for “Stata MCP” in the Extensions panel\n\n\n\nClick “Install” to add the extension to Positron\n\n\n\nAfter installation, restart Positron or reload the window (Ctrl+Shift+P &gt; Developer: Reload Window &gt; Enter)\n\n\n\nOnce installed, configure the Stata MCP extension by setting up the path to the Stata executable and Stata edition.\n\nOpen stata-vscode.stataPath or press Ctrl+, &gt; search “Stata Path” (or stata-vscode.stataPath), and set it to your Stata executable folder: C:\\Program Files\\StataNow19\\ (for most WB laptops and VDIs). \nOpen stata-vscode.stataEdition\nor press Ctrl+, &gt; search “Stata Edition” (or stata-vscode.stataEdition), and\nset it to “mp” for Stata MP version.\n\n\n\nVerify Stata MCP is working:\n\nCreate and save a new Stata .do file\nType a simple command like: stata     sysuse auto     summarize price     display \"Stata is working!\"\nPress Ctrl+Shift+D in the .do file or Ctrl+Shift+P &gt; type Stata: Run Current File &gt; Enter to run the do file or click on the button \nResults from Stata should appear in the Output panel: Press Ctrl+Shift+P &gt; Output: Show Output Channels... &gt; Enter &gt; Stata. \n\n\n\nOther relevant extensions\nQuarto Extension enables Quarto document editing and rendering in Positron.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
@@ -954,6 +1122,18 @@
     "title": "Positron + Github Copilot: Setup Instructions",
     "section": "Support",
     "text": "Support\nFor help with setting up or troubleshooting the software, contact:\n\nIT Help: ITHelp@worldbankgroup.org\nHQ Walk-in center\n\nRemember to provide assiting person with these setup instructions.\nFor help with accessing GitHub.com/Worldbank or Github Copilot from the worldbank:\n\nCheck: GitHub Setup instructions above\nReach out to: github@worldbank.org",
+    "crumbs": [
+      "GeoPov BBL Series",
+      "Revolutionizing Coding in Stata/R",
+      "Setup instructions"
+    ]
+  },
+  {
+    "objectID": "seminars/seminar-2026-02/setup-instructions.html#appendix",
+    "href": "seminars/seminar-2026-02/setup-instructions.html#appendix",
+    "title": "Positron + Github Copilot: Setup Instructions",
+    "section": "Appendix",
+    "text": "Appendix\n\nPositron1 installation instructions, when it is not available in the Software Center\n\nDownload Positron from https://positron.posit.co/download.html\n\n\n\n\n\n\n\nWarning\n\n\n\nImportant: Use “Windows 10, 11 x64 (system level install)”, not the “user level install”\n\n\n\nMake a “Software Installation Request” on eservice.\n\nGo to eservices/\nSelect “Software Installation Request”\nSee KB0076748 for more details.\n\nOnce approved, you will have two options to install Positron:\n\nITS Personnel will connect to your computer remotely and install Positron using an admin password.\nYou will need an admin password to install Positron yourself.\n\nEither way, follow these installation instructions:\n\nStep 1: Copy the executable (exe) or installation folder to C:\\WBG.\nStep 2: Launch the command shell (cmd.exe) as an administrator.\nStep 3: Navigate to C:\\WBG in the command shell.\nStep 4: Set the user profile, TEMP, and TMP environments, and launch the executable from the shell prompt by typing:\nset userprofile=c:\\wbg\\temp\nset temp=c:\\wbg\\temp\\temp\nset tmp=c:\\wbg\\temp\\temp\nPositron-20XX.XX.X-XXX-Setup-x64.exe\nNote: Replace Positron-20XX.XX.X-XXX-Setup-x64.exe with the actual filename of the Positron installer you downloaded.",
     "crumbs": [
       "GeoPov BBL Series",
       "Revolutionizing Coding in Stata/R",
