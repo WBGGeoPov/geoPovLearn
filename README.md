@@ -1,6 +1,6 @@
 # GeoPov Learning Hub
 
-🌐 **Website:** [https://wbggeopov.github.io/geoPovLearn/](https://wbggeopov.github.io/geoPovLearn/)
+🌐 **Website:** [worldbank.github.io/geoPovLearn/](https://worldbank.github.io/geoPovLearn/)
 
 This repository hosts learning materials developed and maintained by the GeoPov team - a global multi-disciplinary team in the Distributional Impact of Policy under the Prosperity Vice Presidency at the World Bank.
 
@@ -25,7 +25,6 @@ This repository contains materials from our:
 ## 🤝 Get Involved
 
 - Browse our [seminars](seminars/) for recordings and materials
-- Check out [upcoming events](https://worldbank.github.io/geoPovLearn/seminars/)
 - Reach out to our [team](https://worldbank.github.io/geoPovLearn/team/)
 
 ## License
