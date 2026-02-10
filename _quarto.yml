@@ -44,8 +44,8 @@ website:
           - text: Revolutionizing Coding in Stata/R
             href: seminars/seminar-2026-02/overview.qmd
             contents:
-            - text: Slides
-              href: seminars/seminar-2026-02/slides.qmd
+            # - text: Slides
+            #   href: seminars/seminar-2026-02/slides.qmd
             - text: Setup instructions
               href: seminars/seminar-2026-02/setup-instructions.qmd
             - text: Q/A
