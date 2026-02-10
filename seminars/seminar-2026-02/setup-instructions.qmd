@@ -25,6 +25,27 @@ To be able to run positron and use GitHub Copilot or Anthropic Claude for AI-ass
 
 3.  Connect GitHub Copilot to Positron and enable Positron Assistant in Positron settings.
 
+## Known Issues and Troubleshooting {#troubleshooting}
+
+-   If you have trouble installing software from the Software Center, contact IT Help: [ITHelp\@worldbankgroup.org](mailto:mailto:ITHelp@worldbankgroup.org) or use [Walk-in center](https://worldbankgroup.sharepoint.com/sites/itsupport/SitePages/PublishingPages/Walk-in-Centers-in-Washington-DC--05042021-1608401_new.aspx).
+
+-   If you have trouble with GitHub World Bank or Github Copilot access from World Bank [GitHub setup instructions](#github-setup) or contact [github\@worldbank.org](mailto:github@worldbank.org).
+
+-   Github copilot does not work in Positron after installation:
+
+    -   Make sure you [set-up Github account properly](#github-setup)
+
+    -   Make sure that you have [**enabled Positron Assistant in Positron settings**](#enable-positron-assistant)
+
+    -   Make sure you are [signed into GitHub in Positron](#positron-copilot-setup)
+
+    -   Reload Positron after installation and setup: `Ctrl+Shift+P` \> `Developer: Reload Window` \> `Enter` or close it and open again.
+
+-   Stata-MCP extension does not run code from the OneDrive.
+
+    This is a known issue with Stata MCP extension when running code from OneDrive folder. It happens because our one drive folder has a space in the name ("OneDrive - WBG"). A workaround is to move the code to a different folder without spaces in the path, for example `C:\Users\wbXXXXXXX\code`, and run it from there. Once this issue it resolved on the Stata MCP extension side, it will update in positron automatically and you will be able to run code from the OneDrive folder again.
+
+
 ## Software setup
 
 ### Step 1. Prerequisite Software: Stata, R, Python {#prereq-software}
@@ -61,8 +82,8 @@ Go to the World Bank Software Center App and install the following software (if 
 ### Step 3. Install Positron (IDE) from the software center
 
 The positron is now available for installation at the World Bank through the Software Center.
-No requests or administrative privelages are required.
-Big thank you ton our ITS colleagues for making this possible!
+No requests or administrative privileges are required.
+Big thank you to our ITS colleagues for making this possible!
 
 ### Step 4. Install Extensions in Positron
 
@@ -155,28 +176,33 @@ If you don't have a GitHub account yet, create one at [https://github.com/signup
 **After joining the World Bank organization**, request GitHub Copilot access. To do this:
 
 ::::: columns
-::: {.column width="40%"}
-![](images/gh-copilot-access-1.png){width="100%"}
+::: {.column width="75%"}
+Go to [GitHub > Settings > Copilot settings](https://github.com/settings/copilot){target="_blank"}.
 :::
 
-::: {.column width="60%"}
-Go to [GitHub > Settings > Copilot settings](https://github.com/settings/copilot){target="_blank"}.
+::: {.column width="25%"}
+![](images/gh-copilot-access-1.png){width="100%"}
 :::
 :::::
 
 
 ::::: columns
-::: {.column width="60%"}
-![](images/gh-copilot-access-2.png){width="100%"}
+::: {.column width="50%"}
+
+-   Scroll all the down to the "Get Copilot from an organization" section and click the "**Request access**" button from worldbank organization.
+
+-   Sending an email to [github\@worldbank.org](mailto:github@worldbank.org) with the subject line: "Request GitHub Copilot Access". In the email body, include your **GitHub username** and a **brief reason for requesting access**. Copy manager or team lead for approval.
+
 :::
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 
-Scroll all the way down to the "Get Copilot from an organization" section and click the "Request access" button from worldbank organization.
-Sending an email to [github\@worldbank.org](mailto:github@worldbank.org) with the subject line: "Request GitHub Copilot Access". In the email body, include your **GitHub username** and a **brief reason for requesting access**. Copy manager or team lead for approval.
+![](images/gh-copilot-access-2.png){width="100%"}
+
+:::
+:::::
 
 Your request will be reviewed and approved by the GitHub organization administrators.
-
 
 ::: {.callout-tip}
 **Tip:** [Bryan Cahill](mailto:bcahill@worldbankgroup.org) and [github@worldbank.org](mailto:github@worldbank.org) lead the github.com/worldbank organization and can help with Copilot access requests.
@@ -188,8 +214,6 @@ Your request will be reviewed and approved by the GitHub organization administra
 
 Once approved, you'll be able to use GitHub Copilot in Positron
 
-:::
-:::::
 
 
 ### Step 4: Verify GitHub Copilot Access
@@ -297,7 +321,7 @@ For help with setting up or troubleshooting the software, contact:
 
 -   HQ [Walk-in center](https://worldbankgroup.sharepoint.com/sites/itsupport/SitePages/PublishingPages/Walk-in-Centers-in-Washington-DC--05042021-1608401_new.aspx)
 
-Remember to provide assiting person with these setup instructions.
+Remember to provide assisting person with these setup instructions.
 
 For help with accessing GitHub.com/Worldbank or Github Copilot from the worldbank:
 
